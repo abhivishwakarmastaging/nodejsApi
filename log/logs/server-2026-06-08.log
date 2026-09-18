@@ -1,0 +1,8 @@
+2026-06-08 16:31:21 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202606082810"}
+2026-06-08 16:31:37 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202606083810"}
+2026-06-08 16:31:38 [INFO]: Get Driver Details req_body = {"driver_id":"ADI-0036"}
+2026-06-08 16:31:48 [INFO]: Driver verification req_body = {"driver_id":"ADI-0036","vendorid":"ABH0001","driving_license_no":"UP65 2024 0030036","DOB":"1998-01-01","full_name":"","relatives_name":"","address":"","issuing_rto_name":"","date_of_issue":"","nt_validity_from":"","nt_validity_to":"","t_validity_from":"","t_validity_to":"","status":"","source":"","onboarded_by":"vendor"}
+2026-06-08 16:32:30 [INFO]: Fetching getVendorDetails 
+2026-06-08 16:32:30 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"ABH0001"}
+2026-06-08 16:32:30 [INFO]: Fetching getVendorKYC 
+2026-06-08 16:32:30 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"ABH0001"}

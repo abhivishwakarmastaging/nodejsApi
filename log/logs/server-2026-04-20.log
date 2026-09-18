@@ -1,0 +1,28 @@
+2026-04-20 11:52:38 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-04-20 11:52:38 [INFO]: sendOTP data is valid!
+2026-04-20 11:52:38 [INFO]: Generated OTP: 1447
+2026-04-20 11:52:39 [INFO]:  SMS API Response: 200"OK"
+2026-04-20 11:52:39 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-04-20 11:52:39 [INFO]: OTP sent successfully to 9999999999
+2026-04-20 11:52:45 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-04-20 11:52:45 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-04-20 11:52:45 [INFO]: validateOTP data is valid!
+2026-04-20 11:52:45 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-04-20 11:53:19 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-04-20 11:53:21 [INFO]: Pincode fetched successfully
+2026-04-20 11:53:40 [INFO]: Pancard request body = {"pan_number":"BWMPV8052Q"}{"user-agent":"okhttp/4.10.0","accept-encoding":"gzip","connection":"close","host":"localhost:9092","content-length":"27","content-type":"application/json","accept":"application/json","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzc2NzUyNjE5fQ.kv7ZfvIwUcWXtOxCrbs4QjiIpD1V7iqypCeHS0pgrAI","token_type":"bearer","expiry":"24hrs"}
+2026-04-20 11:54:06 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"aaaaaaaaaaa","owner_name":"ssssssssssss","Building":"derrrrrrr","Area":"ffffff","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"RJ18GB7800","vehicle_weight":"5000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-04-20 11:54:06 [INFO]: Vendor Onboarding data is valid!
+2026-04-20 11:55:12 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"aaaaaaaaaaa","owner_name":"ssssssssssss","Building":"derrrrrrr","Area":"ffffff","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"RJ09GA0165","vehicle_weight":"5000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-04-20 11:55:13 [INFO]: Vendor Onboarding data is valid!
+2026-04-20 11:55:13 [INFO]: Vendor Images Inserted successfully
+2026-04-20 11:55:18 [INFO]: Fetching Vehicle detalis 
+2026-04-20 11:55:18 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SSS2026040001"}
+2026-04-20 11:55:33 [INFO]: Vehicle request body = {"vendorid":"SSS2026040001","vehicleid":"VH040001001","vehicleDetails":{"registrationNo":"RJ09GA0165","bodyType":"high_bed"},"VehicleTypesDetails":{"VehicleWeight":5000,"vehicleType":"HEAVY","height":"50","width":"50","length":"50"},"vehiclePhotos":{"front_img":"","back_img":"","right_img":"","left_img":""}}{"user-agent":"okhttp/4.10.0","accept-encoding":"gzip","connection":"close","host":"localhost:9092","content-length":"309","content-type":"application/json","accept":"application/json","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzc2NzUyNzMyfQ.FQJenMap4m1dviH-Djn4CceNN34m1Y4C7WkbagQJtpE","token_type":"bearer","expiry":"24hrs"}
+2026-04-20 11:55:34 [INFO]: VehicleOnboarding req_body = {"vendorid":"SSS2026040001","vehicleid":"VH040001001","vehicleDetails":{"registrationNo":"RJ09GA0165","bodyType":"high_bed"},"VehicleTypesDetails":{"VehicleWeight":5000,"vehicleType":"HEAVY","height":"50","width":"50","length":"50"},"vehiclePhotos":{"front_img":"","back_img":"","right_img":"","left_img":""},"rc_number":"RJ09GA0165"}
+2026-04-20 11:55:34 [INFO]: Vehicle Onboarding data is valid!
+2026-04-20 11:55:34 [INFO]: Vehicle Images Inserted successfully
+2026-04-20 11:55:34 [INFO]: Vehicle Onboarding successful
+2026-04-20 11:56:31 [INFO]:  vendorBankkYC req_body = {"vendorid":"SSS2026040001","bank_ac_holder_name":"abHISHEK","account_type":"saving","bank_ac_number":"123","bank_ac_number_verify":"123","ifsc_code":"SBIN","bank_name":"SBI","branch_name":"KKKK","cheque_img":""} 
+2026-04-20 11:56:31 [INFO]:  bankChequeURL = null 
+2026-04-20 11:56:31 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}

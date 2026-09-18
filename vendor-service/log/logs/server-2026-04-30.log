@@ -1,0 +1,8 @@
+2026-04-30 10:32:28 [INFO]: Delete Vehicle vehicleid = VH040001002
+2026-04-30 12:48:32 [INFO]: Delete Vehicle vehicleid = MH46F5566
+2026-04-30 12:49:15 [INFO]: Delete Vehicle vehicleid = MH46F5566
+2026-04-30 12:49:15 [ERROR]: Delete Vehicle Error: vendorid is not defined
+2026-04-30 12:49:17 [INFO]: Delete Vehicle vehicleid = MH46F5566
+2026-04-30 12:49:17 [ERROR]: Delete Vehicle Error: vendorid is not defined
+2026-04-30 12:49:25 [INFO]: Delete Vehicle vehicleid = MH46F5566
+2026-04-30 12:58:57 [INFO]: Delete Vehicle vehicleid = MH46F5566

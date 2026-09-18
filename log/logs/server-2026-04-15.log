@@ -1,0 +1,16 @@
+2026-04-15 11:58:54 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:00:30 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:02:00 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:02:55 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:05:09 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2026-04-15 12:09:22 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:13:58 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:14:33 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:15:15 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2026-04-15 12:16:09 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2026-04-15 12:16:28 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:18:54 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 12:19:20 [INFO]: Driving License request body = {"dl_number":"UP55201200092895","dob":"1992-01-11"}
+2026-04-15 13:36:18 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2026-04-15 14:13:27 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"vendor_id":"VN2026040001","driver_id":"ABH-9289","DriverName":"Abhisek","MobileNo":"8451035149","driving_license_no":"Up5520120009289"},{"vendor_id":"VN2026040001","driver_id":"ASA-5265","DriverName":"asasasas","MobileNo":"9000000021","driving_license_no":"2525625265"}]}
+2026-04-15 15:20:29 [INFO]: Pancard request body = {"pan_number":"BWQPA9505H"}{"content-length":"27","connection":"close","accept-encoding":"gzip, deflate, br","host":"localhost:9092","postman-token":"fc0d2da4-2067-4949-ab9e-b5ba5d86a66e","cache-control":"no-cache","accept":"*/*","user-agent":"PostmanRuntime/7.53.0","content-type":"application/json","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzc2MzMzMDI3fQ.w5gCZVZOZ3IL3F8AGraCz42YnoOTMJ0T4s4UimA-fgQ","token_type":"bearer","expiry":"24hrs"}

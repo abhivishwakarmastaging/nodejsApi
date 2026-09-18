@@ -1,0 +1,568 @@
+2026-05-07 15:35:56 [INFO]: Fetching Vehicle detalis 
+2026-05-07 15:35:56 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-07 15:40:33 [INFO]: Fetching Vehicle detalis 
+2026-05-07 15:40:33 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-07 16:07:20 [INFO]: Fetching Vehicle detalis 
+2026-05-07 16:07:20 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-07 16:12:29 [INFO]: Fetching Vehicle detalis 
+2026-05-07 16:12:29 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-07 16:18:09 [INFO]: sendOTP request: {"mobile_number":"1111111111"}
+2026-05-07 16:18:09 [INFO]: sendOTP data is valid!
+2026-05-07 16:18:09 [INFO]: Generated OTP: 9466
+2026-05-07 16:18:09 [INFO]:  SMS API Response: 200"OK"
+2026-05-07 16:18:09 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=1111111111&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-07 16:18:09 [INFO]: OTP sent successfully to 1111111111
+2026-05-07 16:18:12 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-07 16:18:12 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-07 16:18:12 [INFO]: validateOTP data is valid!
+2026-05-07 16:18:12 [INFO]: Validation {"vendorid":"AAA2026050002","companyType":"self","companyName":"moto","owner_name":"aaaaa","mobileNo":"1111111111","Building":"aaaa","Area":"aaaa","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup Ind. Estate","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-07 16:19:47 [INFO]: sendOTP request: {"mobile_number":"3333333333"}
+2026-05-07 16:19:47 [INFO]: sendOTP data is valid!
+2026-05-07 16:19:47 [INFO]: Generated OTP: 6151
+2026-05-07 16:19:47 [INFO]:  SMS API Response: 200"OK"
+2026-05-07 16:19:47 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=3333333333&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-07 16:19:47 [INFO]: OTP sent successfully to 3333333333
+2026-05-07 16:19:49 [INFO]: validateOTP request: {"mobile_number":"3333333333","otp":"1111"}
+2026-05-07 16:19:49 [INFO]: validateOTP request: {"mobile_number":"3333333333","otp":"1111"}
+2026-05-07 16:19:49 [INFO]: validateOTP data is valid!
+2026-05-07 16:19:49 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-07 16:20:04 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-07 16:20:06 [INFO]: Pincode fetched successfully
+2026-05-07 16:20:51 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"partnership","companyName":"Jotiba","owner_name":"Abhsis ","Building":"Svskzks","Area":"Gshz","mobileNo":"3333333333","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"5000"},{"vehicle_number":"MH46F5574","vehicle_weight":"50000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-07 16:20:51 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:21:02 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"partnership","companyName":"Jotiba","owner_name":"Abhsis ","Building":"Svskzks","Area":"Gshz","mobileNo":"3333333333","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"5000"},{"vehicle_number":"MH46F5574","vehicle_weight":"50000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-07 16:21:02 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:21:08 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"partnership","companyName":"Jotiba","owner_name":"Abhsis ","Building":"Svskzks","Area":"Gshz","mobileNo":"3333333333","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"5000"},{"vehicle_number":"MH46F5574","vehicle_weight":"50000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-07 16:21:08 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:21:59 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"partnership","companyName":"Jotiba","owner_name":"Abhsis ","Building":"Svskzks","Area":"Gshz","mobileNo":"3333333333","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"5000"},{"vehicle_number":"MH46F5574","vehicle_weight":"50000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-07 16:21:59 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:22:31 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-07 16:22:31 [INFO]: sendOTP data is valid!
+2026-05-07 16:22:31 [INFO]: Generated OTP: 6747
+2026-05-07 16:22:32 [INFO]:  SMS API Response: 200"OK"
+2026-05-07 16:22:32 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-07 16:22:32 [INFO]: OTP sent successfully to 9999999999
+2026-05-07 16:22:34 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-07 16:22:34 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-07 16:22:34 [INFO]: validateOTP data is valid!
+2026-05-07 16:22:34 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-07 16:22:53 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-07 16:22:54 [INFO]: Pincode fetched successfully
+2026-05-07 16:24:02 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"self","companyName":"Abvha","owner_name":"Zbzbz","Building":"Zhzbbs","Area":"Zbbs","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"100000"},{"vehicle_number":"MH46F5574","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"AMHPH3230N","aadharNo":""}}
+2026-05-07 16:24:02 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:24:10 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"self","companyName":"Abvha","owner_name":"Zbzbz","Building":"Zhzbbs","Area":"Zbbs","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"100000"},{"vehicle_number":"MH46F5574","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"AMHPH3230N","aadharNo":""}}
+2026-05-07 16:24:10 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:25:16 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"self","companyName":"Abvha","owner_name":"Zbzbz","Building":"Zhzbbs","Area":"Zbbs","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"100000"},{"vehicle_number":"MH46F5574","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"AMHPH3230N","aadharNo":""}}
+2026-05-07 16:25:16 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 16:25:28 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"self","companyName":"Abvha","owner_name":"Zbzbz","Building":"Zhzbbs","Area":"Zbbs","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"100000"},{"vehicle_number":"MH46F5574","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"AMHPH3230N","aadharNo":""}}
+2026-05-07 16:25:28 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 17:37:29 [INFO]: sendOTP request: {"mobile_number":"6666666666"}
+2026-05-07 17:37:29 [INFO]: sendOTP data is valid!
+2026-05-07 17:37:29 [INFO]: Generated OTP: 9636
+2026-05-07 17:37:29 [INFO]:  SMS API Response: 200"OK"
+2026-05-07 17:37:29 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=6666666666&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-07 17:37:29 [INFO]: OTP sent successfully to 6666666666
+2026-05-07 17:37:33 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-07 17:37:33 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-07 17:37:33 [INFO]: validateOTP data is valid!
+2026-05-07 17:37:34 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-07 17:37:59 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-07 17:38:01 [INFO]: Pincode fetched successfully
+2026-05-07 17:39:12 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Motohelp ","owner_name":"Ramesh","Building":"Bhandup west","Area":"Near metro mall","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"50000"},{"vehicle_number":"MH46F5574","vehicle_weight":"60000"},{"vehicle_number":"MH46F5576","vehicle_weight":"80000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-07 17:39:12 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 17:39:55 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Motohelp ","owner_name":"Ramesh","Building":"Bhandup west","Area":"Near metro mall","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"50000"},{"vehicle_number":"MH46F5574","vehicle_weight":"60000"},{"vehicle_number":"MH46F5576","vehicle_weight":"80000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-07 17:39:55 [INFO]: Vendor Onboarding data is valid!
+2026-05-07 17:39:55 [INFO]: Vendor Images Inserted successfully
+2026-05-07 17:39:57 [INFO]: Fetching Vehicle detalis 
+2026-05-07 17:39:57 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-07 17:45:51 [INFO]: Fetching Vehicle detalis 
+2026-05-07 17:45:51 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-07 17:47:41 [INFO]: Fetching Vehicle detalis 
+2026-05-07 17:47:41 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-07 17:48:18 [INFO]: VehicleOnboarding req_body = {"vendorid":"RAM0001","vehicleid":"VHAM0001001","vehicleDetails":{"registrationNo":"MH46F5564","bodyType":"closed_body"},"VehicleTypesDetails":{"VehicleWeight":50000,"vehicleType":"HCV","height":"55","width":"66","length":"55"},"vehiclePhotos":{"front_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAoEAEBAAICAAUEAQUAAAAAAAAAAQIRITEDEkFRYSJxgcGREzKhsfD/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKs+6LGVVU2KGVmPNcss7TxObuX8M42X5/SxK3N4d8baxzlb8Ob8Pz5/VpMfFmeUxuE1elxAPEswz16UllZxV/KKCpoq6SoMtaqTagaDS6UYyw83o5ZY2V6EuMsEc/C8W4cWdun9bHG7mHLlnhr04Yl1317+sa1HXLKZY+e5fV7M45Xzdxj0/ay3ifoHfHOVpjDGSW5d+3S2+WbqYuqzVtZqK0cACiAKJsAuq5ZY+zr2nAPPzOv4dvBuNvE+pM8Nudll31VlR6Mr5Ju93r/vZz8/mSZ3Le+/VmzSo3Mrv31PRqc9MYf3T57W2S6hYN7GWp0y0KgCnPsm13sE18qbPkBnPHfo3o1/APPZca1Mtzm8fbp2yx24Z4au52uo1LPLqdVLjZOZWMd711XSZXnW57zaom9ts4xtlpFmxfyImtLJon2ORRYmlgEBeRFTKSqKOGeHJMeZp1s2akBznEX70X8ICigAoIQoAH+lACKCa0LtOVHOKHCCrCG1F0U4NwD1ORPyBwAgppF2CiKo4xpiNINTtdsrv2UU4Z2uwUqbJeUFQlXYGl0bAWCKDhGpEjQHTNrVYvYLyJFFUQBdm0/wsBY2xO2oIuxFByjQCpWdgCgAXjk5vwAE55a9fkAF2ALyWgD/2Q==","back_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAApEAACAgECBQMEAwAAAAAAAAAAAQIRITFBAxJRcfAyYZETIoGhsdHx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDCWx0MxW5oyqo0ZRbKNHOXESwsss3hrJwunTER0UperY2pJjgrntP0rYvPBz5fp1mrNYikE6hJLZhOzOKvyAUKhHk0ZAlCgWiBgYLQKhVnKfDrQ6gDzwm+HK0dvrur5Vb3JOG6OLTWnwWUx0lNSXM2+ckZNPJnVWv8NQhKfZbsqOsZJmjMVGvtXdk5qdEsXW2zIbMkVoDAAFIAKCAAZlGzRcgeZpp9H1OvD4l/bL4NShaOMo0WVHTiSfNa02MN2aUlJZ1888ojhnDx/BUajLb9mkrRhtJUvyISqW5LDWuYlsEbRGmky2rOd2EmwOmC2SipAL9wKF0ADjaLZUEeeUXF4CnX9Hoas4z4dd0Ajyv1adVsHGqkpJ2RddfY3GN5qkaRi77AgMtLZqCMpWzogKghuUIgooAiKiGkBaI1aKCjCh1NMooDzAFRFagjZIrBpBAFFFE1BWT8ACkBBq0LIUoEZSAec1FZMpWdIqkQaKQq9iiqy0Sy0BCFZKAAUUghUgVFChRQBwjE2ZRogqKRAooAAADQAwh5kEFBEVAUUEMFHGJbItNC56EFBMrejN92Buy3jT5MLyi+ZA1fvfYfozYsDVizFjIHQWZTyaVAWwSxYHNXWpcbgBR+yM2AAWhQALRHgACAACrqbACGpdrAA//Z","right_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAKxAAAgICAQMDBAICAwAAAAAAAAECESExURJBYQMiMnGRobETQlLBgeHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDmSspQbLh6ds2XppeQMY+ma+nH3a0aUAFCFbQ7ZlQABgAAeB4AVhYBQBYmwZh6k7wnju+QNEq4RQhmkAAkOgAFwOhAMATAyowFAMBUJulsJzjDe+DBz65U8+ACc21j4/scINe6W+y4LSrZaXICodDE5JGkMG0tsyl6ja4RKTmvppsC5erjCwVF2jBtb+T86K9Obbp/8AbPkiXqpYj7maLKs5/Uj/HO18ZEwEpTl/avCJc5ONOTobkkKC6peAk0oRc/CN4QUVhFKNIpEaLQDHYGEp0945Er6k3heR3UcKmsX4JNIJdMXheU2Lqd3eR11RaW1lC6a+Trx3AUlTtaegUWst9P7LjLDjHF6z3IA3hJPWmVOKnFpmEHTpvDOiLtZ2By/wAb6qfY3hHpKku4V4M1TQBgMcgAwCvoBzp3JLd4f0E406lL7DvslS8A26Uu+n9TSBSr4pL/AGTL2y5TVobw/rwUopwfVhxzXegMtPefBc4tVJqura8jVLWP39wVP26T/D7ASawli+MMy1vBcE005YXnbA6CdYCDrH2Ka+5BIxLIyKKCgGBzWlvLY4pW1LF4ruS7UmoKn+SDSL1fSq/Yovpaa7Dlmpc/sSUpZVVy9AU0k6/rtfQFBtXpcv8A9ktNfx0suOU2gSvLdsAlXyXy03/uvJK/JWLzpqmTTWHtYAqOq7rKNk+pWjDKfBpGVO+z/DApqsgVtCXDJVABQUBx3cVLvpjSv465eg9NxVxtSb8YJcm99vwVGsHGnFe5vKtYYK5K27MVKmmuxq5JO+zyAJuMk12KdRddnqiPMvavO/sWvU9jUcV+eQCv8m14W/8AoJO4ppV04f0JTQ1KnewAcXmnpi/s0s8eS+hJXN54A0g7WdobXcmKfV1PBYCsAeGBFebeq7FyrqvNPJCTevuaJpQaVSa5RUKnLNKKH/J0xSj27sh9UssQFdTbtjjJppoguMHL6cgU8Pw9Fxi2vdhfkccJJZopRt5Aak9R0aQilnbI0XF6AsAABNWgWhifKA8xyb2OEumViTa0CAtpp9PYFG8LL57FKNpdWzRLFaQExgltWy0r2NJIYAhrOhDW67MCopDjuhaQ8KmiovIABFMBAB5/RnwXGPAABWtDiwAChgAAD0AANywuSornLACo0AAIoAAA/9k=","left_img":""},"rc_number":"MH46F5564"}
+2026-05-07 17:48:18 [INFO]: Vehicle Onboarding data is valid!
+2026-05-07 17:48:19 [INFO]: Vehicle Images Inserted successfully
+2026-05-07 17:48:19 [INFO]: Vehicle Onboarding successful
+2026-05-07 17:49:13 [INFO]:  vendorBankkYC req_body = {"vendorid":"RAM0001","bank_ac_holder_name":"Abhishek","account_type":"saving","bank_ac_number":"12345","bank_ac_number_verify":"12345","ifsc_code":"Iivh","bank_name":"Bank of india","branch_name":"Kanjur","cheque_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAApEAACAgAEBAYDAQAAAAAAAAAAAQIRAxIhMRNBUWEiMlJxkaEEQoFi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBAjH/2gAMAwEAAhEDEQA/AKUFG6CiCdBRShUBmhUUoVAZoKNUOgMUFG6CgMZQym6HQGMoZSlBQDoKJ8b/AD9hxv8AP2Bugow8XoilPqvgBUFDpjAzQUaoKAzQUOu7Cu7AKCh0MBUFEZYklJq+Zlzk/wBmBPI3zDh9zaG1oRU8h2nJu9EdZQgGAQAAAAAAAAAByYrccSSa5mM/YpjRvFkYyFGsyQZgxF0Jf0iqxdSXuVzy6kIcvcsa5Z61rPLqGeXUyBqM1rPLqGeXUyAhRb6v5C31fyABGsz6sHJ8mZABSfiMjluhGNbwSaezRiVUl8jlGttBODlzIpwVtddyhOCqVFEa5Z6MAsX8NMmAAUAAPUgQAAGZchDnsIzvreeFMZKMpRtPVdyil7GVC85sxF+JmjXLPXpgIDTJgAAAAADEAAKWxk1LYzyM63jE9NTDlz5lZq1oScJaaaEaWwlmm/ayvD7oxgLxN9FRcVNxPhvqhcJ+v6KDFSYnwn6voOE/V9FAFWJ8J+oOE/UUCxSJuFK3LREOKr1ui+PLLhPvocISLca78L+QWIuaZJUbSTdBW8z7fCGsRJeRPuYQn0Iq34/7FyH4/wC38LBAAgKNAIAGICGLjVah8gVxFFxqTr+0cbSzNJ6ch6vVsWzQCSd0VilHfcEkmb0apoijFhGK3S7dSJvFk3XcmwOjA8j9ypHA8j9ypUAxAAwEABJ1FtckcZ2PVUcnMAScmktW9jojgqMaesuvQ3g4WSOq8T3KNAcbuLp7jstPCzbOmtDncWnT0ZFGJq4mHsAAUhiKEapt2CxpXsqACosnaTGAAAAAASUa/JW2uoAB2Jaaia1AAFuYnFSVNAAH/9k="} 
+2026-05-07 17:49:13 [INFO]:  bankChequeURL = https://uat.motohelpindia.com/vendor-service/uploads/Vendor_Bank_Cheque/cheque_1778156353459.jpeg 
+2026-05-07 17:49:13 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-07 17:49:23 [INFO]: Fetching Vehicle detalis 
+2026-05-07 17:49:23 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-07 17:55:10 [INFO]: Fetching Vehicle detalis 
+2026-05-07 17:55:10 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-07 18:00:04 [INFO]: Fetching getunassigndriver
+2026-05-07 18:00:04 [INFO]: Fetching getunassigndriver req_body = {"vendorid":"RAM0001"}
+2026-05-07 18:00:18 [INFO]: Fetching getunassignvehicle
+2026-05-07 18:00:18 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-07 18:00:29 [INFO]: Fetching getunassignvehicle
+2026-05-07 18:00:29 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-07 18:00:36 [INFO]: Fetching getunassignvehicle
+2026-05-07 18:00:36 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-07 18:03:55 [INFO]: Fetching getunassignvehicle
+2026-05-07 18:03:55 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 10:53:54 [INFO]: Fetching Vehicle detalis 
+2026-05-08 10:53:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-08 10:54:23 [INFO]: sendOTP request: {"mobile_number":"1111111111"}
+2026-05-08 10:54:23 [INFO]: sendOTP data is valid!
+2026-05-08 10:54:23 [INFO]: Generated OTP: 8984
+2026-05-08 10:54:24 [INFO]:  SMS API Response: 200"OK"
+2026-05-08 10:54:24 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=1111111111&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-08 10:54:24 [INFO]: OTP sent successfully to 1111111111
+2026-05-08 10:54:28 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-08 10:54:28 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-08 10:54:28 [INFO]: validateOTP data is valid!
+2026-05-08 10:54:28 [INFO]: Validation {"vendorid":"AAA2026050002","companyType":"self","companyName":"moto","owner_name":"aaaaa","mobileNo":"1111111111","Building":"aaaa","Area":"aaaa","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup Ind. Estate","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-08 10:55:00 [INFO]: Fetching Vehicle detalis 
+2026-05-08 10:55:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-08 10:57:39 [INFO]: sendOTP request: {"mobile_number":"6666666666"}
+2026-05-08 10:57:39 [INFO]: sendOTP data is valid!
+2026-05-08 10:57:39 [INFO]: Generated OTP: 5076
+2026-05-08 10:57:39 [INFO]:  SMS API Response: 200"OK"
+2026-05-08 10:57:39 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=6666666666&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-08 10:57:39 [INFO]: OTP sent successfully to 6666666666
+2026-05-08 10:57:43 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-08 10:57:43 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-08 10:57:43 [INFO]: validateOTP data is valid!
+2026-05-08 10:57:43 [INFO]: Validation {"vendorid":"RAM0001","companyType":"pvt","companyName":"Motohelp ","owner_name":"Ramesh","mobileNo":"6666666666","Building":"Bhandup west","Area":"Near metro mall","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup Ind. Estate","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-08 10:57:55 [INFO]: Fetching Vehicle detalis 
+2026-05-08 10:57:55 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 11:13:21 [INFO]: Fetching Vehicle detalis 
+2026-05-08 11:13:21 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-08 11:24:44 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"2000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:46 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"2000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:56 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:57 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:57 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:58 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:58 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:58 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:58 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:59 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:59 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:24:59 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"1000","registrationNo":"MH46F5564"}
+2026-05-08 11:25:20 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5564"}
+2026-05-08 11:25:21 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5564"}
+2026-05-08 11:25:21 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5564"}
+2026-05-08 11:25:22 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5564"}
+2026-05-08 11:26:17 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5564"}
+2026-05-08 11:26:25 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"9000","registrationNo":"MH46F5564"}
+2026-05-08 11:26:41 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001001","vendorid":"RAM0001","vehicleWeight":"7000","registrationNo":"MH46F5564"}
+2026-05-08 11:27:43 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5574"}
+2026-05-08 11:27:43 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:27:44 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5574"}
+2026-05-08 11:27:44 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:27:44 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"6000","registrationNo":"MH46F5574"}
+2026-05-08 11:27:44 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:27:51 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"8000","registrationNo":"MH46F5574"}
+2026-05-08 11:27:51 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:28:05 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:28:05 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:28:11 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM000100","vendorid":"RAM0001","vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:28:16 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:28:16 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:43:54 [INFO]: Fetching Vehicle detalis 
+2026-05-08 11:43:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-08 11:44:08 [INFO]: Fetching Vehicle detalis 
+2026-05-08 11:44:08 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 11:44:20 [INFO]: Update Vehicle req_body = {"vehicleWeight":"88999","registrationNo":"MH46F5574"}
+2026-05-08 11:45:48 [INFO]: Update Vehicle req_body = {"vehicleWeight":"80000000","registrationNo":"MH46F5576"}
+2026-05-08 11:48:32 [INFO]: Update Vehicle req_body = {"vehicleWeight":"80000","registrationNo":"MH46F5576"}
+2026-05-08 11:50:08 [INFO]: Update Vehicle req_body = {"vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:50:47 [INFO]: Update Vehicle req_body = {"vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:51:04 [INFO]: Fetching Vehicle detalis 
+2026-05-08 11:51:04 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 11:51:11 [INFO]: Update Vehicle req_body = {"vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:54:58 [INFO]: Fetching Vehicle detalis 
+2026-05-08 11:54:58 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 11:55:06 [INFO]: Update Vehicle req_body = {"vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:57:06 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"88999000","registrationNo":"MH46F5574"}
+2026-05-08 11:57:06 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:59:11 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001003","vendorid":"RAM0001","vehicleWeight":"800002222","registrationNo":"MH46F5576"}
+2026-05-08 11:59:11 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 11:59:53 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001003","vendorid":"RAM0001","vehicleWeight":"9685","registrationNo":"MH46F5576"}
+2026-05-08 11:59:53 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 12:01:38 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"88999000555","registrationNo":"MH46F5574"}
+2026-05-08 12:01:38 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 12:04:22 [INFO]: Fetching Vehicle detalis 
+2026-05-08 12:04:22 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 12:04:45 [INFO]: Fetching Vehicle detalis 
+2026-05-08 12:04:45 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 12:04:53 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"8899","registrationNo":"MH46F5574"}
+2026-05-08 12:04:53 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 12:04:53 [INFO]: Fetching Vehicle detalis 
+2026-05-08 12:04:53 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 12:05:05 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"88996666","registrationNo":"MH46F5574"}
+2026-05-08 12:05:05 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 12:05:06 [INFO]: Fetching Vehicle detalis 
+2026-05-08 12:05:06 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 12:06:00 [INFO]: Fetching Vehicle detalis 
+2026-05-08 12:06:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:01:30 [INFO]: sendOTP request: {"mobile_number":"6666666666"}
+2026-05-08 15:01:30 [INFO]: sendOTP data is valid!
+2026-05-08 15:01:30 [INFO]: Generated OTP: 9908
+2026-05-08 15:01:30 [INFO]:  SMS API Response: 200"OK"
+2026-05-08 15:01:30 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=6666666666&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-08 15:01:30 [INFO]: OTP sent successfully to 6666666666
+2026-05-08 15:01:33 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-08 15:01:33 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-08 15:01:33 [INFO]: validateOTP data is valid!
+2026-05-08 15:01:33 [INFO]: Validation {"vendorid":"RAM0001","companyType":"pvt","companyName":"Motohelp ","owner_name":"Ramesh","mobileNo":"6666666666","Building":"Bhandup west","Area":"Near metro mall","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup Ind. Estate","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-08 15:01:39 [INFO]: Fetching Vehicle detalis 
+2026-05-08 15:01:39 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:01:56 [INFO]: Update Vehicle req_body = {"vehicleid":"VHAM0001002","vendorid":"RAM0001","vehicleWeight":"5000","registrationNo":"MH46F5574"}
+2026-05-08 15:01:56 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-08 15:01:56 [INFO]: Fetching Vehicle detalis 
+2026-05-08 15:01:56 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:03:22 [INFO]: VehicleOnboarding req_body = {"vendorid":"RAM0001","vehicleid":"VHAM0001003","vehicleDetails":{"registrationNo":"MH46F5576","bodyType":"closed_body"},"VehicleTypesDetails":{"VehicleWeight":9685,"vehicleType":"LCV","height":"55","width":"55","length":"55"},"vehiclePhotos":{"front_img":"data:image/jpeg;base64,/9j/4QBqRXhpZgAATU0AKgAAAAgABAEAAAQAAAABAAAAlgEBAAQAAAABAAAAcIdpAAQAAAABAAAAPgESAAMAAAABAAYAAAAAAAAAAZIIAAQAAAABAAAAAAAAAAAAAQESAAMAAAABAAYAAAAAAAD/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAUDc8RjwyUEZBRlpVUF94yIJ4bm549a+5kcj////////////////////////////////////////////////////bAEMBVVpaeGl464KC6//////////////////////////////////////////////////////////////////////////AABEIAHAAlgMBIgACEQEDEQH/xAAYAAADAQEAAAAAAAAAAAAAAAAAAQIDBP/EACAQAQEAAgIBBQEAAAAAAAAAAAABAhEhMQMSE0FRYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN5xDIIqotEVKIogFCI72VQKkdqbQFTsUqBy8tceIxxm7I2UHyZABZtPXFUKCNaB9AEmnfJ74QXE5eTXERlki1RfuX7L137QYLnku/tXucdMhtFaev8AD3KylMFos3l/RsS87oNsMZjOFM9yzcEysVF9DZTLZ8AAWhyBgtgGdnIvENOQJpAgOGIEUJqk0BtcvDNYC0tipBcuq0l2yPG6oNOlbTOTgioZQ1AAAZoy7WWXQMwABwA0UiOp2C5IdnCJV7BnkIeU+SgHAJORQXj0tnhfhpBDlUmKigAAMxQEGdKLuO02WKGClOcooy6RppYn0gWM5VZo5NCgi9FFaGgBLxw33V+3AYxrjdw745ehMbjQOKKcQRUMAAzANAgYBPpg1FFQIuTAomxoGBen9OY6UVsnyAVjds7nC9y/AjcrfpOPkmX5VKFBxRBQAEAM4pMUABhAhTFBJGAKKgkOQVnnvaV+Wco3xoCpGSoNtMfLZ3yzANp5JfxVymu3ONg6JQw2Af/Z","back_img":"data:image/jpeg;base64,/9j/4QBqRXhpZgAATU0AKgAAAAgABAEAAAQAAAABAAAAlgEBAAQAAAABAAAAcIdpAAQAAAABAAAAPgESAAMAAAABAAYAAAAAAAAAAZIIAAQAAAABAAAAAAAAAAAAAQESAAMAAAABAAYAAAAAAAD/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAUDc8RjwyUEZBRlpVUF94yIJ4bm549a+5kcj////////////////////////////////////////////////////bAEMBVVpaeGl464KC6//////////////////////////////////////////////////////////////////////////AABEIAHAAlgMBIgACEQEDEQH/xAAZAAADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAjEAEBAQACAQMFAQEAAAAAAAAAARECITEDQVESE2FxgTKR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDqpVVKgilVUhEWFiywVOYixpfDPQHKyTGenz+Uygqd+S5T3AnICwGqSX3BHsVi7PwnAIjwAWgwD0k1PP1M8MeXO33BreXGe6b6nFjanQbfd4n9zjfdznAXz5bb2jQmgrf+Jsw+KsBEop8uPwnfkDOVOqgHo3+p0AfQz+kNAYD3ryAbcqiqqaBDANAZBnQzT9kVJU6iqip8nqZfYb8Ard/gyVPGqBF42DcXvsLxlBGjReNiQUE9jQUE/VQDpsTWliKCaSqQFNOmMFRSsXhWCIB0ToBKvE/T7ztXHrqgMz9Faq+MTZPYE7SVZhYBCwxQQBQDv58cZWOqzYx58cBjYWLsSBHOxjScOu/KDO4nNuRrePQnGQVn9PyJOsXYnxe1QpM8D9qwYCBirxK7AT2L+To8wElTOAzoXy4/AB6AABHL05fwzvpfltSoM+PCcf2aiQThYvCwEWJvHWmDFESdDF4MBGFY0k7Vy9PZ0DmpTyvnxy9otkArCVbMTaB78hFAPSAIBSAQIGQAjAESiAgYUJpwuxmrhewT602a5eUdnq/4ct8gieMPFfTL4Lj5ygjl5C7w76AP/9k=","right_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAUDc8RjwyUEZBRlpVUF94yIJ4bm549a+5kcj////////////////////////////////////////////////////bAEMBVVpaeGl464KC6//////////////////////////////////////////////////////////////////////////AABEIAJYAVAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EAC0QAAICAQMCBQQCAgMAAAAAAAABAhEhEjFBUXEDIjJhgRORofBCUsHhcoKx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDgDS8O9kNDezYGQXS+qFPoRUBe6ZLXUACgCEooAlvqCgDtod4yRKS4aHHuWOf5Jd2VEt8sJpdGVrKSadjzRWUmkAxnHahSrO/YlrNxNJxvZpezAz9OLXC/BH4fRs6UuJfdDTjDT+SDi4NdCU+n2OslLlOycgcvh/YHUBV4fci3Rp+njciaW6sqK4tpLQr6pmVFO7jJVhpdTLJqaVJumVI3iMpK5Lubi7l6ou+qOUZyWzNrxJN+bPchG5K/6/BJVe1C7d0itroRWHV4bRNspm/LXNmaXX8ATcFroANP08bkTVVpvJHLy7c7mbyjSY21H+UJLsZ0wq9M+4qTur96I/qL+yoi6aYq8v2RuMY4834MRlLUmss6RlJqmwNKOFkyzWp3mmVytelfYg5shttV6UYYEAAGJYisNfqKmlpu6a4+TMtl6vnsv3tRXVQ/4/5ZpHW/I2vqZ54F5p/UV8WYjJRtapNcU6LcNVpz35AsZU01KWps6rzU5Sr4PO5ybpybRuPiyXIHZxiv5Z7GaxuY+o2bXiPh+5FZZGa1PqSTvcDIAIOU2tMak2+b7ImHV9DXiSuMfPqpbVVGYuradNLBpGko271JcFSjeVOv9/vyVyc15pSaS4WxHJONapY4YFcVsozu830EVHZqV9EHKC2c8p3krnDU2tad2v2wDji4xlhJu/37CN9DL8SVKpNYrcmpt5bfcDqDKdiyKoJYAx4iaUbmn7J3RIpLN5E+PT/1ClKEri6dIqNKlyRuLbb5EvEk46dba5VUZak8tP8Af9Aa8guPQzplV1guhqrpJ+4DVHoNS6E006bW9F0beeOV9iiqXsa1GUo/3X2Cq1bxzRBdQMurxYAk7vNfAn6l2X/hJ77UVpSmk3WF/gDXhySm25uOegcouTuUmnVvr+8GHJtU2QEbcotV5nnlk1K8RxjBkAjevCWiOPyTViqVGQUilsyArQJYIJJp7Kg5XWNlRkpAABRQQAUAgFBAUUAEGSgEAAAAAUAAAAAAAAf/2Q==","left_img":""},"rc_number":"MH46F5576"}
+2026-05-08 15:03:22 [INFO]: Vehicle Onboarding data is valid!
+2026-05-08 15:03:22 [INFO]: Vehicle Images Inserted successfully
+2026-05-08 15:03:22 [INFO]: Vehicle Onboarding successful
+2026-05-08 15:03:26 [INFO]: Fetching Vehicle detalis 
+2026-05-08 15:03:26 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:08:10 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:08:10 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:08:13 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:08:13 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:08:15 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:08:15 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:10:58 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:10:58 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:11:06 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:11:06 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:11:13 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:11:13 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:11:16 [INFO]: Fetching getunassignvehicle
+2026-05-08 15:11:16 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"RAM0001"}
+2026-05-08 15:19:14 [INFO]: sendOTP request: {"mobile_number":"6666666666"}
+2026-05-08 15:19:14 [INFO]: sendOTP data is valid!
+2026-05-08 15:19:14 [INFO]: Generated OTP: 4022
+2026-05-08 15:19:14 [INFO]:  SMS API Response: 200"OK"
+2026-05-08 15:19:14 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=6666666666&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-08 15:19:14 [INFO]: OTP sent successfully to 6666666666
+2026-05-08 15:19:20 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-08 15:19:20 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-08 15:19:20 [INFO]: validateOTP data is valid!
+2026-05-08 15:19:20 [INFO]: Validation {"vendorid":"RAM0001","companyType":"pvt","companyName":"Motohelp ","owner_name":"Ramesh","mobileNo":"6666666666","Building":"Bhandup west","Area":"Near metro mall","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup Ind. Estate","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-08 15:25:40 [INFO]: Fetching Vehicle detalis 
+2026-05-08 15:25:40 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-08 17:26:47 [INFO]: sendOTP request: {"mobile_number":"9326994399"}
+2026-05-08 17:26:47 [INFO]: sendOTP data is valid!
+2026-05-08 17:26:47 [INFO]: Generated OTP: 7478
+2026-05-08 17:26:47 [INFO]:  SMS API Response: 200"OK"
+2026-05-08 17:26:47 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9326994399&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-08 17:26:47 [INFO]: OTP sent successfully to 9326994399
+2026-05-09 11:16:40 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-09 11:16:40 [INFO]: sendOTP data is valid!
+2026-05-09 11:16:40 [INFO]: Generated OTP: 8205
+2026-05-09 11:16:40 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 11:16:40 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 11:16:40 [INFO]: OTP sent successfully to 9999999999
+2026-05-09 11:16:43 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 11:16:43 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 11:16:43 [INFO]: validateOTP data is valid!
+2026-05-09 11:16:43 [INFO]: Validation {"vendorid":"ZBZ0001","companyType":"self","companyName":"Abvha","owner_name":"Zbzbz","mobileNo":"9999999999","Building":"Zhzbbs","Area":"Zbbs","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup Ind. Estate","role":"vendor","status":"Inactive","vendor_onboarded":true,"kyc_verify":false,"flag":"N","vehicle_verify_flag":"N"}
+2026-05-09 11:16:48 [INFO]: Fetching Vehicle detalis 
+2026-05-09 11:16:48 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ZBZ0001"}
+2026-05-09 11:17:50 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-09 11:17:50 [INFO]: sendOTP data is valid!
+2026-05-09 11:17:50 [INFO]: Generated OTP: 1348
+2026-05-09 11:17:50 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 11:17:50 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 11:17:50 [INFO]: OTP sent successfully to 9999999999
+2026-05-09 11:17:53 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 11:17:53 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 11:17:53 [INFO]: validateOTP data is valid!
+2026-05-09 11:17:53 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-09 11:18:32 [INFO]: Pincode Details req_body = {"pincode":"400011"}
+2026-05-09 11:18:34 [INFO]: Pincode fetched successfully
+2026-05-09 11:19:52 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Laxmi","owner_name":"Gohil ","Building":"Parel","Area":"Parel","mobileNo":"9999999999","pincode":"400011","district":"Mumbai","Tahsil":"Agripada","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5560","vehicle_weight":"1000"},{"vehicle_number":"MH46F5562","vehicle_weight":"2000"},{"vehicle_number":"MH46F5564","vehicle_weight":"3000"},{"vehicle_number":"MH46F5566","vehicle_weight":"4000"},{"vehicle_number":"MH46F5568","vehicle_weight":"5000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWQPA9505H","aadharNo":""}}
+2026-05-09 11:19:52 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 11:19:52 [INFO]: Vendor Images Inserted successfully
+2026-05-09 11:19:56 [INFO]: Fetching Vehicle detalis 
+2026-05-09 11:19:56 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"GOH0001"}
+2026-05-09 11:20:11 [INFO]: VehicleOnboarding req_body = {"vendorid":"GOH0001","vehicleid":"VHOH0001001","vehicleDetails":{"registrationNo":"MH46F5560","bodyType":"high_bed"},"VehicleTypesDetails":{"VehicleWeight":1000,"vehicleType":"MINI","height":"9","width":"9","length":"2"},"vehiclePhotos":{"front_img":"","back_img":"","right_img":"","left_img":""},"rc_number":"MH46F5560"}
+2026-05-09 11:20:11 [INFO]: Vehicle Onboarding data is valid!
+2026-05-09 11:20:11 [INFO]: Vehicle Images Inserted successfully
+2026-05-09 11:20:11 [INFO]: Vehicle Onboarding successful
+2026-05-09 11:20:47 [INFO]:  vendorBankkYC req_body = {"vendorid":"GOH0001","bank_ac_holder_name":"Vsvsv","account_type":"saving","bank_ac_number":"84884848","bank_ac_number_verify":"84884848","ifsc_code":"HDFC","bank_name":"HDFC","branch_name":"","cheque_img":""} 
+2026-05-09 11:20:47 [INFO]:  bankChequeURL = null 
+2026-05-09 11:20:47 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-09 12:25:16 [INFO]: sendOTP request: {"mobile_number":"8000000000"}
+2026-05-09 12:25:16 [INFO]: sendOTP data is valid!
+2026-05-09 12:25:16 [INFO]: Generated OTP: 6935
+2026-05-09 12:25:16 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 12:25:16 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8000000000&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 12:25:16 [INFO]: OTP sent successfully to 8000000000
+2026-05-09 12:25:24 [INFO]: sendOTP request: {"mobile_number":"1111111111"}
+2026-05-09 12:25:24 [INFO]: sendOTP data is valid!
+2026-05-09 12:25:24 [INFO]: Generated OTP: 5593
+2026-05-09 12:25:25 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 12:25:25 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=1111111111&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 12:25:25 [INFO]: OTP sent successfully to 1111111111
+2026-05-09 12:25:28 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-09 12:25:28 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-09 12:25:28 [INFO]: validateOTP data is valid!
+2026-05-09 12:25:28 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-09 12:25:41 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-09 12:25:41 [INFO]: sendOTP data is valid!
+2026-05-09 12:25:41 [INFO]: Generated OTP: 3800
+2026-05-09 12:25:42 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 12:25:42 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 12:25:42 [INFO]: OTP sent successfully to 9999999999
+2026-05-09 12:25:46 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 12:25:46 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 12:25:46 [INFO]: validateOTP data is valid!
+2026-05-09 12:25:46 [INFO]: Validation {"vendorid":"GOH0001","companyType":"pvt","companyName":"Laxmi","owner_name":"Gohil ","mobileNo":"9999999999","Building":"Parel","Area":"Parel","pincode":"400011","state":"Maharashtra","Tahsil":"Agripada","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-09 12:25:53 [INFO]: Fetching Vehicle detalis 
+2026-05-09 12:25:53 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"GOH0001"}
+2026-05-09 12:26:56 [INFO]: VehicleOnboarding req_body = {"vendorid":"GOH0001","vehicleid":"VHOH0001005","vehicleDetails":{"registrationNo":"MH46F5568","bodyType":""},"VehicleTypesDetails":{"VehicleWeight":5000,"vehicleType":"HEAVY","height":"","width":"","length":""},"vehiclePhotos":{"front_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAyEAACAgAEBAIIBgMAAAAAAAAAAQIREiExUQNBYZFxgQQTIjIzUqHwI0JiwdHhU3KS/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AucfZXgZXhXU04csfCV6rIz4iyIojLkzTg5zp7HPzRtwn+LEDo9XHYz9Jilw1W5sZelfDXiEc1NNWqsbV5rLzFeazbo0TpL2vqzSIodFPMeECGqY46XXP75FOJNpLQLDzdff7Dtp6LrmRa2HiWwE8BtXSbLb3X1I4TqLBv2nZmqtYPzJitesTjpYmybzIO4x9J+GvE1TtIz9I+H5lRzXdFyWexMavMrI0ioo1w5GcWjTFkBEkZyNJMybAkAAB8OLpUi1wXrOXY0XsxSctBT4kVF1JNmdVjOk8nkTaNYxi1crb6LQeCH+OTIrbhO+HHwJ4/wAJmTUV7ikmugSm5cJ4m/LRliIWprJSayv6v9jNajmr0w91/JpArTp5MrEZWVYDbJZUc3o34Mdc8Mv+gMwL5aZ/7CxL5fqAuLLFN7LQmCxSSItji2pJmVdalSVsLct0iYtJZRZWb6eBFO17qy3MOIncsko8joikuRPGS9UxBhllV3zKlJR37v8AgStKLd0tAm8W/wB+Z0ys6lycnm33BMWEeCWWWugymqhr5GlvTnX3zM1GS5eY16xurfcYaq+unX+x4stfr/ZD4U8STWb6iwSyy1dEFrgQ2KXCivyoMU/k+o8UvlXcw0eGtB0Tc+Sj3D8T9KIKoni/CZNcb5o/fkRNzWUmnexYM8cqrYLZUVyqytH7pvazkZ2x4pdi7/Sgv9KobTIjFIMcloXrpEOeURtMS5yeuYsTLdbD05DRpS3YUhh5HNoq+7HX3YDAWFGEs5M2m6iYI1CiurQV1Y01zTsVrkn2KgSz1Y81lboL8ewX49gCmtGCXO2Cda32C/HsA0rebDa2wtVz7Amq0d+AG1gAGFAw7A3SAy4r5EcipO2RJ1RuIdrb6Cvx7BiW6BtNaoATpU77DvnnQYleqFi2YDxePYE6ypjxRqsr3sVrdAHWn2HfR9gtAnybzA2SHQwMKVUTPJFmc3yLBmKupQUaRNdQp7lBQE09x4XuVQUBOF7hhe5QwJUXuPC9xg1kBoAwMKXIh5suRBqFTQUUFFRNDodDoCaHRVBQE0FFUFASOh0AFAAGFSxABqIAAChjAAAYAACAAAAAD//Z","back_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAzEAACAQIDBgQFAgcAAAAAAAAAARECIRIxUQNBYYGRoSIyUnEEEyPh8DPxQlNigpKx0f/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAASER/9oADAMBAAIRAxEAPwC21XSqtTGulymi9niWzVu4Yp3IislOK5vsH9T3QlVQvNT0Fsn9ZNWuB1nP8X/DzNzD4ry0+4Ri5xXzKdrYV3ISkt+0GkGe4rCOlGqpsBi0TdbzapGVQEup6sUsGIC6W8CJTHTTU1FKKWxhN11XMqliocVp8QqcOCZWpFd5j8T5F7mlLlJmfxHkXuVGFKuy3K/YlK5bSazXY0h01GiqsYZMrEBVVRm2NuSWnoAhDh6BD0YHRMZ1QRta1CVLTbZhU8VTb3lbJN1StxlpoqaP6qnvcBho/l1GmJLPMV6s5S0IM6sNnQnS9YsFdbqopxTM8jWU/Cst5z14pbaSUlgazKq8Vk11RFrRoVVtMOTb5s0yiSpJdbqzfKQTApZ/9Kt6af8AIml+JRY0VUZvv9wI/tp6/cUpPyr85lt7p7/cFVrV3+4HNL1K2dUVQ8mbrYU8SqdlSskZ60E0l4aX/od3nCXArDAQZAkllYjbr6fMuCNv+mywZQ7N7shVvFHD81B7RtJPdkLFwOmMaWEapejh5Bi4D+Y7cBhppNTYJre99RfMfEMbGGnVRXnUnzE6KlMp2G9rVVm8hY25u753GK3xP0MMVXofUccRc2c2hjq9HcG62rUrmx82EPVkETtvSjOuqvKs3a4vqc7vU2WFCS3orw6CUzKasK+q6GkV4fSHh9IlM5oFKUSA2qZyBpaBdXkFOaYBCQ4p0E7vQb0YGtgsEgYUDFIwJ2jikwNNq7wQ7I1EpLDvfQHhmz7jxKM7+4YlqUK0fcaS/GEre0GJaqABJPf3BxO/qGJaoac59gCFqwpSjeJpaIbSeaQG08B8gDeYURwB5CQq7IDKq7Ym4GS6Zd4Noc6ALDwQYeCAqbikWFv9x4Xp3Aq2GZvoTm7iwvTuOHGXcBpJZJCSWiDC9H1Hhej6gdAABhSIruyzNlhUhAwg0hQEDgcAKAgcBACHA4ABDdlYBgXAABhSZBTEaiVMBBQQUKBwOBwBMBBUDgCICCoCAJgYwAYMAMKTEAG0AwABjAAAAAAEAAIAAD//2Q==","right_img":"","left_img":""},"rc_number":"MH46F5568"}
+2026-05-09 12:26:56 [INFO]: Vehicle Onboarding data is valid!
+2026-05-09 12:26:56 [INFO]: Vehicle Images Inserted successfully
+2026-05-09 12:26:56 [INFO]: Vehicle Onboarding successful
+2026-05-09 12:27:44 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605092569"}
+2026-05-09 12:27:44 [INFO]: Get Driver Details req_body = {"driver_id":"MOH-5864"}
+2026-05-09 12:28:03 [INFO]: Driver verification req_body = {"driver_id":"MOH-5864","vendorid":"GOH0001","driving_license_no":"MH03 2008 0005864","DOB":"1973-02-24","full_name":"MOHAMMED IBRAHIM","relatives_name":"ABDUL SATTAR","address":"INDIRA NAGAR ZOPADPATTI BAIGANWADI, GOVANDI MUMBAI, Greater Mumbai,Mumbai Suburban,MH","issuing_rto_name":"RTO,MUMBAI (EAST)","date_of_issue":"","nt_validity_from":"","nt_validity_to":"","t_validity_from":"2022-02-01","t_validity_to":"2027-01-31","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-09 12:28:12 [INFO]: Fetching Vehicle detalis 
+2026-05-09 12:28:12 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"GOH0001"}
+2026-05-09 12:28:57 [INFO]: Fetching getunassigndriver
+2026-05-09 12:28:57 [INFO]: Fetching getunassigndriver req_body = {"vendorid":"GOH0001"}
+2026-05-09 12:29:02 [INFO]: Fetching getunassignvehicle
+2026-05-09 12:29:02 [INFO]: Fetching getunassignvehicle req_body = {"vendorid":"GOH0001"}
+2026-05-09 12:35:13 [INFO]: Fetching Vehicle detalis 
+2026-05-09 12:35:13 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-09 12:36:24 [INFO]: Fetching Vehicle detalis 
+2026-05-09 12:36:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"AAA2026050002"}
+2026-05-09 12:36:29 [INFO]: Get Driver Details req_body = {"vendorid":"AAA2026050002"}
+2026-05-09 14:56:21 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-09 14:56:21 [INFO]: sendOTP data is valid!
+2026-05-09 14:56:21 [INFO]: Generated OTP: 5850
+2026-05-09 14:56:21 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 14:56:21 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 14:56:21 [INFO]: OTP sent successfully to 9999999999
+2026-05-09 14:56:30 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 14:56:30 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 14:56:30 [INFO]: validateOTP data is valid!
+2026-05-09 14:56:30 [INFO]: Validation {"vendorid":"GOH0001","companyType":"pvt","companyName":"Laxmi","owner_name":"Gohil ","mobileNo":"9999999999","Building":"Parel","Area":"Parel","pincode":"400011","state":"Maharashtra","Tahsil":"Agripada","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-09 14:56:55 [INFO]: sendOTP request: {"mobile_number":"6666666666"}
+2026-05-09 14:56:55 [INFO]: sendOTP data is valid!
+2026-05-09 14:56:55 [INFO]: Generated OTP: 5865
+2026-05-09 14:56:55 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 14:56:55 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=6666666666&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 14:56:55 [INFO]: OTP sent successfully to 6666666666
+2026-05-09 14:56:58 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-09 14:56:58 [INFO]: validateOTP request: {"mobile_number":"6666666666","otp":"1111"}
+2026-05-09 14:56:58 [INFO]: validateOTP data is valid!
+2026-05-09 14:56:58 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-09 14:57:15 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-09 14:57:16 [INFO]: Pincode fetched successfully
+2026-05-09 14:58:40 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5560","vehicle_weight":"10000"},{"vehicle_number":"MH46F5562","vehicle_weight":"20000"},{"vehicle_number":"MH46F5564","vehicle_weight":"3000"},{"vehicle_number":"MH46F5566","vehicle_weight":"4000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:58:40 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:58:44 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5560","vehicle_weight":"10000"},{"vehicle_number":"MH46F5562","vehicle_weight":"20000"},{"vehicle_number":"MH46F5564","vehicle_weight":"3000"},{"vehicle_number":"MH46F5566","vehicle_weight":"4000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:58:44 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:58:48 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5560","vehicle_weight":"10000"},{"vehicle_number":"MH46F5562","vehicle_weight":"20000"},{"vehicle_number":"MH46F5564","vehicle_weight":"3000"},{"vehicle_number":"MH46F5566","vehicle_weight":"4000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:58:48 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:58:54 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5562","vehicle_weight":"20000"},{"vehicle_number":"MH46F5564","vehicle_weight":"3000"},{"vehicle_number":"MH46F5566","vehicle_weight":"4000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:58:54 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:58:58 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5564","vehicle_weight":"3000"},{"vehicle_number":"MH46F5566","vehicle_weight":"4000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:58:58 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:59:25 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5566","vehicle_weight":"4000"},{"vehicle_number":"MH46F5572","vehicle_weight":"3000"},{"vehicle_number":"MH46F5574","vehicle_weight":"2000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:59:25 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:59:29 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Abhishek","owner_name":"Abhishek","Building":"Bsjs","Area":"Gszb","mobileNo":"6666666666","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"3000"},{"vehicle_number":"MH46F5574","vehicle_weight":"2000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-09 14:59:29 [INFO]: Vendor Onboarding data is valid!
+2026-05-09 14:59:29 [INFO]: Vendor Images Inserted successfully
+2026-05-09 14:59:30 [INFO]: Fetching Vehicle detalis 
+2026-05-09 14:59:30 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:00:09 [INFO]: VehicleOnboarding req_body = {"vendorid":"ABH0001","vehicleid":"VHBH0001001","vehicleDetails":{"registrationNo":"MH46F5572","bodyType":"open_body"},"VehicleTypesDetails":{"VehicleWeight":3000,"vehicleType":"MEDIUM","height":"5","width":"5","length":"5"},"vehiclePhotos":{"front_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAoEAACAgICAgIBAwUAAAAAAAAAAQIRITEDEkFRYXGRE7HBIjJCgaH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDTdGG7L8kO2Vsl1AzQNUboTWAMqrwxZvY0qYmvQDulbBSTdCehLaAoMyhgDVqicoNfRUQEkaHKPlGQOuUq0TecjbsyXGdIAYEUqChiClQmjQAJDECy6AYPQNeW8BLNUAtoOtq3j5HStK3+w3Jqkqz4qiBgAG2AJoYAZAbQjLQADEpXrQUOVvBqEkk7wEIdsvQ58flfgqJtvkljCX/Bqbiqhv2EZdbTWDUYRllLHgispyclTt+SsY18s0oqKAis1YhgbcyGI3CF5YtJBGN5ehTh1ytFdIhycnbC1+5lpOUrwtCATKLcc1VPBU5LNw5XHDygKz41L7IvtxyLqSkrTI8su0saXkCkeVNZ2KXJ60SSpDRMXVAApGFZezVrEghDyzegbo5+Tl7Oloy0fJydsLRO6C0BRl7EMAEPYqsb0AJtPDa+hxVv4FXjybrqqABbHp/yAHRGNfY26QxNJqmRXPy8vbC1+5FstycVZWURaAFKjVmLpNVsSbRUUASd6GAhr2KsjX9TSA1Bf5eRg3+AsAXwCWaD+DUPYHQIjDlrEtFrIpEuTivMd+ipNtzk0m0kBytZM0dMoRk2tVpmePjqVvxoBRj1Ve940FNq0bfG/ZpLqqQRF6WbNLC+WOcc/LDq/RdMIAr4DDID4NoykjSKJFIcjj9E6KccPL/0ZaUnNRV+ycJ1d+chzPKQopSarQRtYy/OzW1hfkaQyKmk/LHk0BdGYRt2zdAgsgTihdEaADH6aF09WUGBJxW2av4J8ryorZT+2NvwUR5E3yMpxw6/Y4Rxb2zZACGACGgAAAAAQwAAGAmBCL78lso8z6+EAFGwACAAAAAAAEAAA0AAAxAAH//Z","back_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCABwAJYDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAnEAACAgIBBAEEAwEAAAAAAAAAAQIRITEDEkFRcWEiYoGREzKxof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A6TLln2X5FPlqNdzFsgbY4TcXaIsEUdkJqStDkrRzR+nRvCal7Al4AuUbXyZllSmABdBDFYrAlakKRMXmimzN7IN+N5o0ZzRlUjou1YEsEDJA0TAlMAORsmy5wa+V5MyilkuKoiK7lgUh6dolMdgbwn1exyjeVswTrKNociazsCNC2OTtiGmAABkESbE9jboE7sCU/wDhvxyuJjTsuDaYGrFQ1JMqgIoC6ADmuiZRi86NpRTV6MmUIAqtiAB2ICikwsmxkFqV+yjOmioyv2BQmwE3ggnF3Y0iad6LSpAFDodDAEUm0SCmrA0UvKAkAMpSvWiW/wAFCcU14LBLySU00GH7KFWBFZS1gWH7ARpxx6n8EbZ08cemPz3AbimqaOeSqVG/JPpj8mPG49dS/BBQqspxrQiAoYAAwsVmU53haAuUr1okhMbYFKTWmBKdoANA0ArxsodipPt+gBf4AnFrTsnD3guwdPaAOKlK5HReDlcfDFbWLaRRUpfycm6RXLGGEsMrhhUb7sjmjTvRnVODbXTLa7la2TF/T9yQJvyA26VmcJVLPcJu3XgSjboI0lqjJo1eCfQGYi5R7omgBAMANewslCKELsXQulAIXofSDT7qwEAWAG6kmrCSUlTWDPjlmuzwa/6Zqsv6rp/TFPGVizRmM5W96ECLgu5CyzRFRRLQxgQ14Ia/Zq0S1YGQFv5ACx0OgooVDodABLWCTRozATF6wMFsBJ5N4y6opraOd7NOGVSrySi+RXG0ZqKrSN634MZpwl9rJFKvwNEu7yOLKihiGACaGMDNoC2gA//Z","right_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCABwAJYDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAlEAACAgICAQMFAQAAAAAAAAAAAQIRITESQQMTUZEiMmFxgbH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwDoJlG9DTT0MqMGmnfyS42rRr5Fkj7XfRFRGXEc1Su8BNbfRk23t4Abkh7RAJ0Bon0x2TtBF9EVQ7Fsb9kAN0sGfZbdYJoqGmMSRaVZ7GGqh4+5fBqTCV4ZQQAAAY213/TSM9J79ySarXwTVaTSb/JLQR+rbBqmKMfImv0Q0dDVoykuLoozAHhiAadGiVq1ozHGVY6A0TzSKIi0VZBLSux7wGWUsIsmpbgSoYgNsaZpGV4ezIaZLFlbAKMr/YGWkAAEaDX8fuNSTxLYg2ANUyZRTQ9b0TLyVpAYzTTpkm7ryR9ifT7m/gqM70Pi6seFoqMqvuwFFVkpJsqEOWXo0cU40gM9IAaoRtzqmIAAAAAGAABYhgc3UgAAHsya4un9rNQatZAx4Sg7ixtOSzhlO4flf4NSTaSYGHZr4/H3L4KUFyuslhAMQyiZxtY2ZmxM43lbLKzZrMKAZpkgAAGAABYABzdSAYgAYhgDOaacZHSKUU9gYqUo0bRknpmfGnq0U1yVx2tBGgpzUFbJfkSin2+jnnJydsqL9SXPleTohNTjaONby6NFL054doo2nHtEG0ZKUbWiJxp2tCVLEAMDTIAAAoAA5upgIYCAYAAxABMlboibiolyaVGfkjcb7ERi2KwYiooZJUUUaeOUo67OiMlOJzplRlxdoC5R4v8AAi3OLj730ZjUwNgIBq40AYGWiGIYAADAQhgBnNXQpukqKeWiZxvJYlZTXLKWezM2WM3kmSTdr4KiUu2UAAUFk2OwGnX6LMxxl0wLAAIP/9k=","left_img":""},"rc_number":"MH46F5572"}
+2026-05-09 15:00:09 [INFO]: Vehicle Onboarding data is valid!
+2026-05-09 15:00:09 [INFO]: Vehicle Images Inserted successfully
+2026-05-09 15:00:09 [INFO]: Vehicle Onboarding successful
+2026-05-09 15:00:13 [INFO]: Fetching Vehicle detalis 
+2026-05-09 15:00:13 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:01:22 [INFO]:  vendorBankkYC req_body = {"vendorid":"ABH0001","bank_ac_holder_name":"Jotiba","account_type":"saving","bank_ac_number":"7506122","bank_ac_number_verify":"7506122","ifsc_code":"KH123","bank_name":"STATE BANK OF INDIA","branch_name":"Kanjur","cheque_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAlEAEBAAIBBAICAgMAAAAAAAAAAQIRIQMSMUFhcVGRIkIygbH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AOaypZw1NA3LuDEuq21KxYBxr5RUX2Xmov0A5Z73y744e6vUw7sePLNrUjzaSx0xk7tZXU9p1O3uvb4FcwTegd2NXbet8ERU1TG+mqxQbEnMdMcPda1jGZjb9OmOMiojWKAg5dXD+0/24V6745ebqyTL+N3FHO1FJjb9A7Lbxtm2Q3+mWmt7Z8s2yXjlnao643ty29Eu48uPMdell/Wg6oAgzllz2zymefb9sY3dty9gt1J7yv5p2TXK/wCV36JjfyK5TCS8tcycY+HXUgaPNfzU3st2ACAN4Z2SyLLpjHy3Md/EgO+Ofdj8rv7/AE5dLzWssreMf2DlnlblVwxt8+HSYSc+2kFkABBQHkRbNXVFEJNt44WuuOEgMY9PU3f0zd5Xmu948pMfdQZwls14jpJJABUAAFAAB57jcmsOn+XSYWeI12anlRmT1GuMfms71xCTXzQX75oIigoAAIogAADpbJN1yyyuV/5DLLd4STS0WTQCKKAAAAgCiKAGwGMZZWlBAAUAARUAFAAABQEUQAAAFBBQEFATSgCbPK6ASgAAAKAAAAAAAAAP/9k="} 
+2026-05-09 15:01:22 [INFO]:  bankChequeURL = https://uat.motohelpindia.com/vendor-service/uploads/Vendor_Bank_Cheque/cheque_1778319082207.jpeg 
+2026-05-09 15:01:22 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-09 15:01:25 [INFO]: Fetching Vehicle detalis 
+2026-05-09 15:01:25 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:01:35 [INFO]: Update Vehicle req_body = {"vehicleid":"VHBH0001002","vendorid":"ABH0001","vehicleWeight":"2000","registrationNo":"MH46F5575"}
+2026-05-09 15:01:35 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-09 15:01:35 [INFO]: Fetching Vehicle detalis 
+2026-05-09 15:01:35 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:01:43 [INFO]: Update Vehicle req_body = {"vehicleid":"VHBH0001002","vendorid":"ABH0001","vehicleWeight":"2000","registrationNo":"MH46F5576"}
+2026-05-09 15:01:43 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-09 15:01:43 [INFO]: Fetching Vehicle detalis 
+2026-05-09 15:01:43 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:01:50 [INFO]: Update Vehicle req_body = {"vehicleid":"VHBH0001002","vendorid":"ABH0001","vehicleWeight":"2000","registrationNo":"MH46F5578"}
+2026-05-09 15:01:50 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}
+2026-05-09 15:01:50 [INFO]: Fetching Vehicle detalis 
+2026-05-09 15:01:50 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:02:04 [INFO]: Fetching Vehicle detalis 
+2026-05-09 15:02:04 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-09 15:44:41 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-09 15:44:41 [INFO]: sendOTP data is valid!
+2026-05-09 15:44:41 [INFO]: Generated OTP: 9896
+2026-05-09 15:44:42 [INFO]:  SMS API Response: 200"OK"
+2026-05-09 15:44:42 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-09 15:44:42 [INFO]: OTP sent successfully to 9999999999
+2026-05-09 15:44:46 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 15:44:46 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-09 15:44:46 [INFO]: validateOTP data is valid!
+2026-05-09 15:44:46 [INFO]: Validation {"vendorid":"GOH0001","companyType":"pvt","companyName":"Laxmi","owner_name":"Gohil ","mobileNo":"9999999999","Building":"Parel","Area":"Parel","pincode":"400011","state":"Maharashtra","Tahsil":"Agripada","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-11 11:48:13 [INFO]: sendOTP request: {"mobile_number":"8299761354"}
+2026-05-11 11:48:13 [INFO]: sendOTP data is valid!
+2026-05-11 11:48:13 [INFO]: Generated OTP: 3800
+2026-05-11 11:48:13 [INFO]:  SMS API Response: 200"OK"
+2026-05-11 11:48:13 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8299761354&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-11 11:48:13 [INFO]: OTP sent successfully to 8299761354
+2026-05-11 11:48:17 [INFO]: validateOTP request: {"mobile_number":"8299761354","otp":"1111"}
+2026-05-11 11:48:17 [INFO]: validateOTP request: {"mobile_number":"8299761354","otp":"1111"}
+2026-05-11 11:48:17 [INFO]: validateOTP data is valid!
+2026-05-11 11:48:17 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-11 11:49:31 [INFO]: Pincode Details req_body = {"pincode":"400708"}
+2026-05-11 11:49:32 [INFO]: Pincode fetched successfully
+2026-05-11 11:52:20 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"OWENER/INDIVIDUAL","companyName":"Moto","owner_name":"Usman","Building":"sector-5","Area":"aroli","mobileNo":"8299761354","pincode":"400708","district":"Thane","Tahsil":"","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46BF0484","vehicle_weight":"15000"},{"vehicle_number":"MH46BF0482","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"EDIPA0919P","aadharNo":""}}
+2026-05-11 11:52:20 [INFO]: Vendor Onboarding data is valid!
+2026-05-11 11:52:20 [INFO]: Vendor Images Inserted successfully
+2026-05-11 11:52:20 [INFO]: Fetching Vehicle detalis 
+2026-05-11 11:52:20 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0001"}
+2026-05-11 11:52:29 [INFO]: Fetching Vehicle detalis 
+2026-05-11 11:52:29 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0001"}
+2026-05-11 11:53:27 [INFO]: VehicleOnboarding req_body = {"vendorid":"USM0001","vehicleid":"VHSM0001002","vehicleDetails":{"registrationNo":"MH46BF0482","bodyType":"Open"},"VehicleTypesDetails":{"VehicleWeight":"10000","vehicleType":"LCV","height":"12","length":"12","width":"12"},"vehiclePhotos":{"front_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAD6APoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q==","back_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAD6APoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q==","right_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAD6APoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q==","left_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAoHBwgHBgoICAgLCgoLDhgQDg0NDh0VFhEYIx8lJCIfIiEmKzcvJik0KSEiMEExNDk7Pj4+JS5ESUM8SDc9Pjv/2wBDAQoLCw4NDhwQEBw7KCIoOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozv/wAARCAD6APoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/2Q=="},"rc_number":"MH46BF0482"}
+2026-05-11 11:53:27 [INFO]: Vehicle Onboarding data is valid!
+2026-05-11 11:53:27 [INFO]: Vehicle Images Inserted successfully
+2026-05-11 11:53:27 [INFO]: Vehicle Onboarding successful
+2026-05-11 11:53:52 [INFO]: sendOTP request: {"mobile_number":"8299761354"}
+2026-05-11 11:53:52 [INFO]: sendOTP data is valid!
+2026-05-11 11:53:52 [INFO]: Generated OTP: 6566
+2026-05-11 11:53:52 [INFO]:  SMS API Response: 200"OK"
+2026-05-11 11:53:52 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8299761354&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-11 11:53:52 [INFO]: OTP sent successfully to 8299761354
+2026-05-11 11:53:59 [INFO]: validateOTP request: {"mobile_number":"8299761354","otp":"1111"}
+2026-05-11 11:53:59 [INFO]: validateOTP request: {"mobile_number":"8299761354","otp":"1111"}
+2026-05-11 11:53:59 [INFO]: validateOTP data is valid!
+2026-05-11 11:53:59 [INFO]: Validation {"vendorid":"USM0001","companyType":"OWENER\/INDIVIDUAL","companyName":"Moto","owner_name":"Usman","mobileNo":"8299761354","Building":"sector-5","Area":"aroli","pincode":"400708","state":"Maharashtra","Tahsil":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":false,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-11 11:54:03 [INFO]: Fetching Vehicle detalis 
+2026-05-11 11:54:03 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0001"}
+2026-05-11 11:54:09 [INFO]: Fetching Vehicle detalis 
+2026-05-11 11:54:09 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0001"}
+2026-05-11 12:01:28 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605116179"}
+2026-05-11 12:01:34 [INFO]: get_state_region_district Details req_body = {"state":""}
+2026-05-11 12:01:34 [INFO]: get_state_region_district Details req_body = {"state":"MAHARASHTRA"}
+2026-05-11 12:01:34 [INFO]: get_state_region_district fetched successfully
+2026-05-11 12:01:34 [INFO]: get_state_region_district fetched successfully
+2026-05-11 12:02:01 [INFO]: Driver verification req_body = {"driver_id":"","vendorid":"USM0001","driving_license_no":"MH0320250007013","DOB":"1995-01-10","full_name":"JAVED ALI","relatives_name":"MEHANDI","address":"MADINA COMPOUND PLOT NO 30, DHARAVI MAIN ROAD, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2025-02-25","nt_validity_from":"2025-02-25","nt_validity_to":"2035-02-24","t_validity_from":null,"t_validity_to":null,"status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-11 12:02:08 [INFO]: Driver verification req_body = {"driver_id":"","vendorid":"USM0001","driving_license_no":"MH0320250007013","DOB":"1995-01-10","full_name":"JAVED ALI","relatives_name":"MEHANDI","address":"MADINA COMPOUND PLOT NO 30, DHARAVI MAIN ROAD, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2025-02-25","nt_validity_from":"2025-02-25","nt_validity_to":"2035-02-24","t_validity_from":null,"t_validity_to":null,"status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-11 12:08:31 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605116179"}
+2026-05-11 12:25:19 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:25:57 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605116179"}
+2026-05-11 12:25:59 [INFO]: get_state_region_district Details req_body = {"state":"MAHARASHTRA"}
+2026-05-11 12:25:59 [INFO]: get_state_region_district Details req_body = {"state":""}
+2026-05-11 12:25:59 [INFO]: get_state_region_district fetched successfully
+2026-05-11 12:25:59 [INFO]: get_state_region_district fetched successfully
+2026-05-11 12:26:16 [INFO]: Driver verification req_body = {"driver_id":"JAV-7013","vendorid":"USM0001","driving_license_no":"MH0320250007013","DOB":"1995-01-10","full_name":"JAVED ALI","relatives_name":"MEHANDI","address":"MADINA COMPOUND PLOT NO 30, DHARAVI MAIN ROAD, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2025-02-25","nt_validity_from":"2025-02-25","nt_validity_to":"2035-02-24","t_validity_from":null,"t_validity_to":null,"status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-11 12:26:16 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:28:30 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:29:48 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:30:24 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:31:10 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:31:13 [INFO]: Get Driver Details req_body = {"vendorid":"USM0001"}
+2026-05-11 12:44:01 [INFO]: Fetching Vehicle detalis 
+2026-05-11 12:44:01 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0001"}
+2026-05-11 13:00:56 [INFO]: sendOTP request: {"mobile_number":"9326994399"}
+2026-05-11 13:00:56 [INFO]: sendOTP data is valid!
+2026-05-11 13:00:56 [INFO]: Generated OTP: 9512
+2026-05-11 13:00:57 [INFO]:  SMS API Response: 200"OK"
+2026-05-11 13:00:57 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9326994399&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-11 13:00:57 [INFO]: OTP sent successfully to 9326994399
+2026-05-11 13:01:04 [INFO]: validateOTP request: {"mobile_number":"9326994399","otp":"1111"}
+2026-05-11 13:01:04 [INFO]: validateOTP request: {"mobile_number":"9326994399","otp":"1111"}
+2026-05-11 13:01:04 [INFO]: validateOTP data is valid!
+2026-05-11 13:01:04 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-11 13:02:42 [INFO]: sendOTP request: {"mobile_number":"6666666699"}
+2026-05-11 13:02:42 [INFO]: sendOTP data is valid!
+2026-05-11 13:02:42 [INFO]: Generated OTP: 1897
+2026-05-11 13:02:42 [INFO]:  SMS API Response: 200"OK"
+2026-05-11 13:02:42 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=6666666699&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-11 13:02:42 [INFO]: OTP sent successfully to 6666666699
+2026-05-11 13:02:45 [INFO]: validateOTP request: {"mobile_number":"6666666699","otp":"1111"}
+2026-05-11 13:02:45 [INFO]: validateOTP request: {"mobile_number":"6666666699","otp":"1111"}
+2026-05-11 13:02:45 [INFO]: validateOTP data is valid!
+2026-05-11 13:02:45 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-11 13:02:52 [INFO]: sendOTP request: {"mobile_number":"1111111111"}
+2026-05-11 13:02:52 [INFO]: sendOTP data is valid!
+2026-05-11 13:02:52 [INFO]: Generated OTP: 3103
+2026-05-11 13:02:52 [INFO]:  SMS API Response: 200"OK"
+2026-05-11 13:02:52 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=1111111111&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-11 13:02:52 [INFO]: OTP sent successfully to 1111111111
+2026-05-11 13:02:56 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-11 13:02:56 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-11 13:02:56 [INFO]: validateOTP data is valid!
+2026-05-11 13:02:56 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-11 13:03:19 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-11 13:03:20 [INFO]: Pincode fetched successfully
+2026-05-11 13:03:56 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"pvt","companyName":"Motohelp ","owner_name":"Abhs","Building":"Bhandup","Area":"Near metro mall","mobileNo":"1111111111","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH43F5572","vehicle_weight":"2000"},{"vehicle_number":"MH43F5574","vehicle_weight":"3000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"BWMPV8052Q","aadharNo":""}}
+2026-05-11 13:03:56 [INFO]: Vendor Onboarding data is valid!
+2026-05-11 13:03:57 [INFO]: Vendor Images Inserted successfully
+2026-05-11 13:03:58 [INFO]: Fetching Vehicle detalis 
+2026-05-11 13:03:58 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0002"}
+2026-05-11 13:06:13 [INFO]: sendOTP request: {"mobile_number":"9999999999"}
+2026-05-11 13:06:13 [INFO]: sendOTP data is valid!
+2026-05-11 13:06:13 [INFO]: Generated OTP: 9372
+2026-05-11 13:06:13 [INFO]:  SMS API Response: 200"OK"
+2026-05-11 13:06:13 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9999999999&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-11 13:06:13 [INFO]: OTP sent successfully to 9999999999
+2026-05-11 13:06:16 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-11 13:06:16 [INFO]: validateOTP request: {"mobile_number":"9999999999","otp":"1111"}
+2026-05-11 13:06:16 [INFO]: validateOTP data is valid!
+2026-05-11 13:06:16 [INFO]: Validation {"vendorid":"GOH0001","companyType":"pvt","companyName":"Laxmi","owner_name":"Gohil ","mobileNo":"9999999999","Building":"Parel","Area":"Parel","pincode":"400011","state":"Maharashtra","Tahsil":"Agripada","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-11 13:06:18 [INFO]: Fetching Vehicle detalis 
+2026-05-11 13:06:18 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"GOH0001"}
+2026-05-11 15:32:51 [INFO]: Fetching Vehicle detalis 
+2026-05-11 15:32:51 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0001"}
+2026-05-12 12:58:26 [INFO]: Fetching Vehicle detalis 
+2026-05-12 12:58:26 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAM0001"}
+2026-05-12 12:59:12 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"self","companyName":"Abvha","owner_name":"Zbzbz","Building":"Zhzbbs","Area":"Zbbs","mobileNo":"9999999999","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5572","vehicle_weight":"100000"},{"vehicle_number":"MH46F5574","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"AMHPH3230N","aadharNo":""}}
+2026-05-12 12:59:12 [INFO]: Vendor Onboarding data is valid!
+2026-05-12 13:21:59 [INFO]: Get Driver Details req_body = {"driver_id":"MOH-5864"}
+2026-05-12 13:22:15 [INFO]: Driver verification req_body = {"driver_id":"MOH-5864","vendorid":"GOH0001","driving_license_no":"MH03 2008 0005864","DOB":"1973-02-24","full_name":"MOHAMMED IBRAHIM","relatives_name":"ABDUL SATTAR","address":"INDIRA NAGAR ZOPADPATTI BAIGANWADI, GOVANDI MUMBAI, Greater Mumbai,Mumbai Suburban,MH","issuing_rto_name":"RTO,MUMBAI (EAST)","date_of_issue":"","nt_validity_from":"","nt_validity_to":"","t_validity_from":"2022-02-01","t_validity_to":"2027-01-31","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-12 13:39:07 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-12 13:39:20 [INFO]: Driver verification req_body = {"driver_id":"JAV-7013","vendorid":"GOH0001","driving_license_no":"MH03 2025 0007013","DOB":"1995-01-10","full_name":"JAVED ALI","relatives_name":"MEHANDI","address":"MADINA COMPOUND PLOT NO 30, DHARAVI MAIN ROAD, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2025-02-25","nt_validity_from":"2025-02-25","nt_validity_to":"2035-02-24","t_validity_from":"","t_validity_to":"","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-12 13:39:59 [INFO]: Driver verification req_body = {"driver_id":"JAV-7013","vendorid":"GOH0001","driving_license_no":"MH03 2025 0007013","DOB":"1995-01-10","full_name":"JAVED ALI","relatives_name":"MEHANDI","address":"MADINA COMPOUND PLOT NO 30, DHARAVI MAIN ROAD, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2025-02-25","nt_validity_from":"2025-02-25","nt_validity_to":"2035-02-24","t_validity_from":"","t_validity_to":"","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-12 13:40:15 [INFO]: Driver verification req_body = {"driver_id":"JAV-7013","vendorid":"GOH0001","driving_license_no":"MH03 2025 0007013","DOB":"1995-01-10","full_name":"JAVED ALI","relatives_name":"MEHANDI","address":"MADINA COMPOUND PLOT NO 30, DHARAVI MAIN ROAD, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2025-02-25","nt_validity_from":"2025-02-25","nt_validity_to":"2035-02-24","t_validity_from":"","t_validity_to":"","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-14 11:05:12 [INFO]: sendOTP request: {"mobile_number":"8299761354"}
+2026-05-14 11:05:12 [INFO]: sendOTP data is valid!
+2026-05-14 11:05:12 [INFO]: Generated OTP: 6948
+2026-05-14 11:05:13 [INFO]:  SMS API Response: 200"OK"
+2026-05-14 11:05:13 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8299761354&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-14 11:05:13 [INFO]: OTP sent successfully to 8299761354
+2026-05-14 11:05:17 [INFO]: validateOTP request: {"mobile_number":"8299761354","otp":"1111"}
+2026-05-14 11:05:17 [INFO]: validateOTP request: {"mobile_number":"8299761354","otp":"1111"}
+2026-05-14 11:05:17 [INFO]: validateOTP data is valid!
+2026-05-14 11:05:17 [INFO]: Validation {"vendorid":"USM0001","companyType":"OWENER\/INDIVIDUAL","companyName":"Moto","owner_name":"Usman","mobileNo":"8299761354","Building":"sector-5","Area":"aroli","pincode":"400708","state":"Maharashtra","Tahsil":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":false,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-14 15:39:03 [INFO]: sendOTP request: {"mobile_number":"8000000000"}
+2026-05-14 15:39:03 [INFO]: sendOTP data is valid!
+2026-05-14 15:39:03 [INFO]: Generated OTP: 6736
+2026-05-14 15:39:04 [INFO]:  SMS API Response: 200"OK"
+2026-05-14 15:39:04 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8000000000&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-14 15:39:04 [INFO]: OTP sent successfully to 8000000000
+2026-05-14 15:39:11 [INFO]: validateOTP request: {"mobile_number":"8000000000","otp":"1111"}
+2026-05-14 15:39:11 [INFO]: validateOTP request: {"mobile_number":"8000000000","otp":"1111"}
+2026-05-14 15:39:11 [INFO]: validateOTP data is valid!
+2026-05-14 15:39:11 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-14 15:39:51 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-14 15:39:52 [INFO]: Pincode fetched successfully
+2026-05-14 15:41:54 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"partnership","companyName":"Pinky","owner_name":"Pinky","Building":"124","Area":"Xhd","mobileNo":"8000000000","pincode":"400078","district":"Mumbai","Tahsil":"Bhandup Ind. Estate","state":"Maharashtra"},"VehicleDetails":[{"vehicle_number":"MH46F5562","vehicle_weight":"10000"},{"vehicle_number":"MH46F5564","vehicle_weight":"200077"},{"vehicle_number":"MH46F5566","vehicle_weight":"648404"},{"vehicle_number":"MH46F5568","vehicle_weight":"100000"},{"vehicle_number":"MH46F5570","vehicle_weight":"9875404"},{"vehicle_number":"MH46F5572","vehicle_weight":"4310104"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"AMHPH3230N","aadharNo":""}}
+2026-05-14 15:41:54 [INFO]: Vendor Onboarding data is valid!
+2026-05-14 15:41:54 [INFO]: Vendor Images Inserted successfully
+2026-05-14 15:41:56 [INFO]: Fetching Vehicle detalis 
+2026-05-14 15:41:56 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"PIN0001"}
+2026-05-14 15:42:41 [INFO]: Fetching Vehicle detalis 
+2026-05-14 15:42:41 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"PIN0001"}
+2026-05-14 15:43:10 [INFO]: VehicleOnboarding req_body = {"vendorid":"PIN0001","vehicleid":"VHIN0001002","vehicleDetails":{"registrationNo":"MH46F5564","bodyType":"high_bed"},"VehicleTypesDetails":{"VehicleWeight":200077,"vehicleType":"","height":"9","width":"9","length":"9"},"vehiclePhotos":{"front_img":"/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAApEAACAgEDBAIBBAMAAAAAAAAAAQIRITFRYQMSQXGBoSIEE5GxMkLw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDgoSloj0dGDisnRFIKRxjJfkky2SwOcv06/wBW0Z7+r0/8l3Lc7WAJDqxno8mzjPoxllfi+DKnPpOpq47gd3k83USlOoK3udJ9Vft3F5Y6a7Y7t6geeUHHXPJk9bi2cp9B6r+AOHk1SWErf9FUZRllMxZR7aQrk1gmNiBT3H5cD4LTAn5bC3t9lolIB3cMncnqi0thQHn6qUJXHTY1DrLSWDrLpqSyeefSlHlFHpTT0ZTyR7lpf8mnPqLVMDtOPdHnwcJKDjejMSnKWGTtYHtwPgrBAyQoAgKKAhRRdAIBYTAjgnqiPpRNWAOb6MawjPbGro7GXHytQNkotkvkCjBAAF4IWgAGKAELTFiwFcjCFigFoN5LRLSAEF7F86IATA9sUAsekUNoCe2WhdktvzwBQ2T4Y0WoFvYEtLBLAvsE+wBsYIlY5AN0S3kuCN/YDI5WR449itQFoXwKx4JigKnrwTyXXAV3lgP+wKTYpUaXoCVuGkUnoBb2A0HwAotYIP7AnoO9KLfBGA3IG0LAebeC1m7JRUBfRfYQ+wFZ5FJFDRRK2D9iyZIGBewoVwBMvQUzVMUkBntFGvGwoDOC5LRALQ+RfJANeiN8gmFoBfSFAjwAwUw5E7wOo+jmpsd6A2DHeO5eQNX8gx37Du5A3hA5udGH1GFd8LUWefvZYyyB6GznNsAIzRAAoNEAAAAAPAAGJMyAAKgAP//Z","back_img":"/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAApEAACAQMDBAICAgMAAAAAAAAAARECITEDElFBYXGBkaET8CIyYsHx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDzHXQb324OlOhSs3OqpVOEQNqeVPkw9Cl3U0vsdQBw/Hq0f1qlFp14cV0wztJmpKpQ0mBpVKpSnIOD0XS503HYq1nS41FHcDszza1CTnqzu60qXVMo5UKXvqy8AcKlUrVKCHqqW5YONWjVlfBRyZraln4FNP8ANJok3nqB7bkuWBHcgS+CbuzLYSA3Lhjci3JD5AblyHsqUOGI7k2rgDhq0bFZzS+hvT1aYjBurTVSg89enVRle0UepA8tNVSw38GnrVLK+gO1dO6mOvQ4OmlpvDRKtap2RiKsw4YHtHssEIFuCyx6AEAgoEBRAAZLgkgZ/Gn0gj0/8mbkAcXoUxlk/HT3OxHT1QGgiskgIKQgFEkLAAEAAQWfAkBAhC4AspEnIgWkBPCDE2E9pAkCwv2EXgBK5HyIv0K2l1Akei/Y3Lpkk2t1AoZOOzEfIFkOY4Inbn/ZG3dYA1jJCTfDAG4DM3ksWuFGyT2Kx4zyETLmciFEBY/bCHL/AGQEq8e0TpiQ1PVQO+XyAmfZbf8AWM9iMCv4C8YCg1+yBIYhIPPUAJbAdxD4Cn2OCxyT7CBHNuhfJHfICPBGHnkSwFy2loiTLHAF+S3i4HgBAKIjBQ9E9jyR3IEoTIgRwBLvsIvJYtdi3ToBIBq4gDNvJbl9k8AVIpJFwLJH5kWWRIC5PZR9ATwiwSUNwGkDKfLLuXQBfgPuSeRuSwBbkjkm70TegNTwDO4bgNTAkzIA2RgAc27klgBSRuAASZdQAGXUwmwANplACEhMAD//2Q==","right_img":"","left_img":""},"rc_number":"MH46F5564"}
+2026-05-14 15:43:10 [INFO]: Vehicle Onboarding data is valid!
+2026-05-14 15:43:10 [INFO]: Vehicle Images Inserted successfully
+2026-05-14 15:43:10 [INFO]: Vehicle Onboarding successful
+2026-05-14 15:44:22 [INFO]:  vendorBankkYC req_body = {"vendorid":"PIN0001","bank_ac_holder_name":"Xbxbxb","account_type":"saving","bank_ac_number":"9000000000","bank_ac_number_verify":"9000000000","ifsc_code":"SBIN","bank_name":"SBI","branch_name":"Zvzvz","cheque_img":"/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCACWAHADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAxEAACAgAEBQMCAwkAAAAAAAAAAQIRAyExURITQWFxIjKBkaEUM8EEI0JSYnKx4fH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/AKAVrdDTvQ0wYCABlSroSgYATPVFES1JVhjEBGgACAZnLwWIDp5cdhPCjsUAEcmInhd2aABnyn0YuVLc1GBjy59jOaqdHUc2L+awEMQAAAAAJjEB0gAAAAADAQAM58T8xnQYShc271YEgVlCWcl8luUKtr5QGQDk4v2OwUW43GmAhFOE6WmZMoTim3S+QOgYgABiABgIYDM46y8lkRdt+QCXDCLlJEPFwXqh47/dvuctAb8WBd5/cfHgp3Zz0FDR087D6vLwJ4mA9vocw+EDtUleqGcLllkacc3nbA6gMsPFftfqfYpzknlD6sgvTUlTi3St/BPC55zfx0NKyCjoRBNLMsUnUW60VgTiwc40q1MuRLq0P8RmsvIc2SVtLwAfh/6/sC/Z95fYuOKpa5F0BlyIrqx8mPc0ADgKUZPRNnVHDgtEX5GjDCwpp3fD8Gl4kFnFSVfwmlqgvXICViweV0+5ZMoqSqSTI4JQ9kstmBrr4Jmri0tiViq+GfpY5yUI2/8AIHHKLi6YcXY6ODjTc/c+i6GE8NxemQCvLYuGLTSpvw2ZpdWXh5YicfuVHRGbSv3R36oqM4yqpIxc5YUrcVUs8n/om+ZKm2lsRXSPMMwzAVdga7ug+Q8kBmuv2C3pkFLyC8FEycWqlG0Yz9FZtxu6etnR5FKCkmpAKE4yXpa8FOnqkc88KcXaz7occTEXROt2ASwlJtJVWhhT6ab9C54spyvShVaWfTQqBzcqT9TXY0SpeuD/ALk7Jjh26pZqyuGUNLa2b/Uiul2A/qFAKg65D/UAEIrcLAVf9Cn4od5CAKXwDSfQAzAhwWqivoZTS4ray3RuS1sBjGUubl6sq2yL5tL1Qkq7Gc48E081HsEkpLWcgOyxWAgGxADAPABYfBAB5AVlDsTYrQwAQwATSapowng/yvLY3ACxWAEAAAACboAAlyJsACnFlpgAQAAFAFAAH//Z"} 
+2026-05-14 15:44:22 [INFO]:  bankChequeURL = null 
+2026-05-14 15:44:22 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-14 15:44:44 [INFO]: Get Driver Details req_body = {"driver_id":"JAM-9289"}
+2026-05-14 15:44:58 [INFO]: Driver verification req_body = {"driver_id":"JAM-9289","vendorid":"PIN0001","driving_license_no":"UP55 2012 0009289","DOB":"1992-01-11","full_name":"JAMIRULLAH","relatives_name":"AMIRULLAH","address":"PADMA NAGAR ROAD NO-14 BAIGANWADI GOVANDI, NEAR FAIZANE RAZA MASJID, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2012-12-03","nt_validity_from":"2012-12-03","nt_validity_to":"2032-12-02","t_validity_from":"2025-01-30","t_validity_to":"2030-01-29","status":"id_found","source":"government_website","onboarded_by":"vendor"}

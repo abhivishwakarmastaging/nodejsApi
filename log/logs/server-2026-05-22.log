@@ -1,0 +1,194 @@
+2026-05-22 12:50:01 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 12:50:01 [INFO]: sendOTP data is valid!
+2026-05-22 12:50:01 [INFO]: Generated OTP: 7972
+2026-05-22 12:50:02 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 12:50:04 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 12:50:04 [INFO]: sendOTP data is valid!
+2026-05-22 12:50:04 [INFO]: Generated OTP: 1641
+2026-05-22 12:50:05 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 13:20:55 [INFO]: Fetching getVendorDetails 
+2026-05-22 13:20:55 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 13:21:06 [INFO]: Fetching getVendorKYC 
+2026-05-22 13:21:06 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"PIN0001"}
+2026-05-22 13:21:19 [INFO]: Fetching Vehicle detalis 
+2026-05-22 13:21:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"PIN0001"}
+2026-05-22 13:21:34 [INFO]: Fetching getVendorDetails 
+2026-05-22 13:21:34 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 14:54:26 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 14:54:26 [INFO]: sendOTP data is valid!
+2026-05-22 14:54:26 [INFO]: Generated OTP: 8052
+2026-05-22 14:54:27 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 15:01:50 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:50 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:51 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:52 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:53 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:54 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:01:55 [INFO]: Fetching getVendorDetails 
+2026-05-22 15:01:55 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:02:50 [INFO]: Fetching getVendorKYC 
+2026-05-22 15:02:50 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"PIN0001"}
+2026-05-22 15:04:27 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 15:04:27 [INFO]: sendOTP data is valid!
+2026-05-22 15:04:27 [INFO]: Generated OTP: 4803
+2026-05-22 15:04:59 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 15:43:10 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 15:43:10 [INFO]: sendOTP data is valid!
+2026-05-22 15:43:10 [INFO]: Generated OTP: 3457
+2026-05-22 15:43:10 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 16:06:19 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:06:19 [INFO]: sendOTP data is valid!
+2026-05-22 16:06:19 [INFO]: Generated OTP: 3116
+2026-05-22 16:06:20 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:06:20 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:06:20 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:06:42 [INFO]: sendOTP request: {"mobile_number":"8817065001"}
+2026-05-22 16:06:42 [INFO]: sendOTP data is valid!
+2026-05-22 16:06:42 [INFO]: Generated OTP: 4559
+2026-05-22 16:06:43 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:06:43 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8817065001&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:06:43 [INFO]: OTP sent successfully to 8817065001
+2026-05-22 16:07:53 [INFO]: sendOTP request: {"mobile_number":"8817065001"}
+2026-05-22 16:07:53 [INFO]: sendOTP data is valid!
+2026-05-22 16:07:53 [INFO]: Generated OTP: 2486
+2026-05-22 16:07:53 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:07:53 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8817065001&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:07:53 [INFO]: OTP sent successfully to 8817065001
+2026-05-22 16:08:01 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:08:01 [INFO]: sendOTP data is valid!
+2026-05-22 16:08:01 [INFO]: Generated OTP: 7747
+2026-05-22 16:08:01 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:08:01 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:08:01 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:08:06 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:08:06 [INFO]: sendOTP data is valid!
+2026-05-22 16:08:06 [INFO]: Generated OTP: 9547
+2026-05-22 16:08:06 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:08:06 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:08:06 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:16:07 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:16:07 [INFO]: sendOTP data is valid!
+2026-05-22 16:16:07 [INFO]: Generated OTP: 2754
+2026-05-22 16:16:07 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:16:07 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:16:07 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:17:10 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:17:10 [INFO]: sendOTP data is valid!
+2026-05-22 16:17:10 [INFO]: Generated OTP: 8855
+2026-05-22 16:17:11 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:17:11 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:17:11 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:17:21 [INFO]: sendOTP request: {"mobile_number":"8000000000"}
+2026-05-22 16:17:21 [INFO]: sendOTP data is valid!
+2026-05-22 16:17:21 [INFO]: Generated OTP: 7310
+2026-05-22 16:17:21 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:17:21 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8000000000&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:17:21 [INFO]: OTP sent successfully to 8000000000
+2026-05-22 16:17:26 [INFO]: validateOTP request: {"mobile_number":"8000000000","otp":"1111"}
+2026-05-22 16:17:26 [INFO]: validateOTP request: {"mobile_number":"8000000000","otp":"1111"}
+2026-05-22 16:17:26 [INFO]: validateOTP data is valid!
+2026-05-22 16:17:26 [INFO]: Validation {"vendorid":"PIN0001","companyType":"Transport Company","companyName":"Moto Logistics Pvt Ltd","owner_name":"Rahul Sharma","mobileNo":"8000000000","Building":"Plot No 12","Area":"Andheri East","pincode":"400069","state":"Maharashtra","Tahsil":"Andheri","City":"Mumbai","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-22 16:17:38 [INFO]: Fetching getVendorDetails 
+2026-05-22 16:17:38 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 16:17:38 [INFO]: Fetching getVendorKYC 
+2026-05-22 16:17:38 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"PIN0001"}
+2026-05-22 16:18:10 [INFO]: Update VendorDetails req_body = {"vendorid":"PIN0001","companyName":"Moto Logistics Pvt Ltd","companyType":"pvt","owner_name":"Rahul Sharma","mobileNo":"8000000000","Building":"Plot No 12","Area":"Andheri East","pincode":"400069","state":"Maharashtra","district":"Mumbai","Tahsil":"Andheri"}
+2026-05-22 16:19:02 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F5538","capacity":"50000"}]}
+2026-05-22 16:26:37 [INFO]: Fetching getVendorKYC 
+2026-05-22 16:26:37 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"PIN0001"}
+2026-05-22 16:26:37 [INFO]: Fetching getVendorDetails 
+2026-05-22 16:26:37 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 16:26:50 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-22 16:26:51 [ERROR]: Pincode fetch failed = Error: certificate has expired
+2026-05-22 16:28:23 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH4644F56","capacity":"100"}]}
+2026-05-22 16:28:38 [INFO]: Pincode Details req_body = {"pincode":"400049"}
+2026-05-22 16:28:39 [ERROR]: Pincode fetch failed = Error: certificate has expired
+2026-05-22 16:28:51 [INFO]: Pincode Details req_body = {"pincode":"400079"}
+2026-05-22 16:28:52 [ERROR]: Pincode fetch failed = Error: certificate has expired
+2026-05-22 16:29:13 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH4644F56","capacity":"100"}]}
+2026-05-22 16:35:28 [INFO]: Fetching Vehicle detalis 
+2026-05-22 16:35:28 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"PIN0001"}
+2026-05-22 16:36:21 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F98","capacity":"100"}]}
+2026-05-22 16:36:36 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F5598","capacity":"100"}]}
+2026-05-22 16:36:37 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F5598","capacity":"100"}]}
+2026-05-22 16:36:38 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F5598","capacity":"100"}]}
+2026-05-22 16:36:38 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F5598","capacity":"100"}]}
+2026-05-22 16:36:43 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:36:43 [INFO]: sendOTP data is valid!
+2026-05-22 16:36:43 [INFO]: Generated OTP: 2938
+2026-05-22 16:36:43 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:36:43 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:36:43 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:39:01 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 16:39:01 [INFO]: sendOTP data is valid!
+2026-05-22 16:39:01 [INFO]: Generated OTP: 1757
+2026-05-22 16:39:02 [INFO]:  SMS API Response: 200"OK"
+2026-05-22 16:39:02 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=7506122183&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-22 16:39:02 [INFO]: OTP sent successfully to 7506122183
+2026-05-22 16:53:27 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicles":[{"registrationNumber":"MH46F5598","capacity":"100"},{"registrationNumber":"MH46F5520","capacity":"11","vehicleWeight":"800"}]}
+2026-05-22 17:00:15 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicleWeight":null}
+2026-05-22 17:03:26 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicleWeight":800,"registrationNo":"MH46D222"}
+2026-05-22 17:03:26 [ERROR]: Update Vehicle Error: SQL Error: RequestError: Validation failed for parameter 'vehicle_weight'. Invalid string.
+2026-05-22 17:03:45 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicleWeight":800,"registrationNo":"MH46D222"}
+2026-05-22 17:03:45 [ERROR]: Update Vehicle Error: SQL Error: RequestError: Validation failed for parameter 'vehicle_weight'. Invalid string.
+2026-05-22 17:04:32 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicleWeight":800,"registrationNo":"MH46D222"}
+2026-05-22 17:04:32 [ERROR]: Update Vehicle Error: SQL Error: RequestError: Validation failed for parameter 'vehicle_weight'. Invalid string.
+2026-05-22 17:04:52 [INFO]: Update Vehicle req_body = {"vendorid":"PIN0001","vehicleWeight":800,"registrationNo":"MH46D222"}
+2026-05-22 17:04:52 [ERROR]: Update Vehicle Error: SQL Error: RequestError: Validation failed for parameter 'vehicle_weight'. Invalid string.
+2026-05-22 17:07:37 [INFO]: Update Vehicle req_body = {"vehicleid":"","vendorid":"PIN0001","vehicleWeight":1000,"registrationNo":"MH46F5562"}
+2026-05-22 17:07:37 [ERROR]: Update Vehicle Error: SQL Error: RequestError: Validation failed for parameter 'vehicle_weight'. Invalid string.
+2026-05-22 17:08:53 [INFO]: Update Vehicle req_body = {"vehicleid":"","vendorid":"PIN0001","vehicleWeight":1000,"registrationNo":"MH46F5562"}
+2026-05-22 17:08:53 [ERROR]: Update Vehicle Error: SQL Error: RequestError: Validation failed for parameter 'vehicle_weight'. Invalid string.
+2026-05-22 17:46:49 [INFO]: Fetching getVendorKYC 
+2026-05-22 17:46:49 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"PIN0001"}
+2026-05-22 17:46:49 [INFO]: Fetching getVendorDetails 
+2026-05-22 17:46:49 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"PIN0001"}
+2026-05-22 18:11:48 [INFO]: Get Driver Details req_body = {"driver_id":"REH-1178"}
+2026-05-22 18:12:10 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:12:26 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:12:36 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:12:39 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:13:31 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605224583"}
+2026-05-22 18:13:34 [INFO]: Get Driver Details req_body = {"driver_id":"REH-1178"}
+2026-05-22 18:13:55 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:14:33 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:14:35 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:14:50 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:18:28 [INFO]: Get Driver Details req_body = {"driver_id":"PRA-5098"}
+2026-05-22 18:18:37 [INFO]: Driver verification req_body = {"driver_id":"PRA-5098","vendorid":"PIN0001","driving_license_no":"MH03 2009 0025098","DOB":"1968-02-27","full_name":"PRAHLAD SANAP","relatives_name":"NIVRUTI  SANAP","address":"RAMABAI AMBEDKAR NAGAR, GILL NIWAS, R. NO-4, BHANDUP (W), MUMBAI., MUMBAI","issuing_rto_name":"RTO,MUMBAI (EAST)","date_of_issue":"2023-11-22","nt_validity_from":"2023-11-22","nt_validity_to":"2028-11-21","t_validity_from":"2022-02-10","t_validity_to":"2027-02-09","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-22 18:18:43 [INFO]: Fetching Vehicle detalis 
+2026-05-22 18:18:43 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"PIN0001"}
+2026-05-23 11:05:57 [INFO]: Get Driver Details req_body = {"driver_id":"REH-1178"}
+2026-05-23 11:06:13 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-23 11:10:04 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-23 11:12:28 [INFO]: Driver verification req_body = {"driver_id":"REH-1178","vendorid":"PIN0001","driving_license_no":"MH01 2019 0041178","DOB":"1996-01-01","full_name":"REHMAT ALI","relatives_name":"SHABBIR","address":"SHAKIR COMPOUND, PLOT NO 12, DHARAVI MAIN RD, DHARAVI, MUMBAI","issuing_rto_name":"RTO,MUMBAI CENTRAL","date_of_issue":"2019-09-20","nt_validity_from":"2019-09-20","nt_validity_to":"2035-12-31","t_validity_from":"2024-10-04","t_validity_to":"2029-10-03","status":"id_found","source":"government_website","onboarded_by":"vendor"}

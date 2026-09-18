@@ -1,0 +1,273 @@
+// const { get_DriverLiveLocationDB } = require("../driver-service/models/V1/DriverLiveLocation/utility");
+// const { getNearestDriversDB } = require("../driver-service/models/V1/Driver_Load_Post/utility");
+// const { getcustomeractiveDB, getcustomerloadpostDB, getcustomerprocessDB } = require("../customer-service/models/V1/Customer_Load_Post/utility");
+// const { connectedDrivers } = require("../api-gateway/shared/driverLiveStore");
+
+// function initializeVendorSocket(io) {
+//   console.log("🏢 Vendor Socket initialized");
+
+//   const connectedVendors = new Map();
+
+//   io.on("connection", (socket) => {
+//     console.log("🔌 Vendor socket connected:", socket.id);
+
+//     // REGISTER VENDOR
+//     socket.on("registerVendor", (VendorID) => {
+//       if (!VendorID) return;
+
+//       connectedVendors.set(VendorID, {
+//         socket,
+//         refreshInterval: null,
+//       });
+
+//       console.log(`✅ Vendor registered: ${VendorID}`);
+//     });
+
+//     // DRIVER LP DETAILS
+//     socket.on("driverLPDetails", async (data) => {
+//       const { VendorID } = data;
+//       if (!VendorID) return;
+
+//       try {
+//         // 1️⃣ Get Driver LP Status from DB
+//         const driverLPStatus = await get_DriverLiveLocationDB(data);
+//         console.log(`📍 driverLPStatus for Vendor ${VendorID}: ${JSON.stringify(driverLPStatus)}`);
+
+//         // 2️⃣ Send driverLPStatus to each connected driver
+//        driverLPStatus.data?.forEach(driver => {
+//   const driverSocketEntry = connectedDrivers.get(driver.DriverID);
+//   if (!driverSocketEntry) {
+//     console.log(`❌ Driver ${driver.DriverID} not connected yet`);
+//     return;
+//   }
+//   driverSocketEntry.socket.emit("driverLPStatus", {
+//     VendorID,
+//     DriverID: driver.DriverID,
+//     driverData: driver,
+//     UpdatedAt: new Date(),
+//   });
+// });
+
+
+//         // 3️⃣ Emit Vendor Update
+//         socket.emit("driverLPStatus", {
+//           driverData: driverLPStatus?.data || [],
+//           UpdatedAt: new Date(),
+//         });
+//         console.log("📤 VendorLocationUpdate emitted:", {
+//           driverData: driverLPStatus?.data || [],
+//           UpdatedAt: new Date(),
+//         });
+
+//         // 4️⃣ Setup refresh interval for periodic API calls
+//         let vendorEntry = connectedVendors.get(VendorID) || { socket, refreshInterval: null };
+//         connectedVendors.set(VendorID, vendorEntry);
+
+//         if (vendorEntry.refreshInterval) clearInterval(vendorEntry.refreshInterval);
+
+//         vendorEntry.refreshInterval = setInterval(async () => {
+//           try {
+//             const [loadPost, processTrip, activeTrip, nearestDrivers] = await Promise.all([
+//               getcustomerloadpostDB(data),
+//               getcustomerprocessDB(data),
+//               getcustomeractiveDB(data),
+//               getNearestDriversDB(data),
+//             ]);
+
+//             socket.emit("customerLoadPostUpdate", loadPost);
+//             socket.emit("customerProcessTripUpdate", processTrip);
+//             socket.emit("customerActiveTripUpdate", activeTrip);
+//             socket.emit("nearestDriversUpdate", nearestDrivers);
+//           } catch (err) {
+//             console.error("⚠️ Vendor interval error:", err.message);
+//           }
+//         }, 10000);
+
+//       } catch (err) {
+//         console.error("⚠️ LPdetail error:", err.message);
+//         socket.emit("VendorError", { message: err.message });
+//       }
+//     });
+
+//     // DISCONNECT
+//     socket.on("disconnect", () => {
+//       for (const [vendorId, entry] of connectedVendors.entries()) {
+//         if (entry.socket.id === socket.id) {
+//           if (entry.refreshInterval) clearInterval(entry.refreshInterval);
+//           connectedVendors.delete(vendorId);
+//           console.log(`❌ Vendor disconnected: ${vendorId}`);
+//           break;
+//         }
+//       }
+//     });
+//   });
+// }
+
+// module.exports = initializeVendorSocket;
+const { get_DriverLiveLocationDB } = require("../driver-service/models/V1/DriverLiveLocation/utility");
+const { getAllDriverLocations, driverLPStatus } = require("../api-gateway/shared/driverLiveStore");
+
+/* ================= GLOBAL SCOPE ================= */
+const connectedVendors = new Map();   // ✅ accessible everywhere
+
+function initializeVendorSocket(io) {
+  console.log("🏢 Vendor Socket initialized");
+
+  io.on("connection", (socket) => {
+    console.log(`🔌 New vendor socket connected: ${socket.id}`);
+
+    /* ------------------------------------ Vendor Registration -------- */
+    // Vendor
+  
+    socket.on("registerVendor", (VendorID) => {
+      if (!VendorID) return;
+
+      connectedVendors.set(VendorID, { socket });
+      console.log(`✅ Vendor registered: ${VendorID}`);
+    });
+
+    // ------------------ Vendor Requests Driver Data ------------------
+    socket.on("driverLPDetails", async (data) => {
+      console.log(`✅driverLPDetails: ${JSON.stringify(data)}`);
+
+      const { VendorID, DriverID } = data;
+      connectedVendors.set(VendorID, { socket, refreshInterval: null });
+
+      console.log(`Vendor ${VendorID} is connected.`);
+
+      const driver_LPStatus = await get_DriverLiveLocationDB(data);
+      console.log(`📍 driver_LPStatus for Vendor ${VendorID}: ${JSON.stringify(driver_LPStatus.data)}`);
+      // Update in-memory store (driverLPStatus)?
+
+      driverLPStatus({ driverData: driver_LPStatus.data || [], UpdatedAt: new Date() });
+      console.log({ driverData: driver_LPStatus.data || [], UpdatedAt: new Date() });
+
+
+      io.emit("driverLPStatus", {
+        driverData: driver_LPStatus.data || [],
+        UpdatedAt: new Date(),
+      });
+      console.log({
+        driverData: driver_LPStatus.data || [],
+        UpdatedAt: new Date(),
+      });
+    });
+
+
+
+    //     socket.on(`vendor_flag_${VendorID}`, (payload) => {
+    //   console.log("🚩 VENDOR RECEIVED DRIVER FLAG:", payload);
+
+    //   socket.emit("driverPostUpdate", payload);
+    // });
+    socket.on("VendorDetails", (data) => {
+      const VendorID = data.vendorId || data;
+      socket.VendorID = VendorID;
+      connectedVendors.set(VendorID, socket);
+
+      console.log(`✅ Vendor registered: ${VendorID}`);
+
+      // ✅ Event should use socket.VendorID
+      socket.on(`vendor_flag_${VendorID}`, (payload) => {
+        console.log("🚩 VENDOR RECEIVED FLAG:", payload);
+        socket.emit("vendorPostUpdate", payload);
+      });
+    });
+
+
+
+    // /* ============== NearbyCustomerLoadPost ============== */
+    socket.on("NearbyCustomerLoadPost", (payload) => {
+      console.log("🏢 Vendor received nearby load:", payload.loadPost);
+    });
+
+    // ------------------ Vendor Disconnect ------------------
+    socket.on("disconnect", () => {
+      for (const [vendorId, entry] of connectedVendors.entries()) {
+        if (entry.socket.id === socket.id) {
+          if (entry.refreshInterval) clearInterval(entry.refreshInterval);
+          connectedVendors.delete(vendorId);
+          console.log(`❌ Vendor disconnected: ${vendorId}`);
+          break;
+        }
+      }
+    });
+  });
+}
+
+// // /* ============== CENTRAL BROADCAST LOOP ============== */
+// setInterval(() => {
+//   try {
+//     const allDrivers = getAllDriverLocations();
+
+//     for (const [vendorId, entry] of connectedVendors.entries()) {
+//       console.log(vendorId);
+
+//       if (!entry?.socket) continue;
+//       console.log(allDrivers);
+
+//       entry.socket.emit("driverLPStatus", {
+//         allDrivers,
+//         UpdatedAt: new Date()
+//       });
+//     }
+
+//   } catch (err) {
+//     console.error("🔥 Error in setInterval:", err.message);
+//   }
+// }, 5000);
+
+    /* ================= CACHE BROADCAST ================= */
+    setInterval(() => {
+      try {
+        const allDrivers = getAllDriverLocations();
+        if (!allDrivers || allDrivers.size === 0) return;
+        console.log(allDrivers, "*****************************allDrivers side");
+
+        allDrivers.forEach((loc, driverId) => {
+          const payload = {
+            DriverID: loc.DriverID,
+            VendorID: loc.VendorID,
+            VehicleID: loc.VehicleID,
+            MobileNo: loc.MobileNo,
+            Lat: loc.Lat,
+            Lng: loc.Lng,
+            Speed: loc.Speed,
+            Direction: loc.Direction,
+            City: loc.City,
+            District: loc.District,
+            Taluka: loc.Taluka,
+            State: loc.State,
+            Pincode: loc.Pincode,
+            Address: loc.Address,
+            Driver_LPStatus: loc.Driver_LPStatus,
+            Status: loc.Status,
+
+            source: "CACHE",
+            UpdatedAt: new Date()
+          };
+
+          connectedVendors.forEach((vendorSocket) => {
+            vendorSocket.emit("driverLiveLocation", payload);
+            console.log('**************driverLiveLocation******vendorSocket*************', payload);
+
+          });
+
+          connectedCustomers.forEach((customerSocket) => {
+            customerSocket.emit("driverLiveLocation", payload);
+            console.log('**************driverLiveLocation******customerSocket*************', payload);
+          });
+          
+          connectedCustomers.forEach((customerSocket) => {
+            customerSocket.emit("NearbyCustomerLoadPost", payload);
+            console.log('**************🏢 NearbyCustomerLoadPost nearby load:*************', payload);
+          });
+        });
+
+      } catch (err) {
+        console.error("🔥 Live location broadcast error:", err.message);
+      }
+    }, 5000);
+
+
+module.exports = initializeVendorSocket;

@@ -1,0 +1,23 @@
+2026-04-16 16:20:55 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:26:08 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:26:08 [ERROR]: Get Driver Details Error: [object Object]
+2026-04-16 16:26:09 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:26:09 [ERROR]: Get Driver Details Error: [object Object]
+2026-04-16 16:28:09 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:29:24 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:31:51 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:31:51 [ERROR]: Get Driver Details Error: TypeError: Cannot read properties of undefined (reading 'map')
+2026-04-16 16:31:52 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:31:52 [ERROR]: Get Driver Details Error: TypeError: Cannot read properties of undefined (reading 'map')
+2026-04-16 16:40:36 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:42:00 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:42:01 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:42:17 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:44:02 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:44:05 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:44:59 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:45:49 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202604067486"}
+2026-04-16 16:47:11 [INFO]: Get Driver Details req_body = {"driver_id":"ASA-5265"}
+2026-04-16 16:54:52 [INFO]: Get Driver Details req_body = {"driver_id":"ASA-5265"}
+2026-04-16 17:16:41 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"AVH2026040002","vehicleid":"VH040002001","VehicleNumber":"TN74AR7146","VehicleType":"TATA SFC407/31"}]}
+2026-04-16 17:18:14 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"AssignID":"ASSIGN737094","DriverID":"PPP-3456","VendorID":"AVH2026040002","DriverName":"Ppp","DriverPhone":"9000000004","MobileNo":"9000000004","VehicleID":"TN74AR7146","VehicleNumber":null,"VehicleType":null,"AssignmentDate":"2026-04-16T17:12:45.610Z","insert_date":"2026-04-16T17:12:45.610Z","update_date":null,"verify_flag":null,"rc_status":null,"IsActive":"1"},{"AssignID":"ASSIGN247902","DriverID":"PPP-3456","VendorID":"AVH2026040002","DriverName":"Ppp","DriverPhone":"9000000004","MobileNo":"9000000004","VehicleID":"TN74AR7146","VehicleNumber":null,"VehicleType":null,"AssignmentDate":"2026-04-16T17:04:54.997Z","insert_date":"2026-04-16T17:04:54.997Z","update_date":"2026-04-16T17:10:48.977Z","verify_flag":null,"rc_status":null,"IsActive":"0"},{"AssignID":"ASSIGN510963","DriverID":"PPP-3456","VendorID":"AVH2026040002","DriverName":"Ppp","DriverPhone":"9000000004","MobileNo":"9000000004","VehicleID":"TN74AR7146","VehicleNumber":null,"VehicleType":null,"AssignmentDate":"2026-04-16T17:11:55.973Z","insert_date":"2026-04-16T17:11:55.973Z","update_date":"2026-04-16T17:12:12.867Z","verify_flag":null,"rc_status":null,"IsActive":"0"}]}

@@ -1,0 +1,1543 @@
+2025-10-31 15:47:03 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","address1":"JDHSJHD","address2":"JHDJSD","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"JOTIA","designation":"CEO","contact_No":"9876543210","alternate_No":"","emailAddress":"kds@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH46F5166","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-10-31 15:47:03 [INFO]: Vendor Onboarding data is valid!
+2025-10-31 15:47:03 [INFO]: Vendor Onboarding successful
+2025-10-31 15:48:06 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","address1":"JDHSJHD","address2":"JHDJSD","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"JOTIA","designation":"CEO","contact_No":"9876543210","alternate_No":"","emailAddress":"kds@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH46F5170","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-10-31 15:48:06 [INFO]: Vendor Onboarding data is valid!
+2025-10-31 15:48:06 [INFO]: Vendor Images Inserted successfully
+2025-10-31 15:48:06 [INFO]: Vendor Onboarding successful
+2025-10-31 15:48:09 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:09 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:10 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:10 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:10 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:10 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:10 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:10 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:10 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:25 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:25 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:25 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND564033","VehicleNumber":"MH46F5170","verify_flag":"N"}]}
+2025-10-31 15:48:25 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:25 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:25 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND564033","VehicleNumber":"MH46F5170","verify_flag":"N"}]}
+2025-10-31 15:48:26 [INFO]: Vehicle request body = {"rc_number":"MH46F5170"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"25","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYxOTkyMzA2fQ.m4lVAzgNe3U40yXUx8fPjRi-LyXnM3SQmiT_q_xWVl0","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 15:48:27 [INFO]: VehicleOnboarding req_body = {"vendorid":"VND564033","vehicleid":"","vehicleDetails":{"registrationNo":"MH46F5170","registrationDate":"2013-08-05","registeredAt":"PANVEL, Maharashtra","rcStatus":"ACTIVE","ownerName":"MS MEHTA ROADLINES","fatherName":"","presentAddress":"A\\P ROOM-C-1057 1ST FLR BIMA COM-, LEX KALAMBOLI TAL PANVEL RAIGAD, KALAMBOLI, Raigarh, Maharashtra,","permanentAddress":"A\\P ROOM-C-1057 1ST FLR BIMA COM-, LEX KALAMBOLI TAL PANVEL RAIGAD, KALAMBOLI, Raigarh, Maharashtra,","mobileNumber":"","vehicleCategory":"HGV","vehicleCategoryDescription":"Goods Carrier(HGV)","vehicleManufacturer":"TATA MOTORS LTD","makerModel":"LPT3118 TC BS3","bodyType":"OTHER TANKERS","fuelType":"DIESEL","manufacturingDate":"8/2013","chassisNumber":"MAT466422D5E04953","engineNumber":"31E63325969","cubicCapacity":"5883.00","vehicleGrossWeight":"35000","unladenWeight":"10200","noCylinders":"6","seatCapacity":"2","fitUpto":"2026-02-20","insuranceUpto":"2025-09-24","taxUpto":"2025-04-30","taxPaidUpto":"2025-04-30","puccNumber":"MH00600850005546","puccUpto":"2026-02-27","permitNumber":"12814/MH46/08/2013","permitType":"National Permit [MULTI AXLE GOODS VCH(<=50tons)]","permitValidFrom":"2023-09-14","permitValidUpto":"2028-08-04"},"VehicleTypesDetails":{"vehicleCategory":"Goods Carrier(HGV)","vehicleType":"HGV","emptyVehicleWeight":10200,"loadingCapacityGVW":35000,"loadingCapacityCubic":"5883.00","topRemovable":false},"vehiclePhotos":{"photo_url":""}}
+2025-10-31 15:48:27 [INFO]: Vehicle Onboarding data is valid!
+2025-10-31 15:48:27 [INFO]: Vehicle Images Inserted successfully
+2025-10-31 15:48:27 [INFO]: Vehicle Onboarding successful
+2025-10-31 15:48:28 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:28 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:29 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:29 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:29 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:29 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:48:30 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:48:30 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:50:43 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 15:50:43 [INFO]: get_state_district_block fetched successfully
+2025-10-31 15:50:43 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 15:50:43 [INFO]: get_state_region_district fetched successfully
+2025-10-31 15:51:52 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2025-10-31 15:52:54 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:52:54 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:52:54 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:52:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:52:54 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:52:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:52:55 [INFO]: Get Driver Details req_body = {"vendorid":"VND564033"}
+2025-10-31 15:52:55 [INFO]: Fetching Vehicle detalis 
+2025-10-31 15:52:55 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND564033"}
+2025-10-31 15:52:57 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 15:52:57 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 15:52:57 [INFO]: get_state_district_block fetched successfully
+2025-10-31 15:52:57 [INFO]: get_state_region_district fetched successfully
+2025-10-31 15:53:19 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2025-10-31 15:54:01 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 15:54:02 [INFO]: Pincode fetched successfully
+2025-10-31 15:54:09 [INFO]: Insert Driver req_body = {"full_name":"JAMIRULLAH","Phone":"8451035149","emergency_phone":"9876665656","Email":"abi@gmail.com","address1":"dsds","address2":"dsds","pincode":"400078","state":"Maharashtra","City":"Mumbai","Tahsil":"bahsa","driving_license_no":"UP5520120009289","driving_license_address":"PADMA NAGAR ROAD NO-14 BAIGANWADI GOVANDI, NEAR FAIZANE RAZA MASJID, MUMBAI","dob":"1992-01-11","expiry_date":"2032-12-02","vendorid":"VND564033","driver_id":"","Driver_license_photo":"","password":"","status":"","username":"","Driver_photo":""}
+2025-10-31 15:55:16 [INFO]: Insert Driver req_body = {"full_name":"JAMIRULLAH","Phone":"7506122183","emergency_phone":"9876665656","Email":"abi@gmail.com","address1":"dsds","address2":"dsds","pincode":"400078","state":"Maharashtra","City":"Mumbai","Tahsil":"bahsa","driving_license_no":"UP5520120009289","driving_license_address":"PADMA NAGAR ROAD NO-14 BAIGANWADI GOVANDI, NEAR FAIZANE RAZA MASJID, MUMBAI","dob":"1992-01-11","expiry_date":"2032-12-02","vendorid":"VND564033","driver_id":"","Driver_license_photo":"","password":"","status":"","username":"","Driver_photo":""}
+2025-10-31 15:56:26 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-10-31 15:56:27 [INFO]: sendOTP data is valid!
+2025-10-31 15:56:27 [INFO]: Generated OTP: 3005
+2025-10-31 15:56:27 [INFO]:  SMS API Response: 200"OK"
+2025-10-31 15:56:27 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 3005. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-10-31 15:56:27 [INFO]: OTP sent successfully to 8108261486
+2025-10-31 15:56:36 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3005"}
+2025-10-31 15:56:36 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3005"}
+2025-10-31 15:56:36 [INFO]: validateOTP data is valid!
+2025-10-31 15:56:36 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2025-10-31 15:56:37 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3005"}
+2025-10-31 15:56:37 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3005"}
+2025-10-31 15:56:37 [INFO]: validateOTP data is valid!
+2025-10-31 15:56:37 [INFO]: Validation null
+2025-10-31 15:56:40 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 15:56:40 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 15:56:40 [INFO]: get_state_district_block fetched successfully
+2025-10-31 15:56:40 [INFO]: get_state_region_district fetched successfully
+2025-10-31 15:56:59 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 15:57:01 [INFO]: Pincode fetched successfully
+2025-10-31 15:57:01 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-10-31 15:57:01 [INFO]: get_state_district_block fetched successfully
+2025-10-31 15:57:33 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 15:57:33 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 15:57:33 [INFO]: get_state_region_district fetched successfully
+2025-10-31 15:57:33 [INFO]: get_state_district_block fetched successfully
+2025-10-31 15:59:24 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 15:59:24 [INFO]: Pincode fetched successfully
+2025-10-31 15:59:25 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-10-31 15:59:25 [INFO]: get_state_district_block fetched successfully
+2025-10-31 16:00:39 [INFO]: Gst request body = {"gstin_number":"27ASVPJ4585G2Z1"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYxOTkzMDM5fQ.zjgsS9gaKD1Dp2e5WoEYtcha_wrzNk7CDxSQ-DOlgEo","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 16:00:43 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","address1":"ABCDE","address2":"XYZ","landMark":"","mobileNo":"8108261486","pincode":"400078","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"JOTIA","designation":"CEO","contact_No":"9876565656","alternate_No":"","emailAddress":"as@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH46F5162","vehicle_weight":"1000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-10-31 16:00:43 [INFO]: Vendor Onboarding data is valid!
+2025-10-31 16:00:43 [INFO]: Vendor Images Inserted successfully
+2025-10-31 16:00:43 [INFO]: Vendor Onboarding successful
+2025-10-31 16:00:46 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:46 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:47 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:47 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:47 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:47 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:48 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:48 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:48 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:49 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:49 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:49 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND290458","VehicleNumber":"MH46F5162","verify_flag":"N"}]}
+2025-10-31 16:00:50 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:50 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:50 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND290458","VehicleNumber":"MH46F5162","verify_flag":"N"}]}
+2025-10-31 16:00:51 [INFO]: Vehicle request body = {"rc_number":"MH46F5162"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"25","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYxOTkzMDUxfQ.WcE_0xGu3wps6QccVz2BJe1tIOH0lVje6lroMF77aN0","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 16:00:51 [INFO]: VehicleOnboarding req_body = {"vendorid":"VND290458","vehicleid":"","vehicleDetails":{"registrationNo":"MH46F5162","registrationDate":"2013-08-05","registeredAt":"DHARASHIV, Maharashtra","rcStatus":"Fitness Expired","ownerName":"MR ABHIJIT HAUSERAV BHANDWALKAR","fatherName":"","presentAddress":"R/O-WATEPHAL,,TA-PARANDA,DIST-DHARASHIV.(MH).,MOB-7083031106.,413505","permanentAddress":"R/O-WATEPHAL,,TA-PARANDA,DIST-DHARASHIV.(MH).,MOB-7083031106.,413505","mobileNumber":"","vehicleCategory":"HGV","vehicleCategoryDescription":"Goods Carrier(HGV)","vehicleManufacturer":"TATA MOTORS LTD","makerModel":"LPK 1613","bodyType":"TIPPER","fuelType":"DIESEL","manufacturingDate":"4/2013","chassisNumber":"MAT373089D2D04385","engineNumber":"697TC69DWY106737","cubicCapacity":"5675.00","vehicleGrossWeight":"16200","unladenWeight":"7780","noCylinders":"6","seatCapacity":"1","fitUpto":"2025-01-02","insuranceUpto":"2026-07-08","taxUpto":"2025-09-30","taxPaidUpto":"2025-09-30","puccNumber":"MH02400560006484","puccUpto":"2024-09-11","permitNumber":"MH2024-GP-4639C","permitType":"Goods Permit [HGV-GOODS PERMIT]","permitValidFrom":"2024-03-15","permitValidUpto":"2029-03-14"},"VehicleTypesDetails":{"vehicleCategory":"Goods Carrier(HGV)","vehicleType":"HGV","emptyVehicleWeight":7780,"loadingCapacityGVW":16200,"loadingCapacityCubic":"5675.00","topRemovable":false},"vehiclePhotos":{"photo_url":""}}
+2025-10-31 16:00:51 [INFO]: Vehicle Onboarding data is valid!
+2025-10-31 16:00:51 [INFO]: Vehicle Images Inserted successfully
+2025-10-31 16:00:51 [INFO]: Vehicle Onboarding successful
+2025-10-31 16:00:52 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:52 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:54 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:54 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:00:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:54 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:54 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:00:56 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 16:00:56 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 16:00:56 [INFO]: get_state_region_district fetched successfully
+2025-10-31 16:00:56 [INFO]: get_state_district_block fetched successfully
+2025-10-31 16:01:56 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2025-10-31 16:02:58 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 16:02:59 [INFO]: Pincode fetched successfully
+2025-10-31 16:03:07 [INFO]: Insert Driver req_body = {"full_name":"JAMIRULLAH","Phone":"7506122183","emergency_phone":"9566565656","Email":"anj@gmail.com","address1":"djskhdjs","address2":"jhdjhdj","pincode":"400078","state":"Maharashtra","City":"Mumbai","Tahsil":"dsdsd","driving_license_no":"UP5520120009289","driving_license_address":"PADMA NAGAR ROAD NO-14 BAIGANWADI GOVANDI, NEAR FAIZANE RAZA MASJID, MUMBAI","dob":"1992-01-11","expiry_date":"2032-12-02","vendorid":"VND290458","driver_id":"","Driver_license_photo":"","password":"","status":"","username":"","Driver_photo":""}
+2025-10-31 16:03:07 [INFO]: Driver Images Inserted successfully
+2025-10-31 16:03:07 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:03:08 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:03:08 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:03:08 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:03:08 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:03:08 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:03:41 [INFO]: Aadhaar send OTP request body = {"aadhaar_number":"765892186749"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"33","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYxOTkzMjIxfQ.tv4UiKUzUFd7Y6dNPP0C-w8TvAvpzy-gIn1z3bYNV18","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 16:06:07 [INFO]: Aadhaar send OTP request body = {"aadhaar_number":"765892186749"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"33","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYxOTkzMzY3fQ.fsQdZ_sOT1q3IBVvNom8Sneaqrn5psfg7SbwhYLyAWg","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 16:06:30 [INFO]: Aadhaar verify OTP request body = {"otp":"498307","reference_id":"65860667"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"42","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYxOTkzMzkwfQ.xI__2jQ1wDJtOUYuQyFXYK-LnvD81HJefzfROgc3v1g","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 16:06:37 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:06:37 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:06:37 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:06:39 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:09:46 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:09:46 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND113242"}
+2025-10-31 16:09:46 [INFO]: Get Driver Details req_body = {"vendorid":"VND113242"}
+2025-10-31 16:09:46 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:09:46 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND113242"}
+2025-10-31 16:09:46 [INFO]: Get Driver Details req_body = {"vendorid":"VND113242"}
+2025-10-31 16:09:47 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:09:47 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND113242"}
+2025-10-31 16:09:47 [INFO]: Get Driver Details req_body = {"vendorid":"VND113242"}
+2025-10-31 16:10:10 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-10-31 16:10:10 [INFO]: sendOTP data is valid!
+2025-10-31 16:10:10 [INFO]: Generated OTP: 3851
+2025-10-31 16:10:10 [INFO]:  SMS API Response: 200"OK"
+2025-10-31 16:10:10 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 3851. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-10-31 16:10:10 [INFO]: OTP sent successfully to 8108261486
+2025-10-31 16:10:21 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3851"}
+2025-10-31 16:10:21 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3851"}
+2025-10-31 16:10:21 [INFO]: validateOTP data is valid!
+2025-10-31 16:10:21 [INFO]: Validation {"vendorid":"VND290458","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","mobileNo":"8108261486","address1":"ABCDE","address2":"XYZ","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"BHANDUP","City":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y"}
+2025-10-31 16:10:21 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3851"}
+2025-10-31 16:10:21 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"3851"}
+2025-10-31 16:10:21 [INFO]: validateOTP data is valid!
+2025-10-31 16:10:21 [INFO]: Validation null
+2025-10-31 16:10:24 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:24 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:24 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:24 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:45 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:47 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:10:47 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:52 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:52 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:52 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:52 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:54 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:55 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:55 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:55 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:55 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:10:59 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"01","bmessage_desc":"No records found","data":[]}
+2025-10-31 16:10:59 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"vendorid":"VND290458","driver_id":"DR634736","DriverName":"JAMIRULLAH","MobileNo":"7506122183"}]}
+2025-10-31 16:10:59 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND290458","vehicleid":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"LPK 1613"}]}
+2025-10-31 16:11:09 [INFO]: InsertDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Driver vehicle assignment inserted successfully"}
+2025-10-31 16:11:09 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 16:11:09 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 16:11:09 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 16:11:11 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 16:11:11 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 16:11:11 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 16:11:14 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:11:14 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:11:14 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:11:19 [INFO]: Fetching Vehicle detalis 
+2025-10-31 16:11:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 16:11:22 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 16:11:22 [INFO]: get driver location by mobile result: {"status":"02","message":"No records found","data":[]}
+2025-10-31 16:11:22 [INFO]: get_state_region_district fetched successfully
+2025-10-31 16:24:44 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:24:44 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:24:44 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:24:50 [INFO]: Fetching getVendorDetails 
+2025-10-31 16:24:50 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND290458"}
+2025-10-31 16:25:13 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:25:13 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:25:13 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:27:38 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:27:42 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 16:27:42 [INFO]: get_state_district_block fetched successfully
+2025-10-31 16:27:42 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 16:27:42 [INFO]: get_state_region_district fetched successfully
+2025-10-31 16:30:31 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 16:30:34 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:30:35 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:30:35 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:12 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:12 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:13 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:37 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:37 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:37 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:37 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:55 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:55 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:55 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:35:56 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:45:13 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-10-31 16:45:13 [INFO]: sendOTP data is valid!
+2025-10-31 16:45:13 [INFO]: Generated OTP: 7828
+2025-10-31 16:45:13 [INFO]:  SMS API Response: 200"OK"
+2025-10-31 16:45:13 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 7828. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-10-31 16:45:13 [INFO]: OTP sent successfully to 8108261486
+2025-10-31 16:45:22 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"7828"}
+2025-10-31 16:45:22 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"7828"}
+2025-10-31 16:45:22 [INFO]: validateOTP data is valid!
+2025-10-31 16:45:22 [INFO]: Validation {"vendorid":"VND290458","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","mobileNo":"8108261486","address1":"ABCDE","address2":"XYZ","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"BHANDUP","City":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y"}
+2025-10-31 16:45:22 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"7828"}
+2025-10-31 16:45:22 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"7828"}
+2025-10-31 16:45:22 [INFO]: validateOTP data is valid!
+2025-10-31 16:45:22 [INFO]: Validation null
+2025-10-31 16:45:25 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:45:25 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:45:26 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:45:26 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:45:41 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:45:48 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:46:20 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:46:30 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:46:33 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:49:39 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:49:47 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:50:20 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:51:01 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:51:53 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:53:51 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:56:26 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:20 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:20 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:20 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:58:20 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:17 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:17 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:17 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:17 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:26 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:26 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:26 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 16:59:26 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:00:07 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 17:00:07 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 17:00:07 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 17:00:07 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:03:14 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 17:03:14 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 17:03:14 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 17:03:14 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:05:05 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:05:27 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:05:41 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:06:08 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:06:34 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 17:06:34 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 17:06:34 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 17:06:35 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:07:15 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:07:38 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:17:39 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:17:39 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:17:40 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:27:07 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:27:07 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:27:08 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:27:50 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:27:50 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:27:50 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:28:06 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 17:28:06 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 17:28:06 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 17:28:06 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:29:10 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:29:10 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:29:10 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:39:33 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:39:33 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:39:34 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:40:21 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:40:21 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:40:21 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:42:04 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:42:04 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:42:04 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:48:37 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:48:37 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:48:38 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:50:35 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:50:35 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:50:35 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:52:38 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-10-31 17:52:38 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-10-31 17:52:38 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-10-31 17:52:39 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-10-31 17:55:56 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 17:56:07 [INFO]: Fetching Vehicle detalis 
+2025-10-31 17:56:07 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND290458"}
+2025-10-31 17:56:11 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 17:56:22 [INFO]: Get Driver Details req_body = {"vendorid":"VND883870"}
+2025-10-31 17:56:22 [INFO]: Fetching Vehicle detalis 
+2025-10-31 17:56:22 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND883870"}
+2025-10-31 17:56:22 [INFO]: Get Driver Details req_body = {"vendorid":"VND883870"}
+2025-10-31 17:56:22 [INFO]: Fetching Vehicle detalis 
+2025-10-31 17:56:22 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND883870"}
+2025-10-31 17:56:23 [INFO]: Get Driver Details req_body = {"vendorid":"VND883870"}
+2025-10-31 17:56:23 [INFO]: Fetching Vehicle detalis 
+2025-10-31 17:56:23 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND883870"}
+2025-10-31 17:56:47 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR634736","VendorID":"VND290458","DriverName":"JAMIRULLAH","DriverPhone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","VehicleNumber":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","insert_date":"2025-10-31T16:11:09.050Z","update_date":null}]}
+2025-10-31 17:56:47 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:56:47 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 17:56:53 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 17:59:04 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 17:59:04 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 17:59:04 [INFO]: get_state_region_district fetched successfully
+2025-10-31 17:59:04 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:00:54 [INFO]: Get Driver Details req_body = {"vendorid":"VND290458"}
+2025-10-31 18:02:31 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-10-31 18:02:31 [INFO]: sendOTP data is valid!
+2025-10-31 18:02:31 [INFO]: Generated OTP: 5122
+2025-10-31 18:02:32 [INFO]:  SMS API Response: 200"OK"
+2025-10-31 18:02:32 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 5122. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-10-31 18:02:32 [INFO]: OTP sent successfully to 9224323167
+2025-10-31 18:02:42 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5122"}
+2025-10-31 18:02:42 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5122"}
+2025-10-31 18:02:42 [INFO]: validateOTP data is valid!
+2025-10-31 18:02:42 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2025-10-31 18:02:43 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5122"}
+2025-10-31 18:02:43 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5122"}
+2025-10-31 18:02:43 [INFO]: validateOTP data is valid!
+2025-10-31 18:02:43 [INFO]: Validation null
+2025-10-31 18:02:46 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:02:46 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:02:47 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 18:02:47 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:04:29 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 18:04:30 [INFO]: Pincode fetched successfully
+2025-10-31 18:04:31 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-10-31 18:04:31 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:07:11 [INFO]: Gst request body = {"gstin_number":"03ENPPS7570J1ZB"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDAwNjMxfQ.nbbkkav4DZ2GDc3mZ9qWOKuCsPjv5ZlLrNfyNYYh7No","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 18:07:12 [ERROR]:  Type Error: Error: Status 400: {"code":400,"timestamp":1761914232021,"message":"Invalid GSTIN pattern","transaction_id":"348f854b-20dd-4a19-a97e-1ebcedf760ec"}
+2025-10-31 18:07:47 [INFO]: Gst request body = {"gstin_number":"03EMPPS7570J1ZB"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDAwNjY3fQ.kAuRDCQJTNxs1QrRmeE84LPpKYqVIVLZPCQYyveY_Qc","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 18:09:08 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:09:08 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 18:09:08 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:09:08 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:10:03 [INFO]: Pincode Details req_body = {"pincode":"400074"}
+2025-10-31 18:10:04 [INFO]: Pincode fetched successfully
+2025-10-31 18:10:05 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-10-31 18:10:05 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:10:06 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-10-31 18:10:06 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:11:51 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 18:11:51 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:11:51 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:11:51 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:12:20 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 18:12:21 [INFO]: Pincode fetched successfully
+2025-10-31 18:12:22 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-10-31 18:12:22 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:13:13 [INFO]: Gst request body = {"gstin_number":"03EMPPS7570J1ZB"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDAwOTkzfQ.VUYofVM0PVHlrBN3nfGbB_NRskz4yXFtbnKZjJlPw7M","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 18:14:32 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","address1":"LBS","address2":"LBS","landMark":"","mobileNo":"9224323167","pincode":"400078","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"ABHI","designation":"CEO","contact_No":"9665656565","alternate_No":"","emailAddress":"abhi@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH46BF0475","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"03EMPPS7570J1ZB","cinNo":"","panNo":"EMPPS7570J","aadharNo":""}}
+2025-10-31 18:14:32 [INFO]: Vendor Onboarding data is valid!
+2025-10-31 18:14:32 [INFO]: Vendor Images Inserted successfully
+2025-10-31 18:14:32 [INFO]: Vendor Onboarding successful
+2025-10-31 18:14:36 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:14:36 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:14:37 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:14:37 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:14:37 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:14:38 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:14:38 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:14:38 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:14:38 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:14:41 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","address1":"LBS","address2":"LBS","landMark":"","mobileNo":"9224323167","pincode":"400078","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"ABHI","designation":"CEO","contact_No":"9665656565","alternate_No":"","emailAddress":"abhi@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH46BF0475","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"03EMPPS7570J1ZB","cinNo":"","panNo":"EMPPS7570J","aadharNo":""}}
+2025-10-31 18:14:41 [INFO]: Vendor Onboarding data is valid!
+2025-10-31 18:14:41 [INFO]: Vendor Onboarding successful
+2025-10-31 18:15:05 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:15:05 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:15:05 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:15:05 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:15:05 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:15:06 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:15:17 [INFO]: Fetching getVendorDetails 
+2025-10-31 18:15:17 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:42 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:16:42 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:43 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:43 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:43 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:16:43 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:48 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:16:48 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:48 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND358168","VehicleNumber":"MH46BF0475","verify_flag":"N"}]}
+2025-10-31 18:16:48 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:16:48 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:16:48 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND358168","VehicleNumber":"MH46BF0475","verify_flag":"N"}]}
+2025-10-31 18:16:51 [INFO]: Vehicle request body = {"rc_number":"MH46BF0475"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"26","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDAxMjExfQ.sRCbc2nBWn5rIxNRsnngv7NZxKCwfax_pI9DqVkL9is","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 18:16:56 [INFO]: VehicleOnboarding req_body = {"vendorid":"VND358168","vehicleid":"","vehicleDetails":{"registrationNo":"MH46BF0475","registrationDate":"2018-04-21","registeredAt":"PANVEL, Maharashtra","rcStatus":"ACTIVE","ownerName":"SHIRISH CARGO SERVICES PRIVATE LTD","fatherName":"","presentAddress":"D 1088 BIMA COMPLEX,KALAMBOLI,TAL PANVEL,410218","permanentAddress":"D 1088 BIMA COMPLEX,KALAMBOLI,TAL PANVEL,410218","mobileNumber":"","vehicleCategory":"HGV","vehicleCategoryDescription":"Goods Carrier(HGV)","vehicleManufacturer":"ASHOK LEYLAND LTD","makerModel":"ECOMET 1212 E4/4","bodyType":"OPEN BODY","fuelType":"DIESEL","manufacturingDate":"3/2018","chassisNumber":"MB1AXGCD5JRFW7112","engineNumber":"JFEZ408624","cubicCapacity":"3840.00","vehicleGrossWeight":"13800","unladenWeight":"4800","noCylinders":"4","seatCapacity":"3","fitUpto":"2027-01-16","insuranceUpto":"2026-10-24","taxUpto":"2026-06-30","taxPaidUpto":"2026-06-30","puccNumber":"MH00302480017738","puccUpto":"2026-06-27","permitNumber":"MH2025-GP-5600K","permitType":"Goods Permit [HGV-GOODS PERMIT]","permitValidFrom":"2025-10-17","permitValidUpto":"2030-10-16"},"VehicleTypesDetails":{"vehicleCategory":"Goods Carrier(HGV)","vehicleType":"HGV","emptyVehicleWeight":4800,"loadingCapacityGVW":13800,"loadingCapacityCubic":"3840.00","topRemovable":false},"vehiclePhotos":{"photo_url":""}}
+2025-10-31 18:16:56 [INFO]: Vehicle Onboarding data is valid!
+2025-10-31 18:16:56 [INFO]: Vehicle Images Inserted successfully
+2025-10-31 18:16:56 [INFO]: Vehicle Onboarding successful
+2025-10-31 18:16:57 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:16:57 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:17:00 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:17:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:17:00 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:17:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:17:00 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:17:00 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:17:13 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:17:13 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:17:14 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 18:17:14 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:18:42 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:18:42 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:18:42 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:18:42 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:18:42 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:18:42 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:18:43 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:18:43 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:18:43 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:18:46 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:18:46 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 18:18:46 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:18:46 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:19:55 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2025-10-31 18:21:13 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 18:21:14 [INFO]: Pincode fetched successfully
+2025-10-31 18:21:43 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:21:43 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:21:43 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:21:43 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:21:43 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:21:43 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:21:44 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:21:44 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:21:44 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:21:48 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:21:48 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-10-31 18:21:48 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:21:48 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:22:20 [INFO]: Driving License request body = {"dl_number":"MH0320080005864","dob":"1973-02-24"}
+2025-10-31 18:23:07 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-10-31 18:23:08 [INFO]: Pincode fetched successfully
+2025-10-31 18:23:24 [INFO]: Insert Driver req_body = {"full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","emergency_phone":"9956565656","Email":"as@gmail.com","address1":"abcd","address2":"ksdjk","pincode":"400078","state":"Maharashtra","City":"Mumbai","Tahsil":"bhandup","driving_license_no":"MH0320080005864","driving_license_address":"INDIRA NAGAR ZOPADPATTI BAIGANWADI, GOVANDI MUMBAI, Greater Mumbai,Mumbai Suburban,MH","dob":"1973-02-24","expiry_date":"2027-01-31","vendorid":"VND358168","driver_id":"","Driver_license_photo":"","password":"","status":"","username":"","Driver_photo":""}
+2025-10-31 18:23:24 [INFO]: Driver Images Inserted successfully
+2025-10-31 18:23:24 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:23:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:23:24 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:23:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-10-31 18:23:24 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:23:24 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:25:35 [INFO]: Aadhaar send OTP request body = {"aadhaar_number":"233339131270"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"33","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDAxNzM1fQ.DOYI8ZBuAUtwX2Fgt7ElGXnq8OCuObGdDB2apc-Wuvc","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 18:26:01 [INFO]: Aadhaar verify OTP request body = {"otp":"616012","reference_id":"65868328"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"42","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDAxNzYxfQ.kYGbEP9QNvDTQhPaRdcZ6aHHeUE2G5WUp1P9ePSlAWs","token_type":"bearer","expiry":"24hrs"}
+2025-10-31 18:26:08 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:08 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:08 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:16 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:17 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:17 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:17 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:29 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:29 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:29 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:29 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:26:30 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:28:02 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"01","bmessage_desc":"No records found","data":[]}
+2025-10-31 18:28:02 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"vendorid":"VND358168","driver_id":"DR662003","DriverName":"MOHAMMED IBRAHIM","MobileNo":"7700077196"}]}
+2025-10-31 18:28:02 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND358168","vehicleid":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"ECOMET 1212 E4/4"}]}
+2025-10-31 18:28:20 [INFO]: InsertDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Driver vehicle assignment inserted successfully"}
+2025-10-31 18:28:20 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","DriverName":"MOHAMMED IBRAHIM","DriverPhone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:28:19.453Z","insert_date":"2025-10-31T18:28:19.453Z","update_date":null}]}
+2025-10-31 18:28:20 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 18:28:20 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 18:31:56 [INFO]: deleteDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Record deleted successfully"}
+2025-10-31 18:31:56 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"01","bmessage_desc":"No records found","data":[]}
+2025-10-31 18:31:56 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"vendorid":"VND358168","driver_id":"DR662003","DriverName":"MOHAMMED IBRAHIM","MobileNo":"7700077196"}]}
+2025-10-31 18:31:57 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND358168","vehicleid":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"ECOMET 1212 E4/4"}]}
+2025-10-31 18:31:59 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"01","bmessage_desc":"No records found","data":[]}
+2025-10-31 18:31:59 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"vendorid":"VND358168","driver_id":"DR662003","DriverName":"MOHAMMED IBRAHIM","MobileNo":"7700077196"}]}
+2025-10-31 18:32:00 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND358168","vehicleid":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"ECOMET 1212 E4/4"}]}
+2025-10-31 18:32:41 [INFO]: InsertDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Driver vehicle assignment inserted successfully"}
+2025-10-31 18:32:41 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","DriverName":"MOHAMMED IBRAHIM","DriverPhone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","insert_date":"2025-10-31T18:32:40.887Z","update_date":null}]}
+2025-10-31 18:32:41 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 18:32:42 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-10-31 18:35:20 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:20 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:20 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:35 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:36 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:36 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:36 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:54 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:54 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:35:54 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:07 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:36:07 [INFO]: get driver location by mobile result: {"status":"02","message":"No records found","data":[]}
+2025-10-31 18:36:07 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:36:13 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:13 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:13 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:16 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:17 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:17 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:36:17 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:24 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:26 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:26 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:26 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:38 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:38 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:37:38 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:38:09 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:38:09 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:38:10 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:39:07 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:39:07 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:39:07 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:39:07 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:39:08 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:44:39 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:44:30.563Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":0,"Lng":0,"City":"","District":"","Taluka":"","State":"","Pincode":"","Address":"","insert_date":"2025-10-31T16:11:09.047Z","update_date":null}]}
+2025-10-31 18:44:44 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:44:44 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:47:53 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:47:53 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:47:54 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:47:54 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:51:57 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:51:57 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:51:57 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:51:51.300Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":0,"Lng":0,"City":"","District":"","Taluka":"","State":"","Pincode":"","Address":"","insert_date":"2025-10-31T16:11:09.047Z","update_date":null}]}
+2025-10-31 18:52:13 [INFO]: get_state_district_block Details req_body = {"state":"MAHARASHTRA"}
+2025-10-31 18:52:13 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:52:33 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:52:33 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:52:33 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:52:34 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:52:57 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:52:41.337Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":0,"Lng":0,"City":"","District":"","Taluka":"","State":"","Pincode":"","Address":"","insert_date":"2025-10-31T16:11:09.047Z","update_date":null}]}
+2025-10-31 18:53:02 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:53:02 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:53:13 [INFO]: get_state_district_block Details req_body = {"state":"DELHI"}
+2025-10-31 18:53:13 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:54:45 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:54:45 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:54:46 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:54:46 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:55:03 [INFO]: get_state_region_district Details req_body = {}
+2025-10-31 18:55:03 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:52:41.337Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":0,"Lng":0,"City":"","District":"","Taluka":"","State":"","Pincode":"","Address":"","insert_date":"2025-10-31T16:11:09.047Z","update_date":null}]}
+2025-10-31 18:55:03 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:55:08 [INFO]: get_state_district_block Details req_body = {"state":"ANDHRA PRADESH"}
+2025-10-31 18:55:08 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:55:16 [INFO]: get_state_district_block Details req_body = {"state":"DELHI"}
+2025-10-31 18:55:16 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:55:30 [INFO]: get_state_district_block Details req_body = {"state":"MAHARASHTRA"}
+2025-10-31 18:55:30 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:56:01 [INFO]: get_state_district_block Details req_body = {"state":"BIHAR"}
+2025-10-31 18:56:01 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:56:03 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:56:03 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND883870"}
+2025-10-31 18:56:03 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:56:03 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND883870"}
+2025-10-31 18:56:03 [INFO]: Get Driver Details req_body = {"vendorid":"VND883870"}
+2025-10-31 18:56:03 [INFO]: Get Driver Details req_body = {"vendorid":"VND883870"}
+2025-10-31 18:56:03 [INFO]: Fetching Vehicle detalis 
+2025-10-31 18:56:03 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND883870"}
+2025-10-31 18:56:04 [INFO]: Get Driver Details req_body = {"vendorid":"VND883870"}
+2025-10-31 18:57:06 [INFO]: get_state_district_block Details req_body = {"state":"MAHARASHTRA"}
+2025-10-31 18:57:06 [INFO]: get_state_district_block fetched successfully
+2025-10-31 18:57:11 [INFO]: get_state_region_district Details req_body = {"state":"MAHARASHTRA","region":"AHMEDNAGAR","excludeDistricts":[]}
+2025-10-31 18:57:11 [INFO]: get_state_region_district fetched successfully
+2025-10-31 18:57:33 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 18:57:33 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 18:57:33 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 18:57:33 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-10-31 18:57:38 [INFO]: Fetching getVendorDetails 
+2025-10-31 18:57:38 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND358168"}
+2025-10-31 19:01:09 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-10-31 19:01:09 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-10-31 19:01:09 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-10-31 19:01:10 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 10:13:55 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 10:13:55 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 10:13:55 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 10:13:56 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 11:52:28 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2025-11-01 12:07:13 [INFO]: Driving License request body = {"dl_number":"UP5520120009289","dob":"1992-01-11"}
+2025-11-01 12:17:18 [INFO]: Get vehicle active req_body = {"vendorid":"VND290458"}
+2025-11-01 12:17:18 [INFO]: Get vehicle available req_body = {"vendorid":"VND290458"}
+2025-11-01 12:17:18 [INFO]: Get vehicle process req_body = {"vendorid":"VND290458"}
+2025-11-01 12:17:18 [INFO]: Get vendor Counts req_body = {"vendorid":"VND290458"}
+2025-11-01 12:32:42 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 12:32:42 [INFO]: sendOTP data is valid!
+2025-11-01 12:32:42 [INFO]: Generated OTP: 2705
+2025-11-01 12:32:42 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 12:32:42 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 2705. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 12:32:42 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 12:32:57 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 12:32:57 [INFO]: sendOTP data is valid!
+2025-11-01 12:32:57 [INFO]: Generated OTP: 6094
+2025-11-01 12:32:58 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 12:32:58 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 6094. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 12:32:58 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 12:49:59 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-11-01 12:49:59 [INFO]: sendOTP data is valid!
+2025-11-01 12:49:59 [INFO]: Generated OTP: 6432
+2025-11-01 12:49:59 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 12:49:59 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 6432. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 12:49:59 [INFO]: OTP sent successfully to 9224323167
+2025-11-01 12:50:08 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"6432"}
+2025-11-01 12:50:08 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"6432"}
+2025-11-01 12:50:08 [INFO]: validateOTP data is valid!
+2025-11-01 12:50:08 [INFO]: Validation {"vendorid":"VND358168","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","mobileNo":"9224323167","address1":"LBS","address2":"LBS","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"BHANDUP","City":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y"}
+2025-11-01 12:50:09 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"6432"}
+2025-11-01 12:50:09 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"6432"}
+2025-11-01 12:50:09 [INFO]: validateOTP data is valid!
+2025-11-01 12:50:09 [INFO]: Validation null
+2025-11-01 12:50:12 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 12:50:12 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 12:50:12 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 12:50:12 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:50:46 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 12:50:46 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:52:41.337Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T16:11:09.047Z","update_date":"2025-11-01T12:50:44.903Z"}]}
+2025-11-01 12:50:46 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:52:19 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:52:19 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:52:41 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:52:41 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:52:41 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:52:41 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:53:45 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:53:45 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:53:46 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:53:47 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:54:12 [INFO]: get_state_district_block Details req_body = {"state":"ARUNACHAL PRADESH"}
+2025-11-01 12:54:12 [INFO]: get_state_district_block fetched successfully
+2025-11-01 12:54:14 [INFO]: get_state_region_district Details req_body = {"state":"ARUNACHAL PRADESH","region":"ANJAW","excludeDistricts":[]}
+2025-11-01 12:54:14 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:54:45 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:54:45 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:54:45 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 12:54:45 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:56:06 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:56:11 [INFO]: get_state_district_block Details req_body = {"state":"ANDHRA PRADESH"}
+2025-11-01 12:56:11 [INFO]: get_state_district_block fetched successfully
+2025-11-01 12:56:16 [INFO]: get_state_region_district Details req_body = {"state":"ANDHRA PRADESH","region":"Alluri Sitharama Raju","excludeDistricts":[]}
+2025-11-01 12:56:16 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:56:28 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:57:27 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:57:30 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 12:57:30 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 12:57:30 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 12:57:30 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:57:42 [INFO]: get_state_district_block Details req_body = {"state":"ANDAMAN AND NICOBAR ISLANDS"}
+2025-11-01 12:57:42 [INFO]: get_state_district_block fetched successfully
+2025-11-01 12:57:50 [INFO]: get_state_region_district Details req_body = {"state":"ANDAMAN AND NICOBAR ISLANDS","region":"NICOBARS","excludeDistricts":[]}
+2025-11-01 12:57:50 [INFO]: get_state_region_district fetched successfully
+2025-11-01 12:58:05 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:59:34 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 12:59:48 [INFO]: get_state_district_block Details req_body = {"state":"ASSAM"}
+2025-11-01 12:59:48 [INFO]: get_state_district_block fetched successfully
+2025-11-01 12:59:56 [INFO]: get_state_district_block Details req_body = {"state":"ASSAM","region":"BARPETA","excludeDistricts":[]}
+2025-11-01 12:59:56 [INFO]: get_state_district_block fetched successfully
+2025-11-01 13:09:16 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:16 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:16 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:17 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:30 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:30 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:30 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:30 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 13:09:43 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 13:09:43 [INFO]: sendOTP data is valid!
+2025-11-01 13:09:43 [INFO]: Generated OTP: 4763
+2025-11-01 13:09:43 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 13:09:43 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 4763. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 13:09:43 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 13:09:55 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"4763"}
+2025-11-01 13:09:55 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"4763"}
+2025-11-01 13:09:55 [INFO]: validateOTP data is valid!
+2025-11-01 13:09:55 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2025-11-01 13:09:59 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 13:09:59 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 13:09:59 [INFO]: get_state_region_district fetched successfully
+2025-11-01 13:09:59 [INFO]: get_state_district_block fetched successfully
+2025-11-01 13:10:46 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 13:10:46 [INFO]: sendOTP data is valid!
+2025-11-01 13:10:46 [INFO]: Generated OTP: 6418
+2025-11-01 13:10:46 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 13:10:46 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 6418. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 13:10:46 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 13:12:09 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 13:12:09 [INFO]: sendOTP data is valid!
+2025-11-01 13:12:09 [INFO]: Generated OTP: 3707
+2025-11-01 13:12:10 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 13:12:10 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 3707. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 13:12:10 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 13:14:52 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 13:14:52 [INFO]: sendOTP data is valid!
+2025-11-01 13:14:52 [INFO]: Generated OTP: 5939
+2025-11-01 13:14:52 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 13:14:52 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 5939. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 13:14:52 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 13:15:09 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"5939"}
+2025-11-01 13:15:09 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"5939"}
+2025-11-01 13:15:09 [INFO]: validateOTP data is valid!
+2025-11-01 13:15:09 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2025-11-01 13:15:10 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"5939"}
+2025-11-01 13:15:10 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"5939"}
+2025-11-01 13:15:10 [INFO]: validateOTP data is valid!
+2025-11-01 13:15:10 [INFO]: Validation null
+2025-11-01 13:15:13 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 13:15:13 [INFO]: get_state_region_district fetched successfully
+2025-11-01 13:15:13 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 13:15:13 [INFO]: get_state_district_block fetched successfully
+2025-11-01 13:19:09 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 13:19:09 [INFO]: sendOTP data is valid!
+2025-11-01 13:19:09 [INFO]: Generated OTP: 9082
+2025-11-01 13:19:09 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 13:19:09 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 9082. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 13:19:09 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 13:19:17 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 13:19:17 [INFO]: get_state_region_district fetched successfully
+2025-11-01 13:19:24 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"9082"}
+2025-11-01 13:19:24 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"9082"}
+2025-11-01 13:19:24 [INFO]: validateOTP data is valid!
+2025-11-01 13:19:24 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2025-11-01 13:19:25 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-01 13:19:25 [INFO]: get_state_region_district fetched successfully
+2025-11-01 13:19:28 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 13:19:28 [INFO]: get_state_region_district fetched successfully
+2025-11-01 13:19:28 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 13:19:28 [INFO]: get_state_district_block fetched successfully
+2025-11-01 13:23:45 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 13:23:45 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 13:23:45 [INFO]: get_state_district_block fetched successfully
+2025-11-01 13:23:45 [INFO]: get_state_region_district fetched successfully
+2025-11-01 14:15:45 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 14:15:45 [INFO]: get_state_region_district fetched successfully
+2025-11-01 14:15:45 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 14:15:45 [INFO]: get_state_district_block fetched successfully
+2025-11-01 14:43:47 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 14:43:47 [INFO]: get_state_district_block fetched successfully
+2025-11-01 14:43:48 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 14:43:48 [INFO]: get_state_region_district fetched successfully
+2025-11-01 14:46:54 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 14:46:54 [INFO]: get_state_region_district fetched successfully
+2025-11-01 14:51:25 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 14:51:25 [INFO]: get_state_region_district fetched successfully
+2025-11-01 14:56:22 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 14:56:22 [INFO]: get_state_region_district fetched successfully
+2025-11-01 14:57:11 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 14:57:11 [INFO]: get_state_district_block fetched successfully
+2025-11-01 14:57:42 [INFO]: get_state_district_block Details req_body = {"state":"ANDAMAN AND NICOBAR ISLANDS"}
+2025-11-01 14:57:42 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:07:36 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:07:36 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:07:52 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:07:52 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:07:53 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:07:53 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:18:25 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:18:25 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:18:25 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:18:25 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:18:41 [INFO]: get_state_district_block Details req_body = {"state":"ANDAMAN AND NICOBAR ISLANDS"}
+2025-11-01 15:18:41 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:20:25 [INFO]: Pincode Details req_body = {"pincode":"400074"}
+2025-11-01 15:20:26 [INFO]: Pincode fetched successfully
+2025-11-01 15:20:26 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-11-01 15:20:26 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:27:26 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:27:26 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:27:26 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:27:26 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:27:32 [INFO]: Pincode Details req_body = {"pincode":"400074"}
+2025-11-01 15:27:33 [INFO]: Pincode fetched successfully
+2025-11-01 15:27:34 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-11-01 15:27:34 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:31:52 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:31:52 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:31:52 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-11-01 15:31:52 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:34:46 [INFO]: Gst request body = {"gstin_number":"27ASVPJ4585G2Z1"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDc3ODg2fQ.IcozeRLnf2VPBKBPorEw6O1igjolvukG1uRxsRSCgYY","token_type":"bearer","expiry":"24hrs"}
+2025-11-01 15:36:44 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"HHH","owner_name":"BH","address1":"HH","address2":"HHN","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":4},"VendorEmployeeDetails":[{"full_name":"ABCD","designation":"CEO","contact_No":"9645848488","alternate_No":"","emailAddress":"avavsh@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"JK10A2125","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-11-01 15:36:44 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:36:44 [ERROR]: Vendor Onboarding Error: SQL Error: RequestError: Validation failed for parameter 'employee_count'. Invalid string.
+2025-11-01 15:37:05 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"HHH","owner_name":"BH","address1":"HH","address2":"HHN","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":4},"VendorEmployeeDetails":[{"full_name":"ABCD","designation":"CEO","contact_No":"9645848488","alternate_No":"","emailAddress":"avavsh@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"JK10A2125","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-11-01 15:37:05 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:37:05 [ERROR]: Vendor Onboarding Error: SQL Error: RequestError: Validation failed for parameter 'employee_count'. Invalid string.
+2025-11-01 15:37:17 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-11-01 15:37:17 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:37:17 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:37:17 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:37:34 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"HHH","owner_name":"BH","address1":"HH","address2":"HHN","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":4},"VendorEmployeeDetails":[{"full_name":"ABCD","designation":"CEO","contact_No":"9645848488","alternate_No":"","emailAddress":"avavsh@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"JK10A2125","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"","cinNo":"","panNo":"","aadharNo":""}}
+2025-11-01 15:37:34 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:37:34 [ERROR]: Vendor Onboarding Error: SQL Error: RequestError: Validation failed for parameter 'employee_count'. Invalid string.
+2025-11-01 15:38:19 [INFO]: Gst request body = {"gstin_number":"27ASVPJ4585G2Z1"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDc4MDk5fQ.HFHHHwbLN4SETM8U74BCvUfeaPhYxTvX56ZSN7R6FVs","token_type":"bearer","expiry":"24hrs"}
+2025-11-01 15:38:22 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"HHH","owner_name":"BH","address1":"HH","address2":"HHN","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":4},"VendorEmployeeDetails":[{"full_name":"ABCD","designation":"CEO","contact_No":"9645848488","alternate_No":"","emailAddress":"avavsh@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"JK10A2125","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-11-01 15:38:22 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:38:22 [ERROR]: Vendor Onboarding Error: SQL Error: RequestError: Validation failed for parameter 'employee_count'. Invalid string.
+2025-11-01 15:40:13 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"HHH","owner_name":"BH","address1":"HH","address2":"HHN","landMark":"","mobileNo":"8108261486","pincode":"400074","destination":"Mumbai","Tahsil":"BHANDUP","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":4},"VendorEmployeeDetails":[{"full_name":"ABCD","designation":"CEO","contact_No":"9645848488","alternate_No":"","emailAddress":"avavsh@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"JK10A2125","vehicle_weight":"10000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2025-11-01 15:40:13 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:40:13 [ERROR]: Vendor Onboarding Error: SQL Error: RequestError: Validation failed for parameter 'employee_count'. Invalid string.
+2025-11-01 15:44:37 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 15:44:37 [INFO]: sendOTP data is valid!
+2025-11-01 15:44:37 [INFO]: Generated OTP: 2497
+2025-11-01 15:44:38 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 15:44:38 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 2497. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 15:44:38 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 15:44:47 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"2497"}
+2025-11-01 15:44:47 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"2497"}
+2025-11-01 15:44:47 [INFO]: validateOTP data is valid!
+2025-11-01 15:44:47 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2025-11-01 15:44:51 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:44:51 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:44:51 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:44:51 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:45:09 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2025-11-01 15:45:10 [INFO]: Pincode fetched successfully
+2025-11-01 15:45:10 [INFO]: get_state_district_block Details req_body = {"state":"Maharashtra"}
+2025-11-01 15:45:10 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:46:16 [INFO]: Gst request body = {"gstin_number":"27AAOCA2734L1ZC"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"34","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDc4NTc2fQ.9BA63qc8h1pnBaVk-IbUqwNNYgHcFthmafjdCtChlYM","token_type":"bearer","expiry":"24hrs"}
+2025-11-01 15:46:40 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"SHSB","address1":"ZHSBS","address2":"SBSBS","landMark":"","mobileNo":"8108261486","pincode":"400078","destination":"Mumbai","Tahsil":"SHSB","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"ABHSI","designation":"CEO","contact_No":"9632580741","alternate_No":"","emailAddress":"shs@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH09EJ6943","vehicle_weight":"1000"}],"kycDetails":{"gstNo":"27AAOCA2734L1ZC","cinNo":"","panNo":"AAOCA2734L","aadharNo":""}}
+2025-11-01 15:46:40 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:46:40 [INFO]: Vendor Images Inserted successfully
+2025-11-01 15:46:40 [INFO]: Vendor Onboarding successful
+2025-11-01 15:46:49 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"SHSB","address1":"ZHSBS","address2":"SBSBS","landMark":"","mobileNo":"8108261486","pincode":"400078","destination":"Mumbai","Tahsil":"SHSB","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"ABHSI","designation":"CEO","contact_No":"9632580741","alternate_No":"","emailAddress":"shs@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH09EJ6943","vehicle_weight":"1000"}],"kycDetails":{"gstNo":"27AAOCA2734L1ZC","cinNo":"","panNo":"AAOCA2734L","aadharNo":""}}
+2025-11-01 15:46:49 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:46:49 [INFO]: Vendor Onboarding successful
+2025-11-01 15:46:51 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"SHSB","address1":"ZHSBS","address2":"SBSBS","landMark":"","mobileNo":"8108261486","pincode":"400078","destination":"Mumbai","Tahsil":"SHSB","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"ABHSI","designation":"CEO","contact_No":"9632580741","alternate_No":"","emailAddress":"shs@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH09EJ6943","vehicle_weight":"1000"}],"kycDetails":{"gstNo":"27AAOCA2734L1ZC","cinNo":"","panNo":"AAOCA2734L","aadharNo":""}}
+2025-11-01 15:46:51 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:46:51 [INFO]: Vendor Onboarding successful
+2025-11-01 15:47:02 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"SHSB","address1":"ZHSBS","address2":"SBSBS","landMark":"","mobileNo":"8108261486","pincode":"400078","destination":"Mumbai","Tahsil":"SHSB","state":"Maharashtra","City":"","vehicle_count":"1","employee_count":"2"},"VendorEmployeeDetails":[{"full_name":"ABHSI","designation":"CEO","contact_No":"9632580741","alternate_No":"","emailAddress":"shs@gmail.com","website":"","username":"","password":""}],"VehicleDetails":[{"vehicle_number":"MH09EJ6943","vehicle_weight":"1000"}],"kycDetails":{"gstNo":"27AAOCA2734L1ZC","cinNo":"","panNo":"AAOCA2734L","aadharNo":""}}
+2025-11-01 15:47:02 [INFO]: Vendor Onboarding data is valid!
+2025-11-01 15:47:02 [INFO]: Vendor Onboarding successful
+2025-11-01 15:48:28 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:48:28 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:48:28 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:48:28 [INFO]: get_state_district_block fetched successfully
+2025-11-01 15:48:53 [INFO]: sendOTP request: {"mobile_number":"8108261486"}
+2025-11-01 15:48:53 [INFO]: sendOTP data is valid!
+2025-11-01 15:48:53 [INFO]: Generated OTP: 2304
+2025-11-01 15:48:53 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 15:48:53 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=8108261486&senderid=NEOTEC&msg=Dear Customer,OTP for login is 2304. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 15:48:53 [INFO]: OTP sent successfully to 8108261486
+2025-11-01 15:49:03 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"2304"}
+2025-11-01 15:49:03 [INFO]: validateOTP request: {"mobile_number":"8108261486","otp":"2304"}
+2025-11-01 15:49:03 [INFO]: validateOTP data is valid!
+2025-11-01 15:49:03 [INFO]: Validation {"vendorid":"VND295376","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"SHSB","mobileNo":"8108261486","address1":"ZHSBS","address2":"SBSBS","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"SHSB","City":"","role":"vendor","status":"Inactive","vendor_onboarded":true,"kyc_verify":false,"flag":"N"}
+2025-11-01 15:49:07 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:49:07 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:49:07 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:49:07 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:49:07 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:49:07 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:49:08 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:49:08 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:49:08 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:53:32 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:53:32 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:53:32 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:53:32 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:53:32 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:53:32 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:53:33 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:53:33 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:53:33 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:57:36 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:57:36 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:57:36 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:57:36 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:57:36 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:57:36 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:57:37 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:57:37 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:57:37 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:10 [INFO]: Fetching getVendorDetails 
+2025-11-01 15:58:10 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:22 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:58:22 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:22 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:22 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:22 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:58:22 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:24 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:58:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:24 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND295376","VehicleNumber":"MH09EJ6943","verify_flag":"N"}]}
+2025-11-01 15:58:24 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:58:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:24 [INFO]: VehicleVerification result: {"status":"00","message":"Data fetched successfully","data":[{"VendorID":"VND295376","VehicleNumber":"MH09EJ6943","verify_flag":"N"}]}
+2025-11-01 15:58:29 [INFO]: Vehicle request body = {"rc_number":"MH09EJ6943"}{"user-agent":"okhttp/4.9.2","accept-encoding":"gzip","content-type":"application/json","accept":"application/json","content-length":"26","host":"neotechnet.com:9002","connection":"upgrade","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MWE5ZGNhMTkxIiwiZXhwIjoxNzYyMDc5MzA5fQ.8ftDxGpb34Qii28hjOSSyKWT_MMJq8uZ-5TaydPfJ9w","token_type":"bearer","expiry":"24hrs"}
+2025-11-01 15:58:29 [INFO]: VehicleOnboarding req_body = {"vendorid":"VND295376","vehicleid":"","vehicleDetails":{"registrationNo":"MH09EJ6943","registrationDate":"2017-05-02","registeredAt":"KOLHAPUR, Maharashtra","rcStatus":"ACTIVE","ownerName":"SATISH PATIL","fatherName":"","presentAddress":"Kolhapur, 416001","permanentAddress":"Kolhapur, 416001","mobileNumber":"","vehicleCategory":"2WN","vehicleCategoryDescription":"M-Cycle/Scooter(2WN)","vehicleManufacturer":"HERO MOTOCORP LTD","makerModel":"PASSION PRO I3S-SELF-DRUM-CAST","bodyType":"SOLO WITH PILLION","fuelType":"PETROL","manufacturingDate":"2/2017","chassisNumber":"MBLHAR181HHB06448","engineNumber":"HA10ACHHB87101","cubicCapacity":"97.20","vehicleGrossWeight":"247","unladenWeight":"117","noCylinders":"1","seatCapacity":"2","fitUpto":"2032-05-01","insuranceUpto":"2026-07-14","taxUpto":"2032-05-01","taxPaidUpto":"2032-05-01","puccNumber":"MH00301220133647","puccUpto":"2026-08-10","permitNumber":"","permitType":"","permitValidFrom":"","permitValidUpto":""},"VehicleTypesDetails":{"vehicleCategory":"M-Cycle/Scooter(2WN)","vehicleType":"2WN","emptyVehicleWeight":117,"loadingCapacityGVW":247,"loadingCapacityCubic":"97.20","topRemovable":false},"vehiclePhotos":{"photo_url":""}}
+2025-11-01 15:58:29 [INFO]: Vehicle Onboarding data is valid!
+2025-11-01 15:58:29 [ERROR]: Vehicle Onboarding Error: SQL Error: RequestError: Validation failed for parameter 'permit_valid_from'. Invalid date.
+2025-11-01 15:58:33 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:58:33 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:33 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:33 [INFO]: Fetching Vehicle detalis 
+2025-11-01 15:58:33 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:33 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 15:58:36 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 15:58:36 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 15:58:36 [INFO]: get_state_region_district fetched successfully
+2025-11-01 15:58:36 [INFO]: get_state_district_block fetched successfully
+2025-11-01 16:04:19 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:04:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:04:19 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:04:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:04:19 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:04:19 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:04:20 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:04:20 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:04:20 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:04:22 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 16:04:22 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 16:04:23 [INFO]: get_state_region_district fetched successfully
+2025-11-01 16:04:23 [INFO]: get_state_district_block fetched successfully
+2025-11-01 16:15:18 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:15:18 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:15:18 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:15:18 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:15:18 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:15:18 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:15:19 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:15:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:15:19 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:15:48 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 16:15:48 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 16:15:48 [INFO]: get_state_region_district fetched successfully
+2025-11-01 16:15:48 [INFO]: get_state_district_block fetched successfully
+2025-11-01 16:16:23 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:16:23 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:16:23 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:16:23 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:16:23 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND295376"}
+2025-11-01 16:16:23 [INFO]: Get Driver Details req_body = {"vendorid":"VND295376"}
+2025-11-01 16:17:31 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-11-01 16:17:31 [INFO]: sendOTP data is valid!
+2025-11-01 16:17:31 [INFO]: Generated OTP: 5926
+2025-11-01 16:17:31 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 16:17:31 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 5926. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 16:17:31 [INFO]: OTP sent successfully to 9224323167
+2025-11-01 16:17:52 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"6432"}
+2025-11-01 16:17:52 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"6432"}
+2025-11-01 16:17:52 [INFO]: validateOTP data is valid!
+2025-11-01 16:17:52 [INFO]: Validation null
+2025-11-01 16:18:03 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5926"}
+2025-11-01 16:18:03 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5926"}
+2025-11-01 16:18:03 [INFO]: validateOTP data is valid!
+2025-11-01 16:18:03 [INFO]: Validation {"vendorid":"VND358168","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","mobileNo":"9224323167","address1":"LBS","address2":"LBS","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"BHANDUP","City":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y"}
+2025-11-01 16:18:06 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:06 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:06 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:06 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:10 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:11 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:11 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:11 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:11 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:41 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:41 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:41 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:41 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:53 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:53 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:53 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:18:53 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:35:25 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:35:25 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:35:25 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:35:25 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:39:48 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:39:48 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:39:48 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:39:48 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:41:41 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-11-01 16:41:41 [INFO]: sendOTP data is valid!
+2025-11-01 16:41:41 [INFO]: Generated OTP: 5830
+2025-11-01 16:41:41 [INFO]:  SMS API Response: 200"OK"
+2025-11-01 16:41:41 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 5830. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-01 16:41:41 [INFO]: OTP sent successfully to 9224323167
+2025-11-01 16:41:51 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5830"}
+2025-11-01 16:41:51 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5830"}
+2025-11-01 16:41:51 [INFO]: validateOTP data is valid!
+2025-11-01 16:41:51 [INFO]: Validation {"vendorid":"VND358168","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","mobileNo":"9224323167","address1":"LBS","address2":"LBS","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"BHANDUP","City":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y"}
+2025-11-01 16:41:55 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:41:55 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:41:55 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:41:55 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:17 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:26 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:43:42 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:44:33 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:44:42 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:44:59 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:45:15 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:45:26 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:45:34 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:45:35 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:45:50 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:45:50 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:46:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:46:05 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:46:29 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:47:08 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:47:39 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:48:11 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:48:21 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:48:36 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:48:45 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:49:44 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 16:49:44 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:52:41.337Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T16:11:09.047Z","update_date":"2025-11-01T15:42:33.843Z"}]}
+2025-11-01 16:49:44 [INFO]: get_state_region_district fetched successfully
+2025-11-01 16:49:53 [INFO]: get_state_district_block Details req_body = {"state":"ANDAMAN AND NICOBAR ISLANDS"}
+2025-11-01 16:49:53 [INFO]: get_state_district_block fetched successfully
+2025-11-01 16:49:55 [INFO]: get_state_district_block Details req_body = {"state":"ANDAMAN AND NICOBAR ISLANDS","region":"NICOBARS","excludeDistricts":[]}
+2025-11-01 16:49:55 [INFO]: get_state_district_block fetched successfully
+2025-11-01 16:50:11 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:11 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:11 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:11 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:43 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:43 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:43 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:44 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:44 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:44 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:44 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:44 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:50:59 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 16:51:41 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:51:41 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-01 16:51:44 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 16:51:50 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:51:50 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-01 16:51:51 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 16:51:55 [INFO]: Fetching Vehicle detalis 
+2025-11-01 16:51:55 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:06 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:40 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:40 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:40 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:40 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:46 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:46 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:46 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:46 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:54 [INFO]: Fetching getVendorDetails 
+2025-11-01 16:52:54 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:57 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:57 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:57 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:52:57 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:53:05 [INFO]: Fetching getVendorDetails 
+2025-11-01 16:53:05 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND358168"}
+2025-11-01 16:53:17 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:53:17 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:53:17 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:53:18 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 16:53:45 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","DriverName":"MOHAMMED IBRAHIM","DriverPhone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","insert_date":"2025-10-31T18:32:40.887Z","update_date":null}]}
+2025-11-01 16:53:45 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-11-01 16:53:45 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-11-01 16:54:14 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 16:54:14 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 16:54:14 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 16:54:15 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:02:01 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 17:02:04 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:02:04 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:02:04 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:02:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:18:05 [INFO]: Fetching getVendorDetails 
+2025-11-01 17:18:05 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"VND358168"}
+2025-11-01 17:28:00 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:28:00 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:28:00 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:28:01 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:38 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:38 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:38 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:38 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:54 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:54 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:54 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:29:55 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:38:41 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 17:38:41 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:52:41.337Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T16:11:09.047Z","update_date":"2025-11-01T15:42:33.843Z"}]}
+2025-11-01 17:38:41 [INFO]: get_state_region_district fetched successfully
+2025-11-01 17:38:43 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:38:43 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:38:43 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:38:43 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:46:32 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 17:46:34 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 17:46:34 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 17:46:34 [INFO]: get_state_district_block fetched successfully
+2025-11-01 17:46:34 [INFO]: get_state_region_district fetched successfully
+2025-11-01 17:52:24 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 17:52:43 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:52:43 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:52:43 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:52:43 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:52:48 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 17:52:55 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 17:52:55 [INFO]: get_state_district_block fetched successfully
+2025-11-01 17:52:55 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 17:52:55 [INFO]: get_state_region_district fetched successfully
+2025-11-01 17:54:54 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:54 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:54 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:54 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:56 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:56 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:56 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 17:54:57 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 17:55:02 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 17:55:04 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 17:55:04 [INFO]: get_state_district_block fetched successfully
+2025-11-01 17:55:04 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 17:55:04 [INFO]: get_state_region_district fetched successfully
+2025-11-01 17:59:20 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 17:59:24 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 17:59:24 [INFO]: get_state_region_district fetched successfully
+2025-11-01 17:59:24 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 17:59:24 [INFO]: get_state_district_block fetched successfully
+2025-11-01 17:59:35 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:03 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:03 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:03 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:04 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:04 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:04 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:08 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:00:09 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 18:00:09 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 18:00:09 [INFO]: get_state_region_district fetched successfully
+2025-11-01 18:00:09 [INFO]: get_state_district_block fetched successfully
+2025-11-01 18:01:52 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:52 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:52 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:53 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:54 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:54 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:54 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:54 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:56 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:01:57 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 18:01:57 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-01 18:01:57 [INFO]: get_state_region_district fetched successfully
+2025-11-01 18:01:57 [INFO]: get_state_district_block fetched successfully
+2025-11-01 18:02:51 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:02:51 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:02:51 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:02:51 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:02:52 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:05:47 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:05:49 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:05:49 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:05:49 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:05:49 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:02 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:02 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:02 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:03 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:03 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:03 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:03 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:06:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:11:48 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:11:48 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:11:48 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:11:48 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:14:28 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:14:28 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:14:28 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:14:28 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:34 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:34 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:34 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:35 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:36 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:36 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:36 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:26:37 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:28 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:28 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:28 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:28 [INFO]: get_state_region_district Details req_body = {}
+2025-11-01 18:28:28 [INFO]: get_state_region_district fetched successfully
+2025-11-01 18:28:28 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-10-31T18:52:41.337Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":19.16237,"Lng":72.93763,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Bhandup plaza, Ram Rahim Udyog Nagar, Industrial Area, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T16:11:09.047Z","update_date":"2025-11-01T15:42:33.843Z"}]}
+2025-11-01 18:28:29 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:29 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:29 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:29 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:30 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:30 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:30 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:30 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:28:30 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:14 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:14 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:14 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:15 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:32 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:32 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:32 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:32 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:33 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:33 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:33 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:32:33 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:15 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:15 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:15 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:16 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:20 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:24 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:24 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:24 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:49:24 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:33 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:33 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:33 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:33 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:34 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:34 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:34 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:34 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:50:36 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:51 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:51 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:51 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:51 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:52 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:52 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:52 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:52 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:53:59 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:05 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:05 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:05 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:06 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:06 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:06 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:06 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:07 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:55:07 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:03 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:03 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:03 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:10 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:10 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:10 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:10 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-01 18:59:12 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 10:21:59 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 10:21:59 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 10:21:59 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 10:22:00 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 10:30:18 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:30:18 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:33:29 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:33:29 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:33:36 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:33:36 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:34:06 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:34:06 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:34:14 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:34:14 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:34:47 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:34:47 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:35:02 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:35:02 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:38:31 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:38:31 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:38:59 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:38:59 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:39:11 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:39:11 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:39:19 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:39:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:39:34 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:39:34 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:39:46 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:39:46 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:40:05 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:40:05 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:40:10 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:40:10 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:40:15 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:40:15 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:40:24 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:40:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:40:32 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:40:32 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:40:54 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:40:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:41:02 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:41:02 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:41:13 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:41:13 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:41:31 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:41:31 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:41:36 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:41:36 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:41:41 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:41:41 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:43:28 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:43:28 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:51:05 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:51:05 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:57:24 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:57:24 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:57:41 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 10:57:41 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 10:57:41 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 10:57:42 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 10:57:44 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:57:44 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:58:51 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 10:58:51 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 10:58:51 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 10:58:52 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 10:58:54 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:58:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:59:20 [INFO]: Fetching Vehicle detalis 
+2025-11-03 10:59:20 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 10:59:57 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 10:59:57 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 10:59:57 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 10:59:58 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:00:00 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:00:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:01:57 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:01:57 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:02:51 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:02:51 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:03:00 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:03:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:05:48 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:05:48 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:05:54 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:05:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:05:58 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:05:58 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:06:03 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:06:03 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:06:10 [INFO]: Fetching Vehicle detalis 
+2025-11-03 11:06:10 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"VND358168"}
+2025-11-03 11:07:33 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:07:57 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:15:58 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:15:58 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:15:58 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:15:59 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:16:01 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:19:12 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:19:12 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:19:12 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:19:12 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:19:19 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:22:05 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:22:05 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:22:05 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:22:06 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:22:08 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:26:26 [INFO]: get_state_region_district Details req_body = {}
+2025-11-03 11:26:26 [INFO]: get_state_region_district Details req_body = {"state":""}
+2025-11-03 11:26:26 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:26:26 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:27:00 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-11-03 11:27:00 [INFO]: sendOTP data is valid!
+2025-11-03 11:27:00 [INFO]: Generated OTP: 6911
+2025-11-03 11:27:00 [INFO]:  SMS API Response: 200"OK"
+2025-11-03 11:27:00 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 6911. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-03 11:27:00 [INFO]: OTP sent successfully to 9224323167
+2025-11-03 11:27:20 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-11-03 11:27:20 [INFO]: sendOTP data is valid!
+2025-11-03 11:27:20 [INFO]: Generated OTP: 7091
+2025-11-03 11:27:20 [INFO]:  SMS API Response: 200"OK"
+2025-11-03 11:27:20 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 7091. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-03 11:27:20 [INFO]: OTP sent successfully to 9224323167
+2025-11-03 11:29:51 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:30:06 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:30:06 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:30:06 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:30:07 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:30:11 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:30:45 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:31:07 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:31:23 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:31:23 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:31:23 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:31:23 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:31:24 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:35:54 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:35:54 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:35:54 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:35:54 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:37:14 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:37:14 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:37:14 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:37:14 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:37:24 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:37:26 [INFO]: get_state_region_district Details req_body = {}
+2025-11-03 11:37:26 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-03 11:37:27 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:37:27 [INFO]: get_state_district_block fetched successfully
+2025-11-03 11:39:35 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:39:35 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:39:35 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:39:35 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:39:42 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:40:00 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:19 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2025-11-03 11:41:19 [INFO]: sendOTP data is valid!
+2025-11-03 11:41:19 [INFO]: Generated OTP: 5367
+2025-11-03 11:41:19 [INFO]:  SMS API Response: 200"OK"
+2025-11-03 11:41:19 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 5367. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2025-11-03 11:41:19 [INFO]: OTP sent successfully to 9224323167
+2025-11-03 11:41:29 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5367"}
+2025-11-03 11:41:29 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5367"}
+2025-11-03 11:41:29 [INFO]: validateOTP data is valid!
+2025-11-03 11:41:29 [INFO]: Validation {"vendorid":"VND358168","companyType":"PROPRIETORSHIP","companyName":"MOTO","owner_name":"JOTIBA","mobileNo":"9224323167","address1":"LBS","address2":"LBS","landMark":"","pincode":"400078","state":"Maharashtra","Tahsil":"BHANDUP","City":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y"}
+2025-11-03 11:41:30 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5367"}
+2025-11-03 11:41:30 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"5367"}
+2025-11-03 11:41:30 [INFO]: validateOTP data is valid!
+2025-11-03 11:41:30 [INFO]: Validation null
+2025-11-03 11:41:33 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:33 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:33 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:39 [INFO]: getDriverVehicleAssign result: {"bstatus_code":"00","bmessage_desc":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","DriverName":"MOHAMMED IBRAHIM","DriverPhone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","VehicleNumber":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","insert_date":"2025-10-31T18:32:40.887Z","update_date":null}]}
+2025-11-03 11:41:39 [INFO]: getDriverAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-11-03 11:41:39 [INFO]: getVehicleAvailable result: {"status":"00","message":"Data fetched successfully","data":[]}
+2025-11-03 11:41:42 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:42 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:42 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:41:43 [INFO]: get_state_region_district Details req_body = {}
+2025-11-03 11:41:43 [INFO]: get driver location by mobile result: {"status":"00","message":"Records found","data":[{"DriverID":"DR662003","VendorID":"VND358168","full_name":"MOHAMMED IBRAHIM","Phone":"7700077196","MobileNo":"7700077196","VehicleID":"VH939023","registration_no":"MH46BF0475","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T18:32:40.887Z","Status":"Available","Lat":19.141836,"Lng":72.931425,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"Neptune Magnet Mall, T318A, Lal Bahadur Shastri Marg, Dina Bama Estate, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T18:28:19.453Z","update_date":"2025-11-03T11:41:09.633Z"},{"DriverID":"DR634736","VendorID":"VND290458","full_name":"JAMIRULLAH","Phone":"7506122183","MobileNo":"7506122183","VehicleID":"VH403102","registration_no":"MH46F5162","VehicleType":"Multi Axle","AssignmentDate":"2025-10-31T16:11:09.050Z","Status":"Available","Lat":19.14183,"Lng":72.931373,"City":"Konkan Division","District":"Konkan Division","Taluka":"Bhandup West","State":"Maharashtra","Pincode":"400078","Address":"11, Lal Bahadur Shastri Marg, Ganesh Nagar, Bhandup West, Mumbai, Maharashtra 400078, India","insert_date":"2025-10-31T16:11:09.047Z","update_date":"2025-11-03T11:32:39.273Z"}]}
+2025-11-03 11:41:43 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:41:59 [INFO]: get_state_region_district Details req_body = {"state":"ASSAM"}
+2025-11-03 11:41:59 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:42:02 [INFO]: get_state_region_district Details req_body = {"state":"THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU"}
+2025-11-03 11:42:02 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:42:05 [INFO]: get_state_region_district Details req_body = {"state":"THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU","region":"Rajkot","excludeDistricts":[]}
+2025-11-03 11:42:05 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:42:11 [INFO]: Insertdriverloadpost result: {"bstatus_code":"00","bmessage_desc":"Load post inserted successfully."}
+2025-11-03 11:42:13 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:42:13 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:42:13 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:42:50 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:42:50 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:42:50 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 11:42:50 [INFO]: get_state_region_district fetched successfully
+2025-11-03 11:49:48 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 11:49:48 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 11:49:48 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 11:50:03 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 11:50:07 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-03 11:50:07 [INFO]: get_state_region_district Details req_body = {}
+2025-11-03 11:50:07 [INFO]: get_state_district_block fetched successfully
+2025-11-03 11:50:07 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:00:10 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:00:10 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:00:10 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:00:10 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:00:13 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:00:13 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:00:13 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:00:13 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:02:22 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:02:22 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:02:22 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:02:22 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:02:30 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:02:30 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:02:30 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:02:30 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:03:04 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 12:03:17 [INFO]: Get vendor Counts req_body = {"vendorid":"VND358168"}
+2025-11-03 12:04:43 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 12:04:43 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 12:04:44 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}
+2025-11-03 12:04:51 [INFO]: Get Driver Details req_body = {"vendorid":"VND358168"}
+2025-11-03 12:05:11 [INFO]: get_state_district_block Details req_body = {"state":""}
+2025-11-03 12:05:11 [INFO]: get_state_region_district Details req_body = {}
+2025-11-03 12:05:11 [INFO]: get_state_district_block fetched successfully
+2025-11-03 12:05:11 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:06:57 [INFO]: KYC request body = {"vendorid":"VND358168","driving_license_no":"MH0320080005864"}
+2025-11-03 12:07:29 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:07:29 [INFO]: get_state_region_district Details req_body = undefined
+2025-11-03 12:07:29 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:07:29 [INFO]: get_state_region_district fetched successfully
+2025-11-03 12:07:58 [INFO]: KYC request body = {"vendorid":"VND358168","driving_license_no":"UP5520120009289"}
+2025-11-03 12:11:37 [INFO]: KYC request body = {"vendorid":"VND358168","driving_license_no":"MP15N20150228090"}
+2025-11-03 12:13:29 [INFO]: Get vehicle active req_body = {"vendorid":"VND358168"}
+2025-11-03 12:13:29 [INFO]: Get vehicle available req_body = {"vendorid":"VND358168"}
+2025-11-03 12:13:29 [INFO]: Get vehicle process req_body = {"vendorid":"VND358168"}

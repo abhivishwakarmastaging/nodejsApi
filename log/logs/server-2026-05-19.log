@@ -1,0 +1,81 @@
+2026-05-21 13:50:00 [INFO]: sendOTP request: {"mobile_number":"9696919070"}
+2026-05-21 13:50:00 [INFO]: sendOTP data is valid!
+2026-05-21 13:50:00 [INFO]: Generated OTP: 1935
+2026-05-21 13:50:01 [INFO]:  SMS API Response: 200"OK"
+2026-05-21 13:50:01 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9696919070&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-21 13:50:01 [INFO]: OTP sent successfully to 9696919070
+2026-05-21 13:50:08 [INFO]: validateOTP request: {"mobile_number":"9696919070","otp":"1111"}
+2026-05-21 13:50:08 [INFO]: validateOTP request: {"mobile_number":"9696919070","otp":"1111"}
+2026-05-21 13:50:08 [INFO]: validateOTP data is valid!
+2026-05-21 13:50:08 [INFO]: Validation {"vendorid":"USM0002","companyType":"OWENER\/INDIVIDUAL","companyName":"Moto","owner_name":"Usman","mobileNo":"9696919070","Building":"C210","Area":"Thane","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup West","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":false,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-21 14:04:31 [INFO]: Fetching Vehicle detalis 
+2026-05-21 14:04:31 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0002"}
+2026-05-21 14:04:57 [INFO]: Delete Vehicle vehicleid = VHSM0002004
+2026-05-21 14:05:02 [INFO]: Delete Vehicle vehicleid = VHSM0002004
+2026-05-21 14:05:10 [INFO]: Delete Vehicle vehicleid = VHSM0002004
+2026-05-21 14:05:40 [INFO]: Get Driver Details req_body = {"vendorid":"USM0002"}
+2026-05-21 14:05:47 [INFO]: Fetching Vehicle detalis 
+2026-05-21 14:05:47 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0002"}
+2026-05-21 14:06:42 [INFO]: Fetching Vehicle detalis 
+2026-05-21 14:06:42 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"USM0002"}
+2026-05-21 18:47:41 [INFO]: sendOTP request: {"mobile_number":"9696919070"}
+2026-05-21 18:47:41 [INFO]: sendOTP data is valid!
+2026-05-21 18:47:41 [INFO]: Generated OTP: 9746
+2026-05-21 18:47:41 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-21 18:48:20 [INFO]: sendOTP request: {"mobile_number":"9696919070"}
+2026-05-21 18:48:20 [INFO]: sendOTP data is valid!
+2026-05-21 18:48:20 [INFO]: Generated OTP: 5576
+2026-05-21 18:48:21 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-21 18:50:22 [INFO]: sendOTP request: {"mobile_number":"8299761354"}
+2026-05-21 18:50:22 [INFO]: sendOTP data is valid!
+2026-05-21 18:50:22 [INFO]: Generated OTP: 4593
+2026-05-21 18:50:22 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-21 18:51:40 [INFO]: sendOTP request: {"mobile_number":"9696919070"}
+2026-05-21 18:51:40 [INFO]: sendOTP data is valid!
+2026-05-21 18:51:40 [INFO]: Generated OTP: 7031
+2026-05-21 18:51:41 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-21 18:51:46 [INFO]: validateOTP request: {"mobile_number":"9696919070","otp":"1111"}
+2026-05-21 18:51:46 [INFO]: validateOTP request: {"mobile_number":"9696919070","otp":"1111"}
+2026-05-21 18:51:46 [INFO]: validateOTP data is valid!
+2026-05-21 18:51:46 [INFO]: Validation {"vendorid":"USM0002","companyType":"OWENER\/INDIVIDUAL","companyName":"Moto","owner_name":"Usman","mobileNo":"9696919070","Building":"C210","Area":"Thane","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup West","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":false,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-21 18:55:15 [INFO]: sendOTP request: {"mobile_number":"9696919070"}
+2026-05-21 18:55:15 [INFO]: sendOTP data is valid!
+2026-05-21 18:55:15 [INFO]: Generated OTP: 8590
+2026-05-21 18:55:16 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-21 18:57:17 [INFO]: validateOTP request: {"mobile_number":"","otp":""}
+2026-05-21 18:57:17 [INFO]: validateOTP request: {"mobile_number":"","otp":""}
+2026-05-21 18:57:17 [ERROR]: Validation error: mobile_number is required
+2026-05-21 18:57:29 [INFO]: sendOTP request: {"mobile_number":"9696919070"}
+2026-05-21 18:57:29 [INFO]: sendOTP data is valid!
+2026-05-21 18:57:29 [INFO]: Generated OTP: 4038
+2026-05-21 18:57:30 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-21 18:57:36 [INFO]: validateOTP request: {"mobile_number":"9696919070","otp":"1111"}
+2026-05-21 18:57:36 [INFO]: validateOTP request: {"mobile_number":"9696919070","otp":"1111"}
+2026-05-21 18:57:36 [INFO]: validateOTP data is valid!
+2026-05-21 18:57:36 [INFO]: Validation {"vendorid":"USM0002","companyType":"OWENER\/INDIVIDUAL","companyName":"Moto","owner_name":"Usman","mobileNo":"9696919070","Building":"C210","Area":"Thane","pincode":"400078","state":"Maharashtra","Tahsil":"Bhandup West","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":false,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-22 11:30:03 [INFO]: sendOTP request: {"mobile_number":"8000000000"}
+2026-05-22 11:30:03 [INFO]: sendOTP data is valid!
+2026-05-22 11:30:03 [INFO]: Generated OTP: 6650
+2026-05-22 11:30:04 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 11:31:25 [INFO]: sendOTP request: {"mobile_number":"8000000000"}
+2026-05-22 11:31:25 [INFO]: sendOTP data is valid!
+2026-05-22 11:31:25 [INFO]: Generated OTP: 2323
+2026-05-22 11:31:26 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 11:38:51 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 11:38:51 [INFO]: sendOTP data is valid!
+2026-05-22 11:38:51 [INFO]: Generated OTP: 6334
+2026-05-22 11:38:51 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 12:02:09 [INFO]: sendOTP request: {"mobile_number":"8000000000"}
+2026-05-22 12:02:09 [INFO]: sendOTP data is valid!
+2026-05-22 12:02:09 [INFO]: Generated OTP: 9660
+2026-05-22 12:02:09 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 12:27:41 [INFO]: Login vendor MPIN - req.body = {"vendorID":"VND974833","ContactNo":"9876543210","vendor_MPIN":"1111"}
+2026-05-22 12:27:42 [INFO]: Final Response: {"status_code":"01","status_desc":"MPIN is not set for this Vendor"}
+2026-05-22 12:36:33 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 12:36:33 [INFO]: sendOTP data is valid!
+2026-05-22 12:36:33 [INFO]: Generated OTP: 5317
+2026-05-22 12:36:34 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443
+2026-05-22 12:37:39 [INFO]: sendOTP request: {"mobile_number":"7506122183"}
+2026-05-22 12:37:39 [INFO]: sendOTP data is valid!
+2026-05-22 12:37:39 [INFO]: Generated OTP: 2782
+2026-05-22 12:37:40 [ERROR]: sendOTP Error: connect EHOSTUNREACH 103.182.103.246:443

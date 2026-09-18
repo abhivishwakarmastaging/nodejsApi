@@ -1,0 +1,214 @@
+2026-05-27 17:34:08 [INFO]:  vendorBankkYC req_body = {"vendorid":"RAJ0001","bank_ac_holder_name":"Abhishek","account_type":"saving","bank_ac_number":"9876543210","bank_ac_number_verify":"9876543210","ifsc_code":"BKID0000926","bank_name":"Bank of India","branch_name":"Mumbai","cheque_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIYSUNDX1BST0ZJTEUAAQEAAAIIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAGRyWFlaAAABVAAAABRnWFlaAAABaAAAABRiWFlaAAABfAAAABR3dHB0AAABkAAAABRyVFJDAAABpAAAAChnVFJDAAABpAAAAChiVFJDAAABpAAAAChjcHJ0AAABzAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAEYAAAAcAEQAaQBzAHAAbABhAHkAIABQADMAIABHAGEAbQB1AHQAIAB3AGkAdABoACAAcwBSAEcAQgAgAFQAcgBhAG4AcwBmAGUAcgAAWFlaIAAAAAAAAIPdAAA9vv///7tYWVogAAAAAAAASr8AALE3AAAKuVhZWiAAAAAAAAAoOwAAEQsAAMjLWFlaIAAAAAAAAPbWAAEAAAAA0y1wYXJhAAAAAAAEAAAAAmZmAADypwAADVkAABPQAAAKWwAAAAAAAAAAbWx1YwAAAAAAAAABAAAADGVuVVMAAAAgAAAAHABHAG8AbwBnAGwAZQAgAEkAbgBjAC4AIAAyADAAMQA2/9sAQwBQNzxGPDJQRkFGWlVQX3jIgnhubnj1r7mRyP///////////////////////////////////////////////////9sAQwFVWlp4aXjrgoLr/////////////////////////////////////////////////////////////////////////8AAEQgAlgBwAwEiAAIRAQMRAf/EABkAAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACgQAAICAQMDAwUBAQAAAAAAAAABAhEhAzFBElFhMnGBBBMikaEzwf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREC/9oADAMBAAIRAxEAPwBvpW7J6o9mKfqJyZxdX11sv6H3JXapfBFPmwouIrqlzJibveV+7BJdkVSxkojHb+Dz2ZpLov8AHYVrgCel9v2wp+CgKJp91+hZ7l0J3VcASoyezYdD8lqTiqT3BSaVWQTqeoFfA9TE0TZIHwCTdVyFhZQ+lrgdeUTYWBVZ3QUr9RNlRpvJQDQnvgqIBRLRqkTIIyYimTYA3dMDTW01BRozW6MqG7EbJK80KSVqqoauM7A3i4c1+iurTLqOcDp6odidWUHptJZAxKiRY08FRqmTJk2JsBMQMANfqF6c2ZG31EaimYGYqxpd7EModDUbEXBrpyUKo8imo/bdbhKrJk/xAgaeCWwWwSqsQrAIYgADo+oacFT5Oc21Ix+3hL9nOZjTQYnuxWUU2NOvkhsaeAKbJ1H+PyNE6np+SozbKWyM2zQhQMQyoBiGBrq5jhYOc7NRXpyORnPluqbJst/8IaxZqITZSZDBMo1TI1XhIOoWpK4xVVQRmaGa3LBTKJsZUMBDA2nqtxcaXuYHa4p8HGc43VNWk12IbYMltmkDEAWUFktj5ySALcshblAUFiAIqwskZR6BxtU2jo+6+YSRzvMm80c+Y1SawS0O6Dq3tWaRS0eqFp5MWaKbimk/hkuDdtPqzwUQIpUn+WxIAiiRgMZIwGArAI9Kzl1f9HRrCLSyEtOEvD8GZMac78oVLvXuavQkvS7M5RcfVGjSJcX7rwJR3adUV7MG3yr9wJTkl3Xkh7t0aY7tA4vhJ+wGRb05UnvfYVBTWUAmmnTVAV1STV58Mlu23VewAAAB6OysjqdgBBa2tbDu8NWAARPQhLbBjPTcHV2AAZ47A44sAKFb5z7hjygAAmmkr2ewm04pVnuAAEoVFO9yaAAP/9k="} 
+2026-05-27 17:34:08 [INFO]:  bankChequeURL = https://uat.motohelpindia.com/vendor-service/uploads/Vendor_Bank_Cheque/cheque_1779883448706.jpeg 
+2026-05-27 17:34:08 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-27 17:34:25 [INFO]:  vendorBankkYC req_body = {"vendorid":"ABH0001","bank_ac_holder_name":"Abhishek","account_type":"saving","bank_ac_number":"12345","bank_ac_number_verify":"12345","ifsc_code":"Ifsc123","bank_name":"Union","branch_name":"Garofua","cheque_img":"data:image/jpeg;base64,/9j/4QBqRXhpZgAATU0AKgAAAAgABAEAAAQAAAABAAAAlgEBAAQAAAABAAAAcIdpAAQAAAABAAAAPgESAAMAAAABAAYAAAAAAAAAAZIIAAQAAAABAAAAAAAAAAAAAQESAAMAAAABAAYAAAAAAAD/4AAQSkZJRgABAQAAAQABAAD/4gIoSUNDX1BST0ZJTEUAAQEAAAIYAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAHRyWFlaAAABZAAAABRnWFlaAAABeAAAABRiWFlaAAABjAAAABRyVFJDAAABoAAAAChnVFJDAAABoAAAAChiVFJDAAABoAAAACh3dHB0AAAByAAAABRjcHJ0AAAB3AAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAFgAAAAcAHMAUgBHAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFhZWiAAAAAAAABvogAAOPUAAAOQWFlaIAAAAAAAAGKZAAC3hQAAGNpYWVogAAAAAAAAJKAAAA+EAAC2z3BhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABYWVogAAAAAAAA9tYAAQAAAADTLW1sdWMAAAAAAAAAAQAAAAxlblVTAAAAIAAAABwARwBvAG8AZwBsAGUAIABJAG4AYwAuACAAMgAwADEANv/bAEMAUDc8RjwyUEZBRlpVUF94yIJ4bm549a+5kcj////////////////////////////////////////////////////bAEMBVVpaeGl464KC6//////////////////////////////////////////////////////////////////////////AABEIAHAAlgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EAB4QAQEAAwEAAwEBAAAAAAAAAAABAhExIRJBUTJx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCgAAAVie+tZcJPAYyuqbTKW5Uy7oFGTdBoT5RQAATSfGNAJoUBAAdRQEFAYy+o0l38lvmNBjGdrOm+YREqso0zUEoppQ+S/KMho2MbsWZKjQkuwAAHYUBFAGb2Jl7qfrdm4knu70GcuyM2Lf6KzVYqLUWAAAIAH0q9oJoUVE2AD0AACKAluorOd8BgvSJWVSpQqgUAQUk2CziyeGuKCCoCAKjvRUBBUAYzvum3O+1FPpmtVmoJoVFBFQFWeTaRrXmgXFQURFAQAHYEEAAS+Sucby4ylVEaqIIlaRYJF6yoNSaWT7PyNAgqKIKgIKIOgCoIqCs3oDNEqKUE4zWkqoy3jGXWY6x/0En6q6RVEVAEVEEFAf/Z"} 
+2026-05-27 17:34:25 [INFO]:  bankChequeURL = https://uat.motohelpindia.com/vendor-service/uploads/Vendor_Bank_Cheque/cheque_1779883465060.jpeg 
+2026-05-27 17:34:25 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-27 17:34:37 [INFO]: Fetching Vehicle detalis 
+2026-05-27 17:34:37 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:34:56 [INFO]: Update Vehicle req_body = {"vehicleid":"VHBH0001001","vendorid":"ABH0001","vehicleWeight":"3000","registrationNo":"MH46F55880"}
+2026-05-27 17:34:56 [ERROR]: Update Vehicle Error: [object Object]
+2026-05-27 17:35:12 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605273360"}
+2026-05-27 17:35:12 [INFO]: Get Driver Details req_body = {"driver_id":"MOH-5864"}
+2026-05-27 17:35:44 [INFO]: Driver verification req_body = {"driver_id":"MOH-5864","vendorid":"RAJ0001","driving_license_no":"MH03 2008 0005864","DOB":"1973-02-24","full_name":"MOHAMMED IBRAHIM","relatives_name":"ABDUL SATTAR","address":"INDIRA NAGAR ZOPADPATTI BAIGANWADI, GOVANDI MUMBAI, Greater Mumbai,Mumbai Suburban,MH","issuing_rto_name":"RTO,MUMBAI (EAST)","date_of_issue":"","nt_validity_from":"","nt_validity_to":"","t_validity_from":"2022-02-01","t_validity_to":"2027-01-31","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-27 17:42:18 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001001","vehicleWeight":"10 Ton","registrationNo":"MH46F55880"}]}
+2026-05-27 17:42:18 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 17:42:34 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001001","vehicleWeight":"10 Ton","registrationNo":"MH46F55880"}]}
+2026-05-27 17:42:34 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 17:42:35 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001001","vehicleWeight":"10 Ton","registrationNo":"MH46F55880"}]}
+2026-05-27 17:42:35 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 17:43:37 [INFO]: Fetching Vehicle detalis 
+2026-05-27 17:43:37 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:43:54 [INFO]: Fetching Vehicle detalis 
+2026-05-27 17:43:54 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:44:19 [INFO]: Fetching Vehicle detalis 
+2026-05-27 17:44:19 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:44:55 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001001","vehicleWeight":"10","registrationNo":"MH46F55880"}]}
+2026-05-27 17:44:55 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 17:45:02 [INFO]: Update Vehicle req_body = {"vehicleid":"VHBH0001001","vendorid":"ABH0001","vehicleWeight":"10 Ton","registrationNo":"MH46F55880"}
+2026-05-27 17:45:02 [ERROR]: Update Vehicle Error: [object Object]
+2026-05-27 17:46:16 [INFO]: Fetching Vehicle detalis 
+2026-05-27 17:46:16 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:47:06 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001001","vehicleWeight":"10","registrationNo":"MH46F5588"}]}
+2026-05-27 17:47:06 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 17:48:38 [INFO]: Get Driver Details req_body = {"onboard_id":"MOH-5864"}
+2026-05-27 17:49:04 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001002","vehicleWeight":"10 Ton","registrationNo":"MH46F5522"},{"vehicleid":"VHBH0001001","vehicleWeight":"20 Ton","registrationNo":"MH46F5524"}]}
+2026-05-27 17:49:04 [ERROR]: Update Vehicle Error: SQL Error: TypeError: Cannot read properties of undefined (reading 'registrationNo')
+2026-05-27 17:52:29 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605273360"}
+2026-05-27 17:52:32 [INFO]: Get Driver Details req_body = {"driver_id":"MOH-5864"}
+2026-05-27 17:53:16 [INFO]: Fetching getVendorDetails 
+2026-05-27 17:53:16 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:53:17 [INFO]: Fetching getVendorKYC 
+2026-05-27 17:53:17 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:53:48 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"","vehicleWeight":"500","registrationNo":"MH46F4472"}]}
+2026-05-27 17:53:48 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"New vehicle inserted successfully"}]}
+2026-05-27 17:54:00 [INFO]: Fetching Vehicle detalis 
+2026-05-27 17:54:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 17:54:29 [INFO]: Update VendorDetails req_body = {"vendorid":"ABH0001","companyName":"Testtinggg","companyType":"pvt","owner_name":"Abhishek","mobileNo":"8000000000","Building":"This is test","Area":"Test","pincode":"400078","state":"","district":"","Tahsil":""}
+2026-05-27 17:54:51 [INFO]: Update VendorDetails req_body = {"vendorid":"ABH0001","companyName":"Testtinggg","companyType":"self","owner_name":"Abhishek","mobileNo":"8000000000","Building":"This is test","Area":"Test","pincode":"400078","state":"","district":"","Tahsil":""}
+2026-05-27 17:55:59 [INFO]: Get Driver Details req_body = {"onboard_id":"MOH-5864"}
+2026-05-27 18:05:00 [INFO]: Fetching Vehicle detalis 
+2026-05-27 18:05:00 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 18:05:15 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VH0001006","vehicleWeight":"206666","registrationNo":"MH46F5528"}]}
+2026-05-27 18:05:15 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 18:05:16 [INFO]: Fetching Vehicle detalis 
+2026-05-27 18:05:16 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 18:05:26 [INFO]: Update Vehicle req_body = {"vendorid":"ABH0001","vehicles":[{"vehicleid":"VHBH0001002","vehicleWeight":"10 Ton","registrationNo":"MH46F5522555"}]}
+2026-05-27 18:05:26 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-27 18:05:26 [INFO]: Fetching Vehicle detalis 
+2026-05-27 18:05:26 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"ABH0001"}
+2026-05-27 18:49:53 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605279464"}
+2026-05-27 18:49:53 [INFO]: Get Driver Details req_body = {"driver_id":"GNM-8999"}
+2026-05-27 18:50:06 [INFO]: Driver verification req_body = {"driver_id":"GNM-8999","vendorid":"RAJ0001","driving_license_no":"MH0320080005864","DOB":"1973-02-24","full_name":"MOHAMMED IBRAHIM","relatives_name":"ABDUL SATTAR","address":"INDIRA NAGAR ZOPADPATTI BAIGANWADI, GOVANDI MUMBAI, Greater Mumbai,Mumbai Suburban,MH","issuing_rto_name":"RTO,MUMBAI (EAST)","date_of_issue":"","nt_validity_from":"","nt_validity_to":"","t_validity_from":"2022-02-01","t_validity_to":"2027-01-31","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-27 18:50:18 [INFO]: Fetching Vehicle detalis 
+2026-05-27 18:50:18 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAJ0001"}
+2026-05-27 18:50:38 [INFO]: Fetching Vehicle detalis 
+2026-05-27 18:50:38 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"RAJ0001"}
+2026-05-27 18:50:57 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2026-05-27 18:50:57 [INFO]: sendOTP data is valid!
+2026-05-27 18:50:57 [INFO]: Generated OTP: 5104
+2026-05-27 18:50:58 [INFO]:  SMS API Response: 200"OK"
+2026-05-27 18:50:58 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-27 18:50:58 [INFO]: OTP sent successfully to 9224323167
+2026-05-27 18:51:02 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"1111"}
+2026-05-27 18:51:02 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"1111"}
+2026-05-27 18:51:02 [INFO]: validateOTP data is valid!
+2026-05-27 18:51:02 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-27 18:51:25 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-27 18:51:25 [ERROR]: Pincode fetch failed = TypeError: Cannot read properties of undefined (reading 'Status')
+2026-05-27 18:53:28 [INFO]: VendorOnboarding req_body = {"VendorDetails":{"companyType":"self","companyName":"Abcd","owner_name":"Svsv","Building":"Zvvs","Area":"Z. Xx","mobileNo":"9224323167","pincode":"400078","district":"","Tahsil":"","state":""},"VehicleDetails":[{"vehicle_number":"MH46F5564","vehicle_weight":"1000"},{"vehicle_number":"MH46F5566","vehicle_weight":"1000"}],"kycDetails":{"gstNo":"27ASVPJ4585G2Z1","cinNo":"","panNo":"ASVPJ4585G","aadharNo":""}}
+2026-05-27 18:53:28 [INFO]: Vendor Onboarding data is valid!
+2026-05-27 18:53:28 [INFO]: Vendor Images Inserted successfully
+2026-05-27 18:53:30 [INFO]: Fetching Vehicle detalis 
+2026-05-27 18:53:30 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SVS0001"}
+2026-05-27 18:54:26 [INFO]: VehicleOnboarding req_body = {"vendorid":"SVS0001","vehicleid":"VHVS0001001","vehicleDetails":{"registrationNo":"MH46F5564","bodyType":"open_body"},"VehicleTypesDetails":{"VehicleWeight":1000,"vehicleType":"MINI","height":"7","width":"6","length":"10"},"vehiclePhotos":{"front_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIYSUNDX1BST0ZJTEUAAQEAAAIIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAGRyWFlaAAABVAAAABRnWFlaAAABaAAAABRiWFlaAAABfAAAABR3dHB0AAABkAAAABRyVFJDAAABpAAAAChnVFJDAAABpAAAAChiVFJDAAABpAAAAChjcHJ0AAABzAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAEYAAAAcAEQAaQBzAHAAbABhAHkAIABQADMAIABHAGEAbQB1AHQAIAB3AGkAdABoACAAcwBSAEcAQgAgAFQAcgBhAG4AcwBmAGUAcgAAWFlaIAAAAAAAAIPdAAA9vv///7tYWVogAAAAAAAASr8AALE3AAAKuVhZWiAAAAAAAAAoOwAAEQsAAMjLWFlaIAAAAAAAAPbWAAEAAAAA0y1wYXJhAAAAAAAEAAAAAmZmAADypwAADVkAABPQAAAKWwAAAAAAAAAAbWx1YwAAAAAAAAABAAAADGVuVVMAAAAgAAAAHABHAG8AbwBnAGwAZQAgAEkAbgBjAC4AIAAyADAAMQA2/9sAQwBQNzxGPDJQRkFGWlVQX3jIgnhubnj1r7mRyP///////////////////////////////////////////////////9sAQwFVWlp4aXjrgoLr/////////////////////////////////////////////////////////////////////////8AAEQgAlgBwAwEiAAIRAQMRAf/EABkAAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACYQAAICAQQDAAICAwAAAAAAAAABAhEhAxIxQRNRYQSRIqEyQoH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQEx/9oADAMBAAIRAxEAPwDpP+UHfJ5kj0Rf9HKa2yd3TyqKIVIjfVJX37NJ4IFErJXkjaXAF0qbdc8nRrBy0Wt+ezrOUV3ZvE3rnJGKtm3K+EZphEpCii64olVVYr2S7+jGLaX9gdIt3urA1Y7ofUHLammri2RaseMvGTKub1FtSUcr/Yu6Te6S57oKUErSV+2VRlqT/luqr4oCbldNNfozbl8XZucJJP8AxiuDkvuQNx54+WaMbmRtlRtuuzLmujAA0pNtByzhJEXJQJbfIo0LXsKNp25StjThvavC+HSGi27l+jsoqK9IgkYRiltj/wBJPUUO7fpEnqriP7ODavkgSk5O2Qm5Dd8KLQr3gzcn7KoTfQDHslo2tGTNr8f2Bx3E3NnqWhFGlpRQo8m2T6KtKTPYorpFr4SgV01kCgrhPTg+EY8DZ6qAHnX467NrRijqAMqEV0Wl6KAAGBYAAABRckyAKABAUWAoUQtgK+ikAApDAoUAsWShQCxYpIoAEACwBYCyksWAspBYFJkWSwKQWLAAWALQFgCUEi2LAUKFiwFCi2AJQopAFEooAlFAsCYFmdyLaAoFogGsCkQoFRSI1QRKIWiBQUCABQooHz9z9l3v2ZIVHTyS9l8sjkAO3mZrzs84A9K1zcfyEeQAezzpjy/TyWLA9nkG88m5l3Mg9e8u88m9l8jA4FWWAUWiAAAAAKAAAAFAAAAAf//Z","back_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIYSUNDX1BST0ZJTEUAAQEAAAIIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAGRyWFlaAAABVAAAABRnWFlaAAABaAAAABRiWFlaAAABfAAAABR3dHB0AAABkAAAABRyVFJDAAABpAAAAChnVFJDAAABpAAAAChiVFJDAAABpAAAAChjcHJ0AAABzAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAEYAAAAcAEQAaQBzAHAAbABhAHkAIABQADMAIABHAGEAbQB1AHQAIAB3AGkAdABoACAAcwBSAEcAQgAgAFQAcgBhAG4AcwBmAGUAcgAAWFlaIAAAAAAAAIPdAAA9vv///7tYWVogAAAAAAAASr8AALE3AAAKuVhZWiAAAAAAAAAoOwAAEQsAAMjLWFlaIAAAAAAAAPbWAAEAAAAA0y1wYXJhAAAAAAAEAAAAAmZmAADypwAADVkAABPQAAAKWwAAAAAAAAAAbWx1YwAAAAAAAAABAAAADGVuVVMAAAAgAAAAHABHAG8AbwBnAGwAZQAgAEkAbgBjAC4AIAAyADAAMQA2/9sAQwBQNzxGPDJQRkFGWlVQX3jIgnhubnj1r7mRyP///////////////////////////////////////////////////9sAQwFVWlp4aXjrgoLr/////////////////////////////////////////////////////////////////////////8AAEQgAlgBwAwEiAAIRAQMRAf/EABkAAQEBAQEBAAAAAAAAAAAAAAABAgMEBf/EACcQAAIBAwUAAgICAwAAAAAAAAABEQIDIRIxQVFhE3EigQQUMpGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDpe/Kj6PMkelZRxa01NPYohUSW8QXbDILBGOCN4gDdpzJ1awee29OTbuN7G81NWo5zkNzuw3BKQyxgzqQbS5JRuUJOerwOpvkD0Usl2maZ5RXUqVDM/LTGQrHyN06aVnsj1Tl5NKqf8UbotuJq3IOTbpImvtmrqS3qlnPYDa9Y1IwCiuoy23uBDALc1BNuRqQFgqXSMauiOpvkg3W28tm7VGrL2LRanNR2/G2gLCpWMHG5d4pJXc1eI5NoACaiS2Br7YlL0ioqfBtWWwMaiS2d1YXJ0VqlAeVU1Pg0rVTPUqUtkWCUedWOzpTZSOsejAURi5bVWW2jZIT3A8zt9NhWWz0xHACOKsJbm1bpRsBUSS2RR2Hj6AYA8CfmQLIjgmYLDAIoiRCAgLkkegRgr53H/AIMvEMSpKBI2bhfsQp3HGwAsDbgmRDAs9ifSQxAFkSIRVACU0CbDPrAe7MnAyRqXuBeBgQABZJgANQ1AAJZJKAH0MgT4BZ+/wDZJLHhIASSTUCAM5GxqB+gJL6JPhYKBnIyaAGclKAIXPgKBJEifBgBIn0YGAE+kn0uBgCfspUUCENQIAyDQAyDQAxK7Q3PJrfZfkq7CPUk0DzK9UVX2B6Co4L+QX+wgO/7Kl6jir9JVepA7R6I9OavUmvlpYFj0QZ10jWgNQIM6l2XUgPngAoAACCQALIkACyWX2AA1Psut9gAX5GX5GAB/9k=","right_img":"","left_img":""},"rc_number":"MH46F5564"}
+2026-05-27 18:54:26 [INFO]: Vehicle Onboarding data is valid!
+2026-05-27 18:54:26 [INFO]: Vehicle Images Inserted successfully
+2026-05-27 18:54:26 [INFO]: Vehicle Onboarding successful
+2026-05-27 18:55:12 [INFO]:  vendorBankkYC req_body = {"vendorid":"SVS0001","bank_ac_holder_name":"Dbd","account_type":"saving","bank_ac_number":"9876543210","bank_ac_number_verify":"9876543210","ifsc_code":"Bahavzn","bank_name":"Vzbxb","branch_name":"Sbdb","cheque_img":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gIYSUNDX1BST0ZJTEUAAQEAAAIIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAAGRyWFlaAAABVAAAABRnWFlaAAABaAAAABRiWFlaAAABfAAAABR3dHB0AAABkAAAABRyVFJDAAABpAAAAChnVFJDAAABpAAAAChiVFJDAAABpAAAAChjcHJ0AAABzAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAEYAAAAcAEQAaQBzAHAAbABhAHkAIABQADMAIABHAGEAbQB1AHQAIAB3AGkAdABoACAAcwBSAEcAQgAgAFQAcgBhAG4AcwBmAGUAcgAAWFlaIAAAAAAAAIPdAAA9vv///7tYWVogAAAAAAAASr8AALE3AAAKuVhZWiAAAAAAAAAoOwAAEQsAAMjLWFlaIAAAAAAAAPbWAAEAAAAA0y1wYXJhAAAAAAAEAAAAAmZmAADypwAADVkAABPQAAAKWwAAAAAAAAAAbWx1YwAAAAAAAAABAAAADGVuVVMAAAAgAAAAHABHAG8AbwBnAGwAZQAgAEkAbgBjAC4AIAAyADAAMQA2/9sAQwBQNzxGPDJQRkFGWlVQX3jIgnhubnj1r7mRyP///////////////////////////////////////////////////9sAQwFVWlp4aXjrgoLr/////////////////////////////////////////////////////////////////////////8AAEQgAlgBwAwEiAAIRAQMRAf/EABgAAQEBAQEAAAAAAAAAAAAAAAABAgQD/8QAKRAAAgIABQQDAAIDAQAAAAAAAAECERITIVFhAzFBkXGBoUJSIjLw8f/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AK+xltnTlQoi6MPLbGDjcm3qVf7Wzpn0ulWraPJw6fid/CC5qKi3RlLC2v0rLiaOTJiYIVGlJlVsmmxuKAU9yNa2euHQzIo83RnQ0zLIPRdZ1SWoc5VrOuFoYj0+pdpL7ZtRndySfyzCxhpxVyV892XEqVRdlnGV1FaGLnH+AVfOq+ytq9DzcpSeunBrx2NZqBU1XYgtCo1a2NR6iXgxYvQUeucq7My+on4MWWxRG0/AbT7Ki2SxR7RjXlmqRQc20ox1ajHtq+x6nL1JY5X48FxHndFxIhDSNY1Vahz07GC0BpScmkW/j2ZSFAaxfHsYvgyANYv+sqlf/pihQHcAQw0x1m8NI5nW51uNmMlcFzUc2m403OnJjwMmPHotI5tNxpudOTHj0MmPHoVI57juXFHc98mOy9DJjx6FWPC47oXHdHvkx2XoZMNvwUjwuO6Fx3PfIjsMmG34KR6kLa3FmVBoPsASi09hQQQAsjVq+4F9D7CWvA/xAajUlrgqoKAabBgP0P4CACuCVwX6DCBHroWuRXIBadl+lJruPsBYdtBkpAW+ANEUCD6KAIT7/TmBYOq+V7Ja3Xs5gIOnGt17GKO69nMT7EHVjj/ZExR3RzgQdGOP9kTMS/kjwAg6MyO4zIbnOBB0ZsN2TNXPo8AIMYnwMT4M2SzSNYmaUkedkA9geSk0aUkwNggutWUJPDE88ctySlidmSDeOT8i3uzKKBpN7s0m92YKijCZTBrFwQUExcExAaBnEMQG02iSnengjloZAoAApSFKKUgA8rFgEAAACoAAAAKAAKACimqYAH//2Q=="} 
+2026-05-27 18:55:12 [INFO]:  bankChequeURL = https://uat.motohelpindia.com/vendor-service/uploads/Vendor_Bank_Cheque/cheque_1779888312981.jpeg 
+2026-05-27 18:55:12 [INFO]:  vendorBankkYC result = {"bstatus_code":"00","bmessage_desc":"Vendor Bank KYC updated successfully"}
+2026-05-27 18:55:34 [INFO]: Get Driver Details req_body = {"onboard_id":"{\"driver_id\":\"GNM-8999\",\"token\":\"585afe13d86d49e5bab1329df4074c8ada849b41\"}"}
+2026-05-27 18:55:34 [ERROR]: Get Driver Details Error: [object Object]
+2026-05-27 18:56:10 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605279464"}
+2026-05-27 18:58:55 [INFO]: Get Driver Details req_body = {"onboard_id":"{\"driver_id\":\"SBS-5864\",\"token\":\"fe86ec52af98ef9387a491816b81203139c5e643\"}"}
+2026-05-27 18:58:55 [ERROR]: Get Driver Details Error: [object Object]
+2026-05-27 18:59:18 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605276504"}
+2026-05-27 18:59:18 [INFO]: Get Driver Details req_body = {"driver_id":"SBS-5864"}
+2026-05-27 18:59:27 [INFO]: Driver verification req_body = {"driver_id":"SBS-5864","vendorid":"SVS0001","driving_license_no":"MH03 2008 0005864","DOB":"1973-02-24","full_name":"MOHAMMED IBRAHIM","relatives_name":"ABDUL SATTAR","address":"INDIRA NAGAR ZOPADPATTI BAIGANWADI, GOVANDI MUMBAI, Greater Mumbai,Mumbai Suburban,MH","issuing_rto_name":"RTO,MUMBAI (EAST)","date_of_issue":"","nt_validity_from":"","nt_validity_to":"","t_validity_from":"2022-02-01","t_validity_to":"2027-01-31","status":"id_found","source":"government_website","onboarded_by":"vendor"}
+2026-05-29 07:58:27 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2026-05-29 07:58:27 [INFO]: sendOTP data is valid!
+2026-05-29 07:58:27 [INFO]: Generated OTP: 9538
+2026-05-29 07:58:27 [INFO]:  SMS API Response: 200"OK"
+2026-05-29 07:58:27 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-29 07:58:27 [INFO]: OTP sent successfully to 9224323167
+2026-05-29 07:58:37 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"1111"}
+2026-05-29 07:58:37 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"1111"}
+2026-05-29 07:58:37 [INFO]: validateOTP data is valid!
+2026-05-29 07:58:37 [INFO]: Validation {"vendorid":"SVS0001","companyType":"self","companyName":"Abcd","owner_name":"Svsv","mobileNo":"9224323167","Building":"Zvvs","Area":"Z. Xx","pincode":"400078","state":"","Tahsil":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-29 07:59:14 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 07:59:29 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 08:01:37 [INFO]: Get Driver Details req_body = {"onboard_id":"SBS-5864"}
+2026-05-29 08:01:59 [INFO]: Get Driver Details req_body = {"onboard_id":"SBS-5864"}
+2026-05-29 08:02:37 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605294274"}
+2026-05-29 08:02:37 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 10:30:35 [INFO]: sendOTP request: {"mobile_number":"9224323167"}
+2026-05-29 10:30:35 [INFO]: sendOTP data is valid!
+2026-05-29 10:30:35 [INFO]: Generated OTP: 2423
+2026-05-29 10:30:36 [INFO]:  SMS API Response: 200"OK"
+2026-05-29 10:30:36 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=9224323167&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-29 10:30:36 [INFO]: OTP sent successfully to 9224323167
+2026-05-29 10:30:39 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"1111"}
+2026-05-29 10:30:39 [INFO]: validateOTP request: {"mobile_number":"9224323167","otp":"1111"}
+2026-05-29 10:30:39 [INFO]: validateOTP data is valid!
+2026-05-29 10:30:39 [INFO]: Validation {"vendorid":"SVS0001","companyType":"self","companyName":"Abcd","owner_name":"Svsv","mobileNo":"9224323167","Building":"Zvvs","Area":"Z. Xx","pincode":"400078","state":"","Tahsil":"","role":"vendor","status":"Active","vendor_onboarded":true,"kyc_verify":true,"flag":"Y","vehicle_verify_flag":"Y"}
+2026-05-29 10:30:48 [INFO]: Fetching Vehicle detalis 
+2026-05-29 10:30:48 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SVS0001"}
+2026-05-29 10:30:55 [INFO]: Update Vehicle req_body = {"vendorid":"SVS0001","vehicles":[{"vehicleid":"VHVS0001002","vehicleWeight":"1000","registrationNo":"MH46F5569"}]}
+2026-05-29 10:30:55 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-29 10:30:55 [INFO]: Fetching Vehicle detalis 
+2026-05-29 10:30:55 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SVS0001"}
+2026-05-29 10:31:03 [INFO]: Update Vehicle req_body = {"vendorid":"SVS0001","vehicles":[{"vehicleid":"VHVS0001002","vehicleWeight":"10000","registrationNo":"MH46F5569"}]}
+2026-05-29 10:31:03 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"Vehicle updated successfully"}]}
+2026-05-29 10:31:03 [INFO]: Fetching Vehicle detalis 
+2026-05-29 10:31:03 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SVS0001"}
+2026-05-29 10:31:20 [INFO]: Fetching getVendorDetails 
+2026-05-29 10:31:20 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"SVS0001"}
+2026-05-29 10:31:21 [INFO]: Fetching getVendorKYC 
+2026-05-29 10:31:21 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"SVS0001"}
+2026-05-29 10:31:38 [INFO]: Update Vehicle req_body = {"vendorid":"SVS0001","vehicles":[{"vehicleid":"","vehicleWeight":"200","registrationNo":"MH46F5572M"}]}
+2026-05-29 10:31:38 [INFO]: Update Vehicle result = {"bstatus_code":"00","bmessage_desc":"Vehicle Process Completed","data":[{"bstatus_code":"00","bmessage_desc":"New vehicle inserted successfully"}]}
+2026-05-29 10:31:45 [INFO]: Fetching Vehicle detalis 
+2026-05-29 10:31:45 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SVS0001"}
+2026-05-29 10:31:58 [INFO]: Update Vendor KYC req_body = {"vendorid":"SVS0001","gstNo":"27ASVPJ4585G2Z2","panNo":"ASVPJ4585G"}
+2026-05-29 10:31:58 [INFO]: Vendor KYC Updated successfully
+2026-05-29 10:32:20 [INFO]: Update Vendor KYC req_body = {"vendorid":"SVS0001","gstNo":"27ASVPJ4585G2Z1","panNo":"ASVPJ4585G"}
+2026-05-29 10:32:20 [INFO]: Vendor KYC Updated successfully
+2026-05-29 12:35:48 [INFO]: Pincode Details req_body = {"pincode":"400011"}
+2026-05-29 12:35:48 [ERROR]: Pincode fetch failed = TypeError: Cannot read properties of undefined (reading 'Status')
+2026-05-29 15:03:58 [INFO]: Fetching Vehicle detalis 
+2026-05-29 15:03:58 [INFO]: Fetching Vehicle detalis req_body = {"vendorid":"SVS0001"}
+2026-05-29 15:05:39 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:06:58 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:44 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:46 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:54 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:54 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:54 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:54 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:55 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:55 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:55 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:55 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:56 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:56 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:56 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:08:56 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:10:05 [INFO]: Get Driver Details req_body = {"onboard_id":"ONB202605294274"}
+2026-05-29 15:10:08 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:10:34 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:12:35 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:14:28 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:15:51 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:17:31 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:17:53 [INFO]: Get Driver Details req_body = {"onboard_id":"JAV-7013"}
+2026-05-29 15:18:52 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:18:54 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:21:32 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:21:34 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:23:01 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:23:04 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:23:39 [INFO]: Fetching getVendorDetails 
+2026-05-29 15:23:39 [INFO]: Fetching getVendorDetails req_body = {"vendorid":"SVS0001"}
+2026-05-29 15:23:39 [INFO]: Fetching getVendorKYC 
+2026-05-29 15:23:39 [INFO]: Fetching getVendorKYC req_body = {"vendorid":"SVS0001"}
+2026-05-29 15:23:55 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:23:57 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:27:39 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:27:41 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:28:28 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:28:30 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:29:56 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:29:58 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:32:12 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:32:14 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:34:08 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:34:10 [INFO]: Get Driver Details req_body = {"driver_id":"JAV-7013"}
+2026-05-29 15:48:33 [INFO]: sendOTP request: {"mobile_number":"1111111111"}
+2026-05-29 15:48:33 [INFO]: sendOTP data is valid!
+2026-05-29 15:48:33 [INFO]: Generated OTP: 5597
+2026-05-29 15:48:35 [INFO]:  SMS API Response: 200"OK"
+2026-05-29 15:48:35 [INFO]:  https://kutility.org/app/smsapi/index.php?username=neotechnet&password=neotechnet&campaign=13613&routeid=7&type=text&contacts=1111111111&senderid=NEOTEC&msg=Dear Customer,OTP for login is 1111. Please do not share this OTP. Regards, Neotech IT Services Email: info@neotechnet.com&template_id=1707174151394097573&pe_id=1201160680727344572&apikey=ZEXlGHpC/KS
+2026-05-29 15:48:35 [INFO]: OTP sent successfully to 1111111111
+2026-05-29 15:48:44 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-29 15:48:44 [INFO]: validateOTP request: {"mobile_number":"1111111111","otp":"1111"}
+2026-05-29 15:48:44 [INFO]: validateOTP data is valid!
+2026-05-29 15:48:44 [INFO]: Validation {"status":"01","message":"vendor not register"}
+2026-05-29 15:49:09 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-29 15:49:09 [ERROR]: Pincode fetch failed = TypeError: Cannot read properties of undefined (reading 'Status')
+2026-05-29 15:50:02 [INFO]: Pincode Details req_body = {"pincode":"400078"}
+2026-05-29 15:50:03 [ERROR]: Pincode fetch failed = TypeError: Cannot read properties of undefined (reading 'Status')
+2026-05-29 15:50:08 [INFO]: Pincode Details req_body = {"pincode":"400077"}
+2026-05-29 15:50:09 [ERROR]: Pincode fetch failed = TypeError: Cannot read properties of undefined (reading 'Status')
+2026-05-29 15:53:18 [INFO]: Pincode Details req_body = {"pincode":"400011"}
+2026-05-29 15:53:18 [ERROR]: Pincode fetch failed = TypeError: Cannot read properties of undefined (reading 'Status')
